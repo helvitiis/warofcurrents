@@ -1,2 +1,2 @@
-# AC-DC
-A repository for the AC/DC Digital Humanities project.
+# WAROFCURRENTS
+A repository for the War of Currents Digital Humanities project.
