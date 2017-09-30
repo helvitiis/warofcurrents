@@ -9,6 +9,7 @@ FORMAT FOR FILES:
 [FILETYPE (Newspaper, Telegraph, Illustration, etc.)]
 [TITLE]
 [AUTHOR]
+[ABSTRACT]
 [URL]
 
 [TEXT]
