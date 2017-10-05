@@ -1,4 +1,5 @@
 # Mark-Up and Ideas for Project
+## Meeting Time: 10:00 - 12:00
 - [ ] Location - marking the mentioned locations in each document for further analysis to be used in a visual aspect (map).
 - [ ] Date/Time - marking important or mentioned dates within documents for further analysis to be used in a visual aspect (timeline).
 - [ ] Events (public demonstrations) - marking notable public demonstrations or displays open to the public both for and against AC and DC currents.
