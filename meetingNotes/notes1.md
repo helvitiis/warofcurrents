@@ -1,5 +1,5 @@
 # Mark-Up and Ideas for Project
-## Meeting Time: 10:00 - 12:00
+## Meeting Time: 10/05/17 10:00 - 12:00
 - [ ] Location - marking the mentioned locations in each document for further analysis to be used in a visual aspect (map).
 - [ ] Date/Time - marking important or mentioned dates within documents for further analysis to be used in a visual aspect (timeline).
 - [ ] Events (public demonstrations) - marking notable public demonstrations or displays open to the public both for and against AC and DC currents.
@@ -16,18 +16,18 @@ Resources:
 
 ### Pitt Digital Library: JSTOR Advanced Search
 --Keep a record of search terms you try
+<br>
 --Try to locate maybe a cluster of journals/publications that contain interesting material
-* Scientific American
-* others?
+* *Scientific American*
+* *New York Times*
+* Others?
 
-### New York Times:
-look for already transcribed articles in these "attics" of websites on Tesla
+### Web Sources
+Look for already transcribed articles in these "attics" of websites on Tesla:
 * Inventions & Experiments of Nikola Tesla (Article & Interviews) https://teslaresearch.jimdo.com/articles-interviews/
 * Tesla Universe: https://teslauniverse.com/nikola-tesla/articles
 
-Are there similar "attics" of transcribed pages available on Edison and DC? 
+Are there similar "attics" of transcribed pages available on Edison and DC? (Still looking!)
 
 ### Current stuff on DC current 
-Scientific American (past 10/ 20 years? JSTOR?)
-
-
+* *Scientific American* (past 10/ 20 years? JSTOR?)
