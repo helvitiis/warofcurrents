@@ -3,6 +3,7 @@
 ***
 
 - Types of articles and where to find them
+- Past vs. Present
 - How to search for articles / search terms
 - Project Midterm Checklist
   - Creative Commons License Statement
