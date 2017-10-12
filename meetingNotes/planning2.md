@@ -17,6 +17,7 @@
   - Personal "About Me" page
   - Usage of Graphs, Maps, and Charts
   - Fonts, Logos, Favicon, Color Scheme, etc.
+  - Appearance of theme (modern vs. vintage)
   - Reading view of texts - yes or no? (Incorporation into timeline?)
   - Crediting used sources and images
 
