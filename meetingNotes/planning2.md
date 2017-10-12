@@ -3,6 +3,7 @@
 ***
 
 - Types of articles and where to find them
+- File Naming Conventions (files of the same name and how to distinguish between two of the same name)
 - Past vs. Present
 - How to search for articles / search terms
 - Project Midterm Checklist
