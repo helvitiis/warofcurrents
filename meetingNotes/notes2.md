@@ -1,5 +1,5 @@
 # Project Meeting #2
-### Meeting Time: 10/12/17 10:00 - 11:00
+### Meeting Time: 10/12/17 10:00 - 11:30
 ## For Next Meeting
 - [ ] @Jamielynn92 will be transcribing necessary texts from pdf form
 - [ ] @ajnewton1 will be starting on the web design and coding
