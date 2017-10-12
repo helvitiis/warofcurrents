@@ -29,4 +29,3 @@
 <p align="center">
 <img src="https://github.com/quantum-satire/warofcurrents/blob/master/meetingNotes/board.jpg" height="500" width="500">
 </p>
-*Aaron's diagram for the basic layout and structure of the website.*
