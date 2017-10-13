@@ -1,31 +1,66 @@
-            @import url('https://fonts.googleapis.com/css?family=Megrim');
-            body{
-                background-color: #2a2826;
-            }
-            h1{
-                text-align: center;
-                font-family: 'Megrim', cursive;
-                color: #e6e6e6;
-                font-size: 90px;
-            }
-            .center{
-                display: block;
-                margin: 0 auto;
-            
-            }
-            h4{
-                display: inline-block;
-                font-family: 'Megrim', cursive;
-                color: #e6e6e6;
-            }
-            .license{
-                font-family: 'Megrim', cursive;
-                color: #e6e6e6;
-                text-align: center;
-            }
-            img.break{
-                display: block;
-                margin-left: auto;
-                max-width: 99%;
-                margin-right: auto
-            }
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+html{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+body{
+    background-color: #2a2826;
+    height:1600px;
+}
+div.titleImage{
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 90px;
+    /*border: 1px solid red;*/
+}
+
+div.title{
+    text-align: center;
+    color: #e6e6e6;
+    /*border: 1px solid red;*/
+    font-size: 30px;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+
+div.menu{
+    text-align: center;
+    color: #e6e6e6;
+    /*border: 1px solid red;*/
+    font-size: 15px;
+}
+
+div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #2a2826;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+
+}
+
+div.license{
+    color: #e6e6e6;
+    text-align: center;
+    bottom: 0;
+}
+
+a{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
