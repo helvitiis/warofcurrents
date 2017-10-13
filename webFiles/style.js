@@ -9,5 +9,5 @@ var myScrollFunc = function () {
     }
 };
 
-window.onload = myScrollFunc;
+window.onLoad = myScrollFunc;
 window.addEventListener("scroll", myScrollFunc);
