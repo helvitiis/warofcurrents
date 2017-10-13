@@ -1,3 +1,5 @@
+window.onload = myScrollFunc;
+
 myID = document.getElementById("myID");
 
 var myScrollFunc = function () {
@@ -9,5 +11,4 @@ var myScrollFunc = function () {
     }
 };
 
-window.onLoad = myScrollFunc;
 window.addEventListener("scroll", myScrollFunc);
