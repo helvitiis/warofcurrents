@@ -14,18 +14,17 @@ div.titleImage{
     /*border: 1px solid red;*/
 }
 
-div.title{
+.title{
     text-align: center;
     color: #e6e6e6;
-    /*border: 1px solid red;*/
     font-size: 30px;
-}
-
-.hide{
     opacity: 0;
 }
 
 .show{
+  text-align: center;
+    color: #e6e6e6;
+    font-size: 30px;
     opacity: 1;
 }
 

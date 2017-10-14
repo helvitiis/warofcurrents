@@ -1,14 +1,16 @@
-window.onload = myScrollFunc;
+window.onload = init;
 
-myID = document.getElementById("myID");
+function init() {
+    scroll();
+}
 
-var myScrollFunc = function () {
+function scroll() {
     var y = window.scrollY;
-    if (y >= 1) {
-        myID.className = "title show"
+    if (y >= 111) {
+        document.getElementById("id").className = "show"
     } else {
-        myID.className = "title hide"
+        document.getElementById("id").className = "title"
     }
 };
 
-window.addEventListener("scroll", myScrollFunc);
+window.addEventListener("scroll", scroll);
