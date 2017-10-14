@@ -5,16 +5,20 @@ html{
 }
 body{
     background-color: #F2DC9A;
-    height:1600px;
+    height: 1600px;
 }
 div.titleImage{
     text-align: center;
     color: #D8A244;
-    font-size: 90px;
     /*border: 1px solid red;*/
 }
 
-.title{
+img.title{
+    width: 70%;
+    height: 70%;
+}
+
+div.title{
     text-align: center;
     color: #D8A244;
     font-size: 30px;
@@ -22,7 +26,7 @@ div.titleImage{
 }
 
 .show{
-  text-align: center;
+    text-align: center;
     color: #D8A244;
     font-size: 30px;
     opacity: 1;
@@ -41,6 +45,12 @@ div.sticky{
     top: 0;
     text-align: center;
     background-color: #F2DC9A;
+}
+
+div.body{
+    text-align: center;
+    padding-top: 10%;
+
 }
 
 .center{
