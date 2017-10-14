@@ -12,12 +12,20 @@ body = element body {images?, placeName?, date?, persName?, event?, patent?, tex
 placeName = element placeName {text}
 date = element date {xsd:date} #quantum-satire: Note that date differs from pubDate.
 persName = element persName {type, text}
-type = attribute type {"inventor" | "engineer" | "businessman" | "banker" | "other"} #quantum-satire: We'll need to look while we mark up our documents the types of people mentioned in order for us to make a comprehensive list for the schema. For now, I'm adding what I feel may come up most often. Only use the "other" category if <2 people fit a particular category (i.e. one person is a farmer, we won't need to make a new category named "farmer" for that individual--the list would be too long at that point.) If an individual fits more than one category, choose the category that best describes them or they are most well-known for.
-event = element event {text} #quantum-satire: Events include public demonstrations, important milestones for AC and/or DC current, and important milestones in the lives of the prominent figures associated with them.
+type = attribute type {"inventor" | "engineer" | "businessman" | "banker" | "other"} #quantum-satire: We'll need to 
+look while we mark up our documents the types of people mentioned in order for us to make a comprehensive list for 
+the schema. For now, I'm adding what I feel may come up most often. Only use the "other" category if <2 people fit 
+a particular category (i.e. one person is a farmer, we won't need to make a new category named "farmer" for that 
+individual--the list would be too long at that point.) If an individual fits more than one category, choose the 
+category that best describes them or they are most well-known for.
+event = element event {text} #quantum-satire: Events include public demonstrations, important milestones for AC 
+and/or DC current, and important milestones in the lives of the prominent figures associated with them.
 patent = element patent {pNo}
-pNo = attribute pNo {xsd:integer} #quantum-satire: pNo = patent number, which will be useful to note when we link out to the patents and include images of them. Do NOT include the comma.
+pNo = attribute pNo {xsd:integer} #quantum-satire: pNo = patent number, which will be useful to note when we link out 
+to the patents and include images of them. Do NOT include the comma.
 images = element images {text}
 
 foot = element foot {url}
 url = element url {text}
-#quantum-satire: We're going to also be marking up types of language used in the documents, however, I haven't decided on how we're going to do that yet. For now, mark what you can out of the above listed...
+#quantum-satire: We're going to also be marking up types of language used in the documents, however, I haven't decided 
+on how we're going to do that yet. For now, mark what you can out of the above listed...
