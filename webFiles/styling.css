@@ -4,33 +4,33 @@ html{
     padding-left: 10%;
 }
 body{
-    background-color: #2a2826;
+    background-color: #F2DC9A;
     height:1600px;
 }
 div.titleImage{
     text-align: center;
-    color: #e6e6e6;
+    color: #D8A244;
     font-size: 90px;
     /*border: 1px solid red;*/
 }
 
 .title{
     text-align: center;
-    color: #e6e6e6;
+    color: #D8A244;
     font-size: 30px;
     opacity: 0;
 }
 
 .show{
   text-align: center;
-    color: #e6e6e6;
+    color: #D8A244;
     font-size: 30px;
     opacity: 1;
 }
 
 div.menu{
     text-align: center;
-    color: #e6e6e6;
+    color: #D8A244;
     /*border: 1px solid red;*/
     font-size: 15px;
 }
@@ -40,7 +40,7 @@ div.sticky{
     position: sticky;
     top: 0;
     text-align: center;
-    background-color: #2a2826;
+    background-color: #F2DC9A;
 }
 
 .center{
@@ -50,16 +50,16 @@ div.sticky{
 }
 
 div.license{
-    color: #e6e6e6;
+    color: #D8A244;
     text-align: center;
     bottom: 0;
 }
 
 a{
-    color: #e6e6e6;
+    color: #D8A244;
     text-decoration: none;
 }
 a:hover{
-    color: lightgreen;
+    color: #123C56;
     text-decoration: none;
 }
