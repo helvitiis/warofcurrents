@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Rye');
 html{
     padding-right: 10%;
     padding-left: 10%;
@@ -6,6 +6,14 @@ html{
 body{
     background-color: #F2DC9A;
     height: 1600px;
+}
+h2{
+    color: #123C56;
+    font-family: 'Rye', cursive;
+}
+p{
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
 }
 div.titleImage{
     text-align: center;
@@ -30,11 +38,14 @@ div.title{
     color: #D8A244;
     font-size: 30px;
     opacity: 1;
+    color: #123C56;
+    font-family: 'Rye', cursive;
 }
 
 div.menu{
     text-align: center;
     color: #D8A244;
+    font-family: 'Josefin Slab', serif;
     /*border: 1px solid red;*/
     font-size: 15px;
 }
@@ -63,6 +74,7 @@ div.license{
     color: #D8A244;
     text-align: center;
     bottom: 0;
+    font-family: 'Josefin Slab', serif;
 }
 
 a{
