@@ -19,6 +19,7 @@ Each project team member is expected to demonstrate active work on the project i
     - Structure of "About Me" page
   - Building on index page
     - Including text layout and image placement
+  - Index describes what site visitors will learn from exploring the site
 
 #### [In Consulting Project Guidelines](http://dh.newtfire.org/projectGuide.html)
 #### [In Validating W3C Standards](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=http%3A%2F%2Fwarofcurrents.newtfire.org%2F)
