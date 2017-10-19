@@ -2,9 +2,8 @@
 A repository for the [War of Currents](http://warofcurrents.newtfire.org/) Digital Humanities project.
 
 
-### About WoC
-- Let's put what the project is about on the README as well. We can simply just have the same text here as we will have on the website.
-
+### Purpose of This Project
+To inform the reader/viewer about the historical application and implications/views of AC versus DC current. This includes (but is not limited to) the public view of AC and DC current, the advertising and publicity (overall negative or positive adjectives and verbage used to describe them), public demonstrations, contributing figures (and who was the most/least mentioned), areas where electricity was most implimented, and a timeline to represent the dates of major events in the history of AC and DC current.
 
 ### About Us
 - We can also put an about area here which can also just be copied and pasted from the website
