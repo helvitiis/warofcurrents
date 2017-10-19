@@ -1,6 +1,5 @@
 Scientific American
 
-
 The Deadly Alternating Current
 Source: Scientific American, Vol. 61, No. 11 (SEPTEMBER 14, 1889), p. 166
 Published by: Scientific American, a division of Nature America, Inc.
@@ -15,6 +14,3 @@ There had not been a single evidence of life in Henry from the time he touched t
 	In the opinion of both physicians, Henry’s death was instantaneous, and, if the absence of any contortion either in body or face proved anything, it was a painless one. The burns in the hand, both the physicians and the employes in the building believe, were caused when the hands were torn away from the wires and after the man was dead. The separation created an arc, and without an arc there can be no burns.
 Mr. Henry was about thirty years old, unmarried, and had been a practical electrical engineer from his boyhood. He was a capable electrician, and had much experience in handling electric apparatus, and was highly regarded by his employers.
 	The final argument on the question of the constitutionality of the new electric execution law, a question which involves the disputed power of the alternating current to kill, will be held at Buffalo within a fortnight, and this case may have considerable weight in the argument. It is proposed to use an alternating current of from 1,500 to 2,000 voltage in these executions, and it is contended that that force would not be sufficient to kill. In this case a 1,000 volt current, even when only accidentally applied, did its awful work effectually.
-
-
-
