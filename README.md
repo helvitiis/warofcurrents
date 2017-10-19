@@ -3,7 +3,7 @@ A repository for the [War of Currents](http://warofcurrents.newtfire.org/) Digit
 
 
 ### About WoC
--Lets put what the project is about on the README as well. We can simply just have the same text here as we will have on the website.
+- Let's put what the project is about on the README as well. We can simply just have the same text here as we will have on the website.
 
 
 ### About Us
