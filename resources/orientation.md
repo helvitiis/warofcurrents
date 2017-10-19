@@ -5,3 +5,5 @@ List of resources to quickly familiarize the project team with the "War of Curre
 http://edisontechcenter.org/AC-PowerHistory.html
 
 https://www.timetoast.com/timelines/war-of-currents
+
+http://www.thehistoricalarchive.com/happenings/57/the-history-of-electricity-a-timeline/
