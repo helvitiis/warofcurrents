@@ -5,7 +5,6 @@
 - [ ] Events (public demonstrations) - marking notable public demonstrations or displays open to the public both for and against AC and DC currents.
 - [ ] Language (positive/negative; more favorable) - marking which kinds of adjectives and words are used in correlation to AC or DC currents.
 - [ ] Major Figures (and associated organizations) - noting major historical figures and their stance on the currents (i.e. against DC, promoted AC or vice versa).
-- [ ] Patents - if mentioned in text, tag and link to referenced patent while noting a count of each occuring indicated patent.
 
 ## Followup meeting: Ally and Dr. B
 ### Building the project corpus
