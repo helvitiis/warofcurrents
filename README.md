@@ -1,3 +1,2 @@
 # WAROFCURRENTS
-A repository for the War of Currents Digital Humanities project.
-http://warofcurrents.newtfire.org/
+A repository for the [War of Currents](http://warofcurrents.newtfire.org/) Digital Humanities project.
