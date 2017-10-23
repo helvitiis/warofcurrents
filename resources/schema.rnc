@@ -1,18 +1,19 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = document
 document = element document {head, body}
-head = element head {publisher?, pubDate?, title, author?, url?}
+head = element head {(publisher & author & pubDate & url)? | title}
 publisher = element publisher {text}
 pubDate = element pubdate {text}
 title = element title {text}
 author = element author {text}
 url = element url {text}
 
-body = element body {current?, loc?, date?, persName?, event?, text}
+body = element body {(current & loc & date & persName & event)?, text}
 loc = element loc {text}
-date = element date {xsd:date} #quantum-satire: Note that date differs from pubDate.
+date = element date {xsd, text} #quantum-satire: Note that date differs from pubDate.
+xsd = attribute xsd {xsd:date}
 persName = element persName {text}
-current = element current {type}
+current = element current {type, text}
 type = attribute type {"AC" | "DC"}
 event = element event {text} #quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
 
