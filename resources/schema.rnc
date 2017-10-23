@@ -1,6 +1,6 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = document
-document = element document {head, body, foot}
+document = element document {head, body}
 head = element head {publisher?, pubDate?, title, author?, url?}
 publisher = element publisher {text}
 pubDate = element pubdate {text}
