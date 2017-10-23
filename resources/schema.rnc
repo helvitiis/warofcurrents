@@ -8,7 +8,7 @@ title = element title {text}
 author = element author {text}
 url = element url {text}
 
-body = element body {current?, loc?, date?, persName?, event?, patent?, text}
+body = element body {current?, loc?, date?, persName?, event?, text}
 loc = element loc {text}
 date = element date {xsd:date} #quantum-satire: Note that date differs from pubDate.
 persName = element persName {text}
