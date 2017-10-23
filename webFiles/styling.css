@@ -14,6 +14,7 @@ h2{
 p{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
 }
 div.titleImage{
     text-align: center;
@@ -47,7 +48,7 @@ div.menu{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
     /*border: 1px solid red;*/
-    font-size: 15px;
+    font-size: 14pt;
 }
 
 div.sticky{
@@ -75,13 +76,16 @@ div.license{
     text-align: center;
     bottom: 0;
     font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
 }
 
 a{
     color: #D8A244;
     text-decoration: none;
+    font-size: 14pt;
 }
 a:hover{
     color: #123C56;
     text-decoration: none;
+    font-size: 14pt;
 }
