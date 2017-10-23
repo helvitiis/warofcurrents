@@ -14,8 +14,6 @@ date = element date {xsd:date} #quantum-satire: Note that date differs from pubD
 persName = element persName {text}
 current = element current {type}
 type = attribute type {"AC" | "DC"}
-event = element event {text} #quantum-satire: Events include public demonstrations and important milestones for AC 
-and/or DC current.
+event = element event {text} #quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
 
-#quantum-satire: We're going to also be marking up types of language used in the documents, however, I haven't decided 
-on how we're going to do that yet. For now, mark what you can out of the above listed...
+#quantum-satire: We're going to also be marking up types of language used in the documents, however, I haven't decided on how we're going to do that yet. For now, mark what you can out of the above listed...
