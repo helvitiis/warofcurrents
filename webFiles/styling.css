@@ -1,29 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Rye');
+
 html{
     padding-right: 10%;
     padding-left: 10%;
 }
+
 body{
     background-color: #F2DC9A;
     height: 1600px;
 }
+
 h2{
     color: #123C56;
     font-family: 'Rye', cursive;
 }
+
 h2.title{
     text-align: center;
     font-size: 20pt;
 }
+
 h3{
     color: #123C56;
     font-family: 'Rye', cursive;
 }
+
 p{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
     font-size: 14pt;
 }
+
 div.titleImage{
     text-align: center;
     color: #D8A244;
@@ -96,4 +103,46 @@ a:hover{
     color: #123C56;
     text-decoration: none;
     font-size: 14pt;
+}
+
+.dropbtn {
+    background-color: #F2DC9A;
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F2DC9A;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 7px 11px;
+    text-decoration: none;
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F2DC9A;
 }
