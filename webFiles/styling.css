@@ -11,6 +11,14 @@ h2{
     color: #123C56;
     font-family: 'Rye', cursive;
 }
+h2.title{
+    text-align: center;
+    font-size: 20pt;
+}
+h3{
+    color: #123C56;
+    font-family: 'Rye', cursive;
+}
 p{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
