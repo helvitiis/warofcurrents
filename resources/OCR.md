@@ -1,4 +1,4 @@
-#How to use the OCR
+# How to use the OCR
 
 1. Download the document to the local computer and drag it to the desktop.
 2. Go to the **START MENU** and find the **ABBYY FINE READER 14 FOLDER**.
