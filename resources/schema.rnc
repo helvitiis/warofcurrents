@@ -15,7 +15,7 @@ xsd = attribute xsd {xsd:date}
 persName = element persName {text}
 current = element current {type}
 type = attribute type {"AC" | "DC"}
-company = element company {name}
+company = element company {name, loc}
 name = attribute name {"Edison" | "Other"} #quantum-satire: Will be adding more soon.
 event = element event {text} #quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
 
