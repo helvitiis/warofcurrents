@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
+    <!--2017-10-26 ebb: As we saw, when I associate your project schema, we see lots of red, and that's because a) the schema isn't quite finished, and b) this markup isn't following your rules. 
+    SUGGESTIONS for your markup:
+    * Each document should hold metadata: with information ABOUT who encoded the document, and observations about its source, etc. Should that content be part of your required <head> element? 
+    
+    * Think of the <body> element as holding the published material of the article. That means, you might represent the title twice: once up in the header as metadata, and once down in the body for rendering. Alternatively, you could decide that's overkill, and just handle processing the title from the head element when you go to transform this for the web.
+    
+    TEI's handling of titles and subtitles is inside a convenient element named <titleStmt>. You could use something like that to bundle together parts of titles, maybe like so:
+   <head>
+    <titleStmt> 
+          <title>
+          <subtitle n="1">
+          (as many more of these subtitle elements as you need)
+          <subtitle n="2">
+          <author>
+          <pubTitle>
+          <pubDate>
+          <pubSource>JSTOR, "that tan one" DURING A PROJECT MEETING, LIST YOUR SOURCES
+          <dateAccessed who="teamMember">
+    </titleStmt>
+    <encodingHistory>
+       <work date="when">Jamie Downey <role>transcribed</role> this document
+       <work date="when">
+   </encoding> 
+ </head> 
+ <body>
+ DOCUMENT REPRESENTATION HERE
+ </body>
+  
+  
+ You may wish to create separate XML files holding information about a) the project team, b) the sources of your publications on AC and DC currents. You may wish to give each of these canonical identifiers that you may conveniently refer to them when needed, without calling them by a different name or misspelling every time they come up. 
+      
+    -->
     <title>A MAGIC BEYOND THE MAGICIAN'S.</title>
     <subtitle number="1">WONDER-MOVING FEATS THAT SCIENTISTS PERFORM.</subtitle>
     <subtitle number="2">Plates and Nails that Dance — A Lamp that Burns Under Water. <persName
@@ -9,6 +42,7 @@
     <p>Any one of our modern electrical scientists could, by departing from the dignity of his
         calling, launch out as a professional magician and make a fortune on the stage. <persName
             xml:id="#Tesla">Nikola Tesla</persName>, <persName xml:id="#Edison">Edison</persName>,
+  <!--ebb: So, an xml:id is supposed, really to occur only ONCE in a file (or project), and it's basically an id code. You use other attributes, like @ref with a hashtag to POINT to an id. And we control the permitted values with Relax NG (where you list legal values your team may use). OR we can control it with Schematron. If you keep a separate XML file holding information about people and publications, that is a list that we call "canonical" because it holds proper spellings and more detailed information about everything that you just want to quickly reference in your project: it can be handy for processing later. We can write Schematron from that document, or you can duplicate its xml:ids in Relax NG (easy way). That document can be handy to publish on your website, right? In your header on each document you could use attributes that point to the full information about particular publications and people (or other named entities) that you care about for this project. It's typical to store these in lists. One simple list is the list of your project team, and their xml:ids.   -->
             <persName xml:id="Thomson">Prof. Ellihu Thomson</persName>, and many other earnest
         workers surpass in their laboratory experiments anything done behind the footlights. No
         Hindoo juggler can do more in the gentle art of mystifying than the electrician. His
