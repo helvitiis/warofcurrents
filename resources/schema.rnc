@@ -8,13 +8,15 @@ title = element title {text}
 author = element author {text}
 url = element url {text}
 
-body = element body {(current & loc & date & persName & event)?, text}
+body = element body {(current & loc & date & persName & event & company)?, text}
 loc = element loc {text}
 date = element date {xsd, text} #quantum-satire: Note that date differs from pubDate.
 xsd = attribute xsd {xsd:date}
 persName = element persName {text}
-current = element current {type, text}
+current = element current {type}
 type = attribute type {"AC" | "DC"}
+company = element company {name}
+name = attribute name {"Edison" | "Other"} #quantum-satire: Will be adding more soon.
 event = element event {text} #quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
 
 #quantum-satire: We're going to also be marking up types of language used in the documents, however, I haven't decided on how we're going to do that yet. For now, mark what you can out of the above listed...
