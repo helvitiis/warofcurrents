@@ -1,14 +1,23 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = document
 document = element document {head, body}
-head = element head {(publisher & author & pubDate & url)? | title}
+head = element head {fileDesc, publicationStmt}
+fileDesc = element fileDesc {titleStmt}
+titleStmt = element titleStmt {author? | title | pubSource? | encodingHistory}
+publicationStmt = element publicationStmt {(publisher | pubDate)?}
 publisher = element publisher {text}
 pubDate = element pubdate {text}
-title = element title {text}
+pubSource = element pubSource {text}
+title = element title {subtitle? | text}
+subtitle = element subtitle {n}
+n = attribute n {xsd:integer}
 author = element author {text}
+encodingHistory = element encodingHistory {work}
+work = element work {role}
+role = attribute role {"transcriber"| "encoder"}
 url = element url {text}
 
-body = element body {(current & loc & date & persName & event & company)?, text}
+body = element body {(title & current & loc & date & persName & event & company)?, text}
 loc = element loc {text}
 date = element date {xsd, text} #quantum-satire: Note that date differs from pubDate.
 xsd = attribute xsd {xsd:date}
