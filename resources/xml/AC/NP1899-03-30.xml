@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Documents/Personal%20Web/warofcurrents/resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<document>
+  <head>
+    <fileDesc>
+      <titleStmt>
+        <title>NIKOLA TESLA'S EXPERIMENTS.</title>
+        <subtitle n="1">Receives Half-million-volt Current in His Body Without Injury.</subtitle>
+        <author>Author Not Specified</author>
+        <encodingHistory>
+          <work role="encoder">Aaron Newton</work>
+          <work role="transcriber">Allyson Hall</work>
+        </encodingHistory>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The Washington Post</publisher>
+        <pubDate>1899-03-30</pubDate>
+      </publicationStmt>
+    </fileDesc>
+  </head>
+  <body>
+    <p><loc>New York</loc>, <date xsd="1899-03-29">March 29</date>.--The current issue of the Electrical Review, of <loc>New York</loc>, contains the
+      first elaborate description published of experiments carried on in <persName>Nikola Tesla's</persName> laboratory,
+      demonstrating his recently announced discoveries in the application of electricity to
+      commercial purposes without the use of conducting wires.</p>
+    <p>The experiments involve handling currents up to 8,000,000 volts, produced by his perfect
+      oscillators, with entire safety. Photographs of the experiments actually performed make it
+      appear that not only can the energy be transmitted in this manner, but also directed to any
+      point desired, regardless of distance and environment.</p>
+    <p>In one illustration the inventor recieves the electrical waves from a distance and develops a
+      pressure of half a million volts in a coil, which he holds in his hand, preserving himself
+      against injury by maintaining a fixed position on the electrical wave, where the pressure
+      developed is small. Another photograph shows an assistant recieving in his body the curents
+      from an electrical oscillator, which pass through his body and make a metar bar glow in his
+      hands, also lighting a vaccuum tube on the ceiling.</p>
+  </body>
+</document>
