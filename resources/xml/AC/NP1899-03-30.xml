@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Documents/Personal%20Web/warofcurrents/resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
   <head>
     <fileDesc>
@@ -19,10 +19,11 @@
     </fileDesc>
   </head>
   <body>
-    <p><loc>New York</loc>, <date xsd="1899-03-29">March 29</date>.--The current issue of the Electrical Review, of <loc>New York</loc>, contains the
-      first elaborate description published of experiments carried on in <persName>Nikola Tesla's</persName> laboratory,
-      demonstrating his recently announced discoveries in the application of electricity to
-      commercial purposes without the use of conducting wires.</p>
+    <p><loc>New York</loc>, <date xsd="1899-03-29">March 29</date>.--The current issue of the
+      Electrical Review, of <loc>New York</loc>, contains the first elaborate description published
+      of experiments carried on in <persName>Nikola Tesla's</persName> laboratory, demonstrating his
+      recently announced discoveries in the application of electricity to commercial purposes
+      without the use of conducting wires.</p>
     <p>The experiments involve handling currents up to 8,000,000 volts, produced by his perfect
       oscillators, with entire safety. Photographs of the experiments actually performed make it
       appear that not only can the energy be transmitted in this manner, but also directed to any

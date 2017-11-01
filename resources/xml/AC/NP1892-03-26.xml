@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="file:/Users/fig/Documents/Personal%20Web/warofcurrents/resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
     <head>
         <fileDesc>
             <titleStmt>
-                <author/>
+                <author>Author Not Specified</author>
                 <title>MR. TESLA'S EXPERIMENTS ON ALTERNATING CURRENTS OF GREAT FREQUENCY</title>
                 <encodingHistory>
                     <work role="encoder">Aaron Newton</work>
