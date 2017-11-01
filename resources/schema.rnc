@@ -1,7 +1,7 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = document
 document = element document {head, body}
-head = element head {fileDesc, publicationStmt*}
+head = element head {fileDesc, publicationStmt*,url?}
 fileDesc = element fileDesc {titleStmt, publicationStmt}
 titleStmt = element titleStmt {author & title & pubSource? & subtitle* & encodingHistory & text?}
 publicationStmt = element publicationStmt {(publisher | pubDate)*}
