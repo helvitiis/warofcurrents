@@ -27,5 +27,5 @@ persName = element persName {text}
 current = element current {type, text}
 type = attribute type {"AC" | "DC"}
 company = element company {name, text}
-name = attribute name {"Edison" | "Other"} #quantum-satire: Will be adding more soon.
-event = element event {loc* | text} #quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
+name = attribute name {"Edison" | "Westinghouse" | "Thomson-Houston" | "Other"} #quantum-satire: Will be adding more; company name refers to suppliers of electricity.
+event = element event {loc* | text}#quantum-satire: Events include public demonstrations and important milestones for AC and/or DC current.
