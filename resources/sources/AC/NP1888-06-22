@@ -1,21 +1,191 @@
-The Electrical Engineer (London)
-June 22, 1888 - pp. 583-585
-Author Not Specified
-URL: https://teslaresearch.jimdo.com/articles-interviews/the-tesla-alternate-current-motor-the-electrical-engineer-london-june-22-1888-pp-583-585/
-
-<p>The interest taken in M. Tesla's contributions to electrical apparatus and to electrical literature is so great, and the subject is so important, that we do not hesitate to give further space to the subject. On May 26 a communication on the subject from Dr. Louis Duncan, of Johns Hopkins University, appeared in our American contemporary, the Electrical Review, to the effect:</p>
-<p>"We may, for our present purposes, divide motors into two classes; Continuous, in which the armature coils are unsymmetrical with respect to the poles, and which, therefore, give a practically constant torque, and alternating motors, in which the armature coils are symmetrical with respect to the poles, and which, therefore, give a torque varying both in magnitude and sign during a period of the counter E.M.F. The Tesla motor belongs to this latter class.</p>
-<p>"In every motor the torque is equal to the rate of change of lines of induction through the armature circuit for a small angular displacement, multiplied by the armature current, or dm/dt.</p>
-<p>In the Tesla motor the first of these terms is greatest when the coil is opposite a pole and the field currents have their greatest amplitude. It is zero at a point about 45 deg. from this, supposing we neglect armature reactions. It depends on several things. The E.M.F. which determines it is due to changes in the number of lines of force passing through the armature circuit caused by (1) changes in the field currents; (2) the motion of the armature. The current depends on these E.M.F.'s, and on the reduced self-induction and resistance of its circuit. The motor can only do work when the first cause of E.M.F. is the greater, for a current in the direction of the ordinary counter E.M.F. would stop the motion. In some parts of a revolution the two E.M.F.'s work together, retarding the motion; in others, the induced E.M.F. produces a current causing the motor to revolve. It is impossible for me, with only a meagre description of the principles of the machine, to give an idea of the relative magnitude of these effects. Some of the results, however, are the following: Having given a definite number of reversals of the dynamo, there are a number of speeds, multiples of these reversals, at which the motor will govern itself when it is doing a certain amount of work. At one of these speeds, depending on the construction of the motor, the output will be a maximum. Now I see the statement that 'there is no difficulty whatever attendant upon starting the motor under load.' I cannot reconcile this with the above facts. That the torque for a smaller number of revolutions than ordinarily used, might be greater, one can readily see, since the counter E.M.F. is less in proportion to the induced E.M.F., but it must be remembered that for certain speeds even the induced current would tend to stop the motion; how the motor is to pass these critical speeds I do not see. Again, if the maximum load is suddenly thrown on while the motor is running at its proper speed, then, if the inertia be great, the motor will fall behind its point of maximum work, and either stop or take up some slower speed.</p>
-<p>"What the possible efficiency and output of the motor may be, only experiment will tell. I have shown (Inst. Elec. Engineers, Feb., 1888.) that the output of an ordinary alternating current motor is equal to that of a continuous current motor, supplied with a corresponding ing E.M.F. The efficiency might be great, but is has the disadvantage that about the same current flows for no work and maximum work, so for light loads the efficiency can hardly be very high.</p>
-<p>"With our present knowledge of alternating currents it is useless to attempt to calculate from the simple though misleading assumptions ordinarily made, the output, conditions of maximum work, &c., of this machine. Experiment alone can determine its value, and one properly conducted and interpreted set of experiments should enable us to judge both the merit of the invention and its best possible form. I cannot see, however, how, in the form described in the last issue of this journal the motor can work under conditions of a suddenly varying load as satisfactorily as continuous current motors."</p>
-<p>To the above Mr. Tesla replied on June 2 as follows:</p>
-<p>"I find in your issue of last week a note of Mr. Duncan referring to my system of alternate current motors. "</p>
-<p>As I see that Dr. Duncan has not as yet been made acquainted with the real character of my invention, I cannot consider his article in the light of a serious criticism, and would think it unnecessary to respond; but desiring to express my consideration for him and the importance which I attach to his opinion, I will point out here briefly the characteristic features of my invention, inasmuch as they have a direct bearing on the article above referred to.</p>
-<p>"The principle of action of my motor will be well understood from the following: By passing alternate currents in proper manner through independent evergising circuits in the motor, a progressive shifting or rotation of the poles of the same is effected. This shifting is more or less continuous according to the construction of the motor and the character and relative phase of the currents which should exist in order to secure the most perfect action.</p>
-<p>"If a laminated ring be wound with four coils, and the same be connected in proper order to two independent circuits of an alternate current generator adapted for this purpose, the passage of the currents through the coils produces theoretically a rotation of the poles of the ring, and in actual practice, in a series of experiments, I have demonstrated the complete analogy between such a ring and a revolving magnet. From the application of this principle to the operation of motors, two forms of motor of a character widely differing have resulted — one designed for constant and the other for variable load. The misunderstanding of Dr. Duncan is due to the fact that the prominent features of each of these two forms have not been specifically stated. In illustration of a representative of the second class, I refer to Fig. 1, given herewith. In this instance, the armature of the motor is provided with two coils at right angles. As it may be believed that a symmetrical arrangement of the coils with respect to the poles is required, I will assume that the armature is provided with a great number of diametrically wound coils or conductors closed upon themselves, and forming as many independent circuits. Let it now be supposed that the ring is permanently magnetized so as to show two poles (N and S) at two points diametrically opposite, and that it is rotated by mechanical power. The armature being stationary, the rotation of the ring magnet will set up currents in the closed armature coils. These currents will be most intense at or near the points of the greatest density of the force, and they will produce poles upon the armature core at right angles to those of the ring. Of course there will be other elements entering into action which will tend to modify this, but for the present they may be left unconsidered. As far as the location of the poles upon the armature core is concerned, the currents generated in the armature coils will always act in the same manner, and will maintain continuously the poles of the core in the same position, with respect to those of the ring in any position of the latter, and independently of the speed. From the attraction between the core and the ring, a continuous rotary effort, constant in all positions, will result, the same as in a continuous current motor with a great number of armature coils. If the armature be allowed to turn, it will revolve in the direction of rotation of the ring magnet, the induced current diminishing as the speed increases, until upon the armature reaching very nearly the speed of the magnet, just enough current will flow through the coils to keep up the rotation. If, instead of rotating the ring by mechanical power, the poles of the same are shifted by the action of the alternate currents in the two circuits, the same results are obtained.</p>
-<p>"Now compare this system with a continuous current system. In the latter we have alternate currents in the generator and motor coils, and intervening devices for commutating the currents, which on the motor besides effect automatically a progressive shifting or rotation of the poles of the armature; here we have the same elements and identically the same operation, but without the commutating devices. In view of the fact that these devices are entirely unessential to the operation, such alternate current system will — at least in many respects — show a complete similarity with a continuous current system, and the motor will act precisely like a continuous current motor. If the load is augmented, the speed is diminished and the rotary effort correspondingly increased, as more current is made to pass through the energising circuits; load being taken off, the speed increases, and the current, and consequently the effort, is lessened. The effort, of course, is greatest when the armature is in the state of rest.</p>
-<p>"But, since the analogy is complete, how about the maximum efficiency and current passing through the circuits when the motor is running without any load? one will naturally inquire. It must be remembered that we have to deal with alternate currents. In this form the motor simply represents a transformer, in which currents are induced by a dynamic action instead of by reversals, and, as it might be expected, the efficiency will be maximum at full load. As regards the current, there will be — at least, under proper conditions — as wide a variation in its strength as in a transformer, and, by observing proper rules, it may be reduced to any desired quantity. Moreover, the current passing through the motor when running free, is no measure for the energy absorbed, since the instruments indicate only the numerical sum of the direct and induced electromotive forces and currents instead of showing their difference.</p>
-<p>"Regarding the other class of these motors, designed for constant speed, the objections of Dr. Duncan are, in a measure applicable to certain constructions, but it should be considered that such motors are not expected to run without any, or with a very light load; and, if so, they do not, when properly constructed, present in this respect any more disadvantage than transformers under similar conditions. Besides, both features, rotary effort and tendency to constant speed, may be combined in a motor, and any desired preponderance may be given to either one, and in this manner a motor may be obtained possessing any desired character and capable of satisfying any possible demand in practice.</p>
-"In conclusion, I will remark, with all respect to Dr. Duncan, that the advantages claimed for my system are not mere assumptions, but results actually obtained, and that for this purpose experiments have been conducted through a long period, and with an assiduity such as only a deep interest in the invention could inspire; nevertheless, although my motor is the fruit of long labour and careful investigation, I do not wish to claim any other merit beyond that of having invented it, and I leave it to men more competent than with alternate currents. In this form the motor simply represents a transformer, in which currents are induced by a dynamic action instead of by reversals, and, as it might be expected, the efficiency will be maximum at full load. As regards the current, there will be — at least, under proper conditions — as wide a variation in its strength as in a transformer, and, by observing proper rules, it may be reduced to any desired quantity. Moreover, the current passing through the motor when running free, is no measure for the energy absorbed, since the instruments indicate only the numerical sum of the direct and induced electromotive forces and currents instead of showing their difference. "Regarding the other class of these motors, designed for constant speed, the objections of Dr. Duncan are, in a measure applicable to certain constructions, but it should be considered that such motors are not expected to run without any, or with a very light load; and, if so, they do not, when properly constructed, present in this respect any more disadvantage than transformers under similar conditions. Besides, both features, rotary effort and tendency to constant speed, may be combined in a motor, and any desired preponderance may be given to either one, and in this manner a motor may be obtained possessing any desired character and capable of satisfying any possible demand in practice. "In conclusion, I will remark, with all respect to Dr. Duncan, that the advantages claimed for my system are not mere assumptions, but results actually obtained, and that for this purpose experiments have been conducted through a long period, and with an assiduity such as only a deep interest in the invention could inspire; nevertheless, although my motor is the fruit of long labour and careful investigation, I do not wish to claim any other merit beyond that of having invented it, and I leave it to men more competent than myself to determine the true laws of the principle and the best mode of its application. What the result of these investigations will be the future will tell; but whatever they may be, and to whatever this principle may lead, I shall be sufficiently recompensed if later it will be admitted that I have contributed a share, however small, to the advancement of science."
-
+<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
+<document>
+    <head>
+        <fileDesc>
+            <titleStmt>
+                <author>Author Not Specified</author>
+                <title>The Tesla Alternate Current Motor</title>
+                <encodingHistory>
+                    <work role="encoder">Allyson Hall</work>
+                </encodingHistory>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Electrical Engineer (London)</publisher>
+                <pubDate>1888-06-22</pubDate>
+            </publicationStmt>
+        </fileDesc>
+        <url>https://teslaresearch.jimdo.com/articles-interviews/the-tesla-alternate-current-motor-the-electrical-engineer-london-june-22-1888-pp-583-585/</url>
+    </head>
+    <body>
+        <p>The interest taken in <persName>M. Tesla's</persName> contributions to electrical
+            apparatus and to electrical literature is so great, and the subject is so important,
+            that we do not hesitate to give further space to the subject. On <date xsd="1888-05-26"
+                >May 26</date> a communication on the subject from <persName>Dr. Louis
+                Duncan</persName>, of Johns Hopkins University, appeared in our American
+            contemporary, the Electrical Review, to the effect:</p>
+        <p>"We may, for our present purposes, divide motors into two classes; Continuous, in which
+            the armature coils are unsymmetrical with respect to the poles, and which, therefore,
+            give a practically constant torque, and alternating motors, in which the armature coils
+            are symmetrical with respect to the poles, and which, therefore, give a torque varying
+            both in magnitude and sign during a period of the counter E.M.F. The
+                <persName>Tesla</persName> motor belongs to this latter class.</p>
+        <p>"In every motor the torque is equal to the rate of change of lines of induction through
+            the armature circuit for a small angular displacement, multiplied by the armature
+            current, or dm/dt.</p>
+        <p>In the <persName>Tesla</persName> motor the first of these terms is greatest when the
+            coil is opposite a pole and the field currents have their greatest amplitude. It is zero
+            at a point about 45 deg. from this, supposing we neglect armature reactions. It depends
+            on several things. The E.M.F. which determines it is due to changes in the number of
+            lines of force passing through the armature circuit caused by (1) changes in the field
+            currents; (2) the motion of the armature. The current depends on these E.M.F.'s, and on
+            the reduced self-induction and resistance of its circuit. The motor can only do work
+            when the first cause of E.M.F. is the greater, for a current in the direction of the
+            ordinary counter E.M.F. would stop the motion. In some parts of a revolution the two
+            E.M.F.'s work together, retarding the motion; in others, the induced E.M.F. produces a
+            current causing the motor to revolve. It is impossible for me, with only a meagre
+            description of the principles of the machine, to give an idea of the relative magnitude
+            of these effects. Some of the results, however, are the following: Having given a
+            definite number of reversals of the dynamo, there are a number of speeds, multiples of
+            these reversals, at which the motor will govern itself when it is doing a certain amount
+            of work. At one of these speeds, depending on the construction of the motor, the output
+            will be a maximum. Now I see the statement that 'there is no difficulty whatever
+            attendant upon starting the motor under load.' I cannot reconcile this with the above
+            facts. That the torque for a smaller number of revolutions than ordinarily used, might
+            be greater, one can readily see, since the counter E.M.F. is less in proportion to the
+            induced E.M.F., but it must be remembered that for certain speeds even the induced
+            current would tend to stop the motion; how the motor is to pass these critical speeds I
+            do not see. Again, if the maximum load is suddenly thrown on while the motor is running
+            at its proper speed, then, if the inertia be great, the motor will fall behind its point
+            of maximum work, and either stop or take up some slower speed.</p>
+        <p>"What the possible efficiency and output of the motor may be, only experiment will tell.
+            I have shown (Inst. Elec. Engineers, Feb., 1888.) that the output of an ordinary
+            alternating current motor is equal to that of a continuous current motor, supplied with
+            a corresponding ing E.M.F. The efficiency might be great, but is has the disadvantage
+            that about the same current flows for no work and maximum work, so for light loads the
+            efficiency can hardly be very high.</p>
+        <p>"With our present knowledge of alternating currents it is useless to attempt to calculate
+            from the simple though misleading assumptions ordinarily made, the output, conditions of
+            maximum work, &amp;, of this machine. Experiment alone can determine its value, and one
+            properly conducted and interpreted set of experiments should enable us to judge both the
+            merit of the invention and its best possible form. I cannot see, however, how, in the
+            form described in the last issue of this journal the motor can work under conditions of
+            a suddenly varying load as satisfactorily as continuous current motors."</p>
+        <p>To the above <persName>Mr. Tesla</persName> replied on <date xsd="1888-06-02">June
+                2</date> as follows:</p>
+        <p>"I find in your issue of last week a note of <persName>Mr. Duncan</persName> referring to
+            my system of alternate current motors. "</p>
+        <p>As I see that <persName>Dr. Duncan</persName> has not as yet been made acquainted with
+            the real character of my invention, I cannot consider his article in the light of a
+            serious criticism, and would think it unnecessary to respond; but desiring to express my
+            consideration for him and the importance which I attach to his opinion, I will point out
+            here briefly the characteristic features of my invention, inasmuch as they have a direct
+            bearing on the article above referred to.</p>
+        <p>"The principle of action of my motor will be well understood from the following: By
+            passing alternate currents in proper manner through independent evergising circuits in
+            the motor, a progressive shifting or rotation of the poles of the same is effected. This
+            shifting is more or less continuous according to the construction of the motor and the
+            character and relative phase of the currents which should exist in order to secure the
+            most perfect action.</p>
+        <p>"If a laminated ring be wound with four coils, and the same be connected in proper order
+            to two independent circuits of an alternate current generator adapted for this purpose,
+            the passage of the currents through the coils produces theoretically a rotation of the
+            poles of the ring, and in actual practice, in a series of experiments, I have
+            demonstrated the complete analogy between such a ring and a revolving magnet. From the
+            application of this principle to the operation of motors, two forms of motor of a
+            character widely differing have resulted — one designed for constant and the other for
+            variable load. The misunderstanding of Dr. Duncan is due to the fact that the prominent
+            features of each of these two forms have not been specifically stated. In illustration
+            of a representative of the second class, I refer to Fig. 1, given herewith. In this
+            instance, the armature of the motor is provided with two coils at right angles. As it
+            may be believed that a symmetrical arrangement of the coils with respect to the poles is
+            required, I will assume that the armature is provided with a great number of
+            diametrically wound coils or conductors closed upon themselves, and forming as many
+            independent circuits. Let it now be supposed that the ring is permanently magnetized so
+            as to show two poles (N and S) at two points diametrically opposite, and that it is
+            rotated by mechanical power. The armature being stationary, the rotation of the ring
+            magnet will set up currents in the closed armature coils. These currents will be most
+            intense at or near the points of the greatest density of the force, and they will
+            produce poles upon the armature core at right angles to those of the ring. Of course
+            there will be other elements entering into action which will tend to modify this, but
+            for the present they may be left unconsidered. As far as the location of the poles upon
+            the armature core is concerned, the currents generated in the armature coils will always
+            act in the same manner, and will maintain continuously the poles of the core in the same
+            position, with respect to those of the ring in any position of the latter, and
+            independently of the speed. From the attraction between the core and the ring, a
+            continuous rotary effort, constant in all positions, will result, the same as in a
+            continuous current motor with a great number of armature coils. If the armature be
+            allowed to turn, it will revolve in the direction of rotation of the ring magnet, the
+            induced current diminishing as the speed increases, until upon the armature reaching
+            very nearly the speed of the magnet, just enough current will flow through the coils to
+            keep up the rotation. If, instead of rotating the ring by mechanical power, the poles of
+            the same are shifted by the action of the alternate currents in the two circuits, the
+            same results are obtained.</p>
+        <p>"Now compare this system with a continuous current system. In the latter we have
+            alternate currents in the generator and motor coils, and intervening devices for
+            commutating the currents, which on the motor besides effect automatically a progressive
+            shifting or rotation of the poles of the armature; here we have the same elements and
+            identically the same operation, but without the commutating devices. In view of the fact
+            that these devices are entirely unessential to the operation, such alternate current
+            system will — at least in many respects — show a complete similarity with a continuous
+            current system, and the motor will act precisely like a continuous current motor. If the
+            load is augmented, the speed is diminished and the rotary effort correspondingly
+            increased, as more current is made to pass through the energising circuits; load being
+            taken off, the speed increases, and the current, and consequently the effort, is
+            lessened. The effort, of course, is greatest when the armature is in the state of
+            rest.</p>
+        <p>"But, since the analogy is complete, how about the maximum efficiency and current passing
+            through the circuits when the motor is running without any load? one will naturally
+            inquire. It must be remembered that we have to deal with alternate currents. In this
+            form the motor simply represents a transformer, in which currents are induced by a
+            dynamic action instead of by reversals, and, as it might be expected, the efficiency
+            will be maximum at full load. As regards the current, there will be — at least, under
+            proper conditions — as wide a variation in its strength as in a transformer, and, by
+            observing proper rules, it may be reduced to any desired quantity. Moreover, the current
+            passing through the motor when running free, is no measure for the energy absorbed,
+            since the instruments indicate only the numerical sum of the direct and induced
+            electromotive forces and currents instead of showing their difference.</p>
+        <p>"Regarding the other class of these motors, designed for constant speed, the objections
+            of <persName>Dr. Duncan</persName> are, in a measure applicable to certain
+            constructions, but it should be considered that such motors are not expected to run
+            without any, or with a very light load; and, if so, they do not, when properly
+            constructed, present in this respect any more disadvantage than transformers under
+            similar conditions. Besides, both features, rotary effort and tendency to constant
+            speed, may be combined in a motor, and any desired preponderance may be given to either
+            one, and in this manner a motor may be obtained possessing any desired character and
+            capable of satisfying any possible demand in practice.</p>
+        <p>"In conclusion, I will remark, with all respect to <persName>Dr. Duncan</persName>, that
+            the advantages claimed for my system are not mere assumptions, but results actually
+            obtained, and that for this purpose experiments have been conducted through a long
+            period, and with an assiduity such as only a deep interest in the invention could
+            inspire; nevertheless, although my motor is the fruit of long labour and careful
+            investigation, I do not wish to claim any other merit beyond that of having invented it,
+            and I leave it to men more competent than with alternate currents. In this form the
+            motor simply represents a transformer, in which currents are induced by a dynamic action
+            instead of by reversals, and, as it might be expected, the efficiency will be maximum at
+            full load. As regards the current, there will be — at least, under proper conditions —
+            as wide a variation in its strength as in a transformer, and, by observing proper rules,
+            it may be reduced to any desired quantity. Moreover, the current passing through the
+            motor when running free, is no measure for the energy absorbed, since the instruments
+            indicate only the numerical sum of the direct and induced electromotive forces and
+            currents instead of showing their difference. "Regarding the other class of these
+            motors, designed for constant speed, the objections of <persName>Dr. Duncan</persName>
+            are, in a measure applicable to certain constructions, but it should be considered that
+            such motors are not expected to run without any, or with a very light load; and, if so,
+            they do not, when properly constructed, present in this respect any more disadvantage
+            than transformers under similar conditions. Besides, both features, rotary effort and
+            tendency to constant speed, may be combined in a motor, and any desired preponderance
+            may be given to either one, and in this manner a motor may be obtained possessing any
+            desired character and capable of satisfying any possible demand in practice. "In
+            conclusion, I will remark, with all respect to <persName>Dr. Duncan</persName>, that the
+            advantages claimed for my system are not mere assumptions, but results actually
+            obtained, and that for this purpose experiments have been conducted through a long
+            period, and with an assiduity such as only a deep interest in the invention could
+            inspire; nevertheless, although my motor is the fruit of long labour and careful
+            investigation, I do not wish to claim any other merit beyond that of having invented it,
+            and I leave it to men more competent than myself to determine the true laws of the
+            principle and the best mode of its application. What the result of these investigations
+            will be the future will tell; but whatever they may be, and to whatever this principle
+            may lead, I shall be sufficiently recompensed if later it will be admitted that I have
+            contributed a share, however small, to the advancement of science."</p>
+    </body>
+</document>
