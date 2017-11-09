@@ -5,6 +5,16 @@ html{
     padding-left: 10%;
 }
 
+.container{
+width:90%;
+line-height:200%;
+margin:auto;
+text-indent:3em;
+display: block;
+text-align: justify;
+padding:1em;
+}
+
 body{
     background-color: #F2DC9A;
 }
@@ -29,7 +39,9 @@ p{
     font-family: 'Josefin Slab', serif;
     font-size: 14pt;
 }
-
+span{
+    text-align: center;
+}
 div.titleImage{
     text-align: center;
     color: #D8A244;
