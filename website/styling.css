@@ -67,6 +67,7 @@ div.title{
     opacity: 1;
     color: #123C56;
     font-family: 'Rye', cursive;
+    padding-bottom: .5em;
 }
 
 div.menu{
