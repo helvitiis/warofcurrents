@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idSheet>
+    <listPerson type="historic">
+    <person xml:id="Edison">
+        <persName>Thomas Alva Edison</persName>
+        <persName>
+            <surname>Edison</surname>
+            <middlename>Thomas</middlename>
+            <forename>Alva</forename>
+        </persName>
+        <birth date="1847-02-11"/>
+        <death date="1931-15-18"/>
+    </person>
+        <person>
+            <persName xml:id="Tesla">Nikola Tesla</persName>
+            <persName>
+                <surname>Tesla</surname>
+                <forename>Nikola</forename>
+            </persName>
+            <birth date="1856-07-10"/>
+            <death date="1943-01-07"/>
+        </person>
+        <person>
+        <persName xml:id="Westinghouse">George Westinghouse</persName>
+            <persName>
+                <surname>Westinghouse</surname>
+                <forename>George</forename>
+            </persName>
+            <birth date="1846-15-06"/>
+            <death date="1914-03-12"/>
+        </person>
+        <person>
+            <persName xml:id="Thomson">Elihu Thomson</persName>
+            <persName>
+                <surname>Thomson</surname>
+                <forename>Elihu</forename>
+            </persName>
+            <birth date="1853-03-29"/>
+            <death date="1937-03-13"/>
+        </person>
+</listPerson>
+</idSheet>
