@@ -6,12 +6,13 @@
             <titleStmt>
                 <title>A MAGIC BEYOND THE MAGICIAN'S.</title>
                 <subtitle n="1">WONDER-MOVING FEATS THAT SCIENTISTS PERFORM.</subtitle>
-                <subtitle n="2">Plates and Nails that Dance — A Lamp that Burns Under Water. Nikola
-                    Tesla’s Fiery Hand.</subtitle>
+                <subtitle n="2">Plates and Nails that Dance — A Lamp that Burns Under Water.
+                        <persName ref="#Tesla">Nikola Tesla’s</persName> Fiery Hand.</subtitle>
                 <author>THEODORE WATERS</author>
                 <encodingHistory>
                     <work role="encoder">Allyson Hall</work>
-                    <work role="transcriber">Aaron Newton</work>
+                    <work role="transcriber">Allyson Hall</work>
+                    <work role="copyEditor">Aaron Newton</work>
                 </encodingHistory>
             </titleStmt>
             <publicationStmt>
@@ -23,24 +24,24 @@
     <body>
         <p>Any one of our modern electrical scientists could, by departing from the dignity of his
             calling, launch out as a professional magician and make a fortune on the stage.
-                <persName>Nikola Tesla</persName>, <persName>Edison</persName>, <persName>Prof.
-                Ellihu Thomson</persName>, and many other earnest workers surpass in their
-            laboratory experiments anything done behind the footlights. No Hindoo juggler can do
-            more in the gentle art of mystifying than the electrician. His apparatus is simple and
-            his results are amusing enough to sound a recall. <persName>Thomas A. Edison</persName>
-            several years ago had a small motor which ran without any apparent electrical.
-            connection. It stood upon a table and whirled rapidly. It was very mystifying in the
-            then stage of electrical science and savored of perpetual motion. The real secret lay in
-            the fact that projecting from the base of the motor were two sharp metal pins which,
-            when the motor was laid upon the table, penetrated the thin veneer of the table top and
-            made connection with wires underneath. An electrician would disdain such a device now.
-            Recent progress has shown that it is not necessary to have even the connecting wires.
-            Motors now run and depend for their driving power on the electrical excitement of the
-            atmosphere. They may bo far removed from the appliance generating the power and yet work
-            away merrily. <persName>Tesla</persName> will hold a lamp in his band, stand in the
-            middle of a largo room away from all wires or metallic connections, and the lamp will
-            glow and send forth a radiance not to be equalled. What could be more magical than
-            this?</p>
+                <persName ref="#Tesla">Nikola Tesla</persName>, <persName ref="#Edison"
+                >Edison</persName>, <persName ref="#Thomson">Prof. Ellihu Thomson</persName>, and
+            many other earnest workers surpass in their laboratory experiments anything done behind
+            the footlights. No Hindoo juggler can do more in the gentle art of mystifying than the
+            electrician. His apparatus is simple and his results are amusing enough to sound a
+            recall. <persName ref="#Edison">Thomas A. Edison</persName> several years ago had a
+            small motor which ran without any apparent electrical. connection. It stood upon a table
+            and whirled rapidly. It was very mystifying in the then stage of electrical science and
+            savored of perpetual motion. The real secret lay in the fact that projecting from the
+            base of the motor were two sharp metal pins which, when the motor was laid upon the
+            table, penetrated the thin veneer of the table top and made connection with wires
+            underneath. An electrician would disdain such a device now. Recent progress has shown
+            that it is not necessary to have even the connecting wires. Motors now run and depend
+            for their driving power on the electrical excitement of the atmosphere. They may bo far
+            removed from the appliance generating the power and yet work away merrily. <persName
+                ref="#Tesla">Tesla</persName> will hold a lamp in his band, stand in the middle of a
+            largo room away from all wires or metallic connections, and the lamp will glow and send
+            forth a radiance not to be equalled. What could be more magical than this?</p>
         <heading>THE SPINNING EGG.</heading>
         <p>Could <persName>Christopher Columbus</persName> have visited the <event>Chicago
                 Exposition</event> he would have found his trick of making an egg stand on end very
@@ -49,10 +50,10 @@
             the egg was not standing, but whirling—whirling with such rapidity that it seemed to
             stand still. Suddenly the egg stopped moving and fell down upon its side. Now, wonderful
             as this seemed, it is a very simple phenomenon, easily produced, and an everyday
-            occurrence in the laboratory. The egg belonged to <persName>Nikola Tesla</persName>, and
-            is at present in his laboratory in <loc>New York city</loc>. Inside the egg were
-            arranged several coils of wire, and these were acted upon by several other coils near
-            by, but unconnected by any mechanical process with the egg itself. </p>
+            occurrence in the laboratory. The egg belonged to <persName ref="#Tesla">Nikola
+                Tesla</persName>, and is at present in his laboratory in <loc>New York city</loc>.
+            Inside the egg were arranged several coils of wire, and these were acted upon by several
+            other coils near by, but unconnected by any mechanical process with the egg itself. </p>
         <heading>FREAKS OF THE ALTERNATING ELECTRIC CURRENT.</heading>
         <p>When the <current type="AC">alternating current</current> of electricity, as it is
             called, began to be understood several years ago, it was noticed that very peculiar
@@ -72,9 +73,10 @@
             figure in the general calculation. The <current type="AC">alternating current</current>
             is a great leveler. it cares for nothing. A coil traversed by the current Will create
             all around it an electrical atmosphere that will penetrate wood, glass, or anything else
-            of the same nature. Prof. <persName>Elihu Thomson</persName> of <loc>Lynn, Mass.</loc>,
-            has performed a number of experiments which show the great possibilities for amusing
-            which may be got out of the <current type="AC">alternating current</current>. </p>
+            of the same nature. <persName ref="#Thomson"> Prof. Elihu Thomson</persName> of
+                <loc>Lynn, Mass.</loc>, has performed a number of experiments which show the great
+            possibilities for amusing which may be got out of the <current type="AC">alternating
+                current</current>. </p>
         <heading>A MAGICAL HOOP.</heading>
         <p>In the same laboratory they take a metal plate and spin it on a pivot, not by any
             mechanical moans, but by surrounding the plate and pivot with what appears to bo a
@@ -82,19 +84,19 @@
             electric coil, wire being wrapped round and round it, The repulsion and attraction set
             up in the hoop cause the metal plate to revolve. If the bunch of before mentioned were
             thrown on the table and within this hoop, it would whirl as rapidly as in the first
-            instance. So would the egg. Prof. <persName>Thomson</persName> has described how he has
-            laid a common steel file on a table underneath which a coil was fixed, and caused metal
-            discs to revolve in his hands by merely holding the discs near to the filo But even this
-            is not as curious as a feat performed in another laboratory not long since. A number of
-            metal plates were laid out on a table as though in preparation for a dinner party. Then
-            some people were asked to seat themselves at the table, and no sooner had they done so
-            than the plates suddenly began to Jump into the air. Nothing could have been more
-            startling, and there was a general and instanta neous stampede. Then it was disclosed
-            that each plate had been laid directly above where a coil was placed under the Following
-            is an idea obtained from the above, one of the persons present suggested that church
-            contribution boxes could be made on this plan with curious results. Such a box has been
-            made, and is simply impossible to get money to stay in it. Pennies especially have no
-            liking for it and fly out in a surprising manner. </p>
+            instance. So would the egg. <persName ref="#Thomson">Prof. Thomson</persName> has
+            described how he has laid a common steel file on a table underneath which a coil was
+            fixed, and caused metal discs to revolve in his hands by merely holding the discs near
+            to the filo But even this is not as curious as a feat performed in another laboratory
+            not long since. A number of metal plates were laid out on a table as though in
+            preparation for a dinner party. Then some people were asked to seat themselves at the
+            table, and no sooner had they done so than the plates suddenly began to Jump into the
+            air. Nothing could have been more startling, and there was a general and instanta neous
+            stampede. Then it was disclosed that each plate had been laid directly above where a
+            coil was placed under the Following is an idea obtained from the above, one of the
+            persons present suggested that church contribution boxes could be made on this plan with
+            curious results. Such a box has been made, and is simply impossible to get money to stay
+            in it. Pennies especially have no liking for it and fly out in a surprising manner. </p>
         <heading>THE DANCING NAILS.</heading>
         <p>The same principle which governed the above was applied in another direction during an
             exhibition which was given by the <loc>Franklin Institute of Philadelphia</loc> some
@@ -109,21 +111,21 @@
             beneath the table did it all. The head of the nails, containing more bulk than the
             points, sustained more repusive action and consefarthest away from the coil, which in
             its turn was regulated from another part of the room. </p>
-        <heading><persName>NIKOLA TESLA</persName>’S STARTLING EXPERIMENTS.</heading>
-        <p>Mr. <persName>Tesla</persName>, in the course of a recent evening lecture, requested that
-            the lights be turned, off it was done, and then the audience saw truly magic sight.
-            There stood the electrician with a small lamp in his hand and his hand above his head.
-            Rays of unequaled beauty came from the lamp and spread down over the body of the man.
-            The lamp was a simple affair and no wires connecting it with a hidden source supply. It
-            was as if the lamp of Aladdin had been rubbed and beautiful jewels were gleaming forth,
-            this was followed by another and even more startling experiment. Again the room was,
-            darkened. The lecturer became invisible to the expectant spectators and then a human
-            hand, plaln and distinct, a hand of fire, reached out from the darkness and; all
-            transparent, was seen waving aloft, while shooting out from it were sparks and streams
-            of light. In exposition of these seeming wonders let me give Mr.
-                <persName>Tesla</persName>’s own words: </p>
+        <heading><persName ref="#Tesla">NIKOLA TESLA</persName>’S STARTLING EXPERIMENTS.</heading>
+        <p>Mr. <persName ref="#Tesla">Tesla</persName>, in the course of a recent evening lecture,
+            requested that the lights be turned, off it was done, and then the audience saw truly
+            magic sight. There stood the electrician with a small lamp in his hand and his hand
+            above his head. Rays of unequaled beauty came from the lamp and spread down over the
+            body of the man. The lamp was a simple affair and no wires connecting it with a hidden
+            source supply. It was as if the lamp of Aladdin had been rubbed and beautiful jewels
+            were gleaming forth, this was followed by another and even more startling experiment.
+            Again the room was, darkened. The lecturer became invisible to the expectant spectators
+            and then a human hand, plaln and distinct, a hand of fire, reached out from the darkness
+            and; all transparent, was seen waving aloft, while shooting out from it were sparks and
+            streams of light. In exposition of these seeming wonders let me give Mr. <persName
+                ref="#Tesla">Tesla</persName>’s own words: </p>
         <heading>
-            <persName>TESLA</persName> EXPLAINS THE WONDERS.</heading>
+            <persName ref="#Tesla">TESLA</persName> EXPLAINS THE WONDERS.</heading>
         <p>"When two conducting bodies are insulated and electrified, we say that an electrostatic
             force is acting between them. This force manifests itself in attractions, repulsions and
             stresses in the bodies and space or medium without. So great may be the strain exerted
@@ -150,23 +152,23 @@
         <heading>A LAMP THAT BURNS ONLY UNDER WATER.</heading>
         <p>It is one of the principles of the <current type="AC">alternating current</current> that
             when a coil is traversed by it, it has the power to induce a current to flow in another
-            coil, if the latter is brought within the electric atmosphere of the first coil. Prof.
-                <persName>Thomson</persName> has taken advantage of this fact to produce a very
-            mystifying and very beautiful experiment. You may walk into his laboratory some day and
-            behold an incandescent, lamp floating around in a jar of water, and connected to a
-            dynamo. You may safely, lift the lamp out of the water and examine it. The light will be
-            extinguished immediately, and, if you will examine the lamp, a small coil will bo found
-            in the base of it. Put the lamp back into the water, and it will immediately relight.
-            Yet there is no substance in the water to cause the phenomenon. It is pure water. But
-            there is a coil concealed under the table, traversed by a powerful alternating current.
-            By means of it a current is induced in the coil, which is secured in the base of the
-            lamp, and the latter is thus lighted. Such an affair, used upon the professional stage,
-            would cause the greatest wonderment. The jar filled with water is merely used for
-            effect, for if the lamp is taken out of the water and laid on the table it will light up
-            just as quickly. Such an exhibition as this ought to cause grave forebodings to be
-            experienced throughout the match trade. </p>
+            coil, if the latter is brought within the electric atmosphere of the first coil.
+                <persName ref="#Thomson">Prof. Thomson</persName> has taken advantage of this fact
+            to produce a very mystifying and very beautiful experiment. You may walk into his
+            laboratory some day and behold an incandescent, lamp floating around in a jar of water,
+            and connected to a dynamo. You may safely, lift the lamp out of the water and examine
+            it. The light will be extinguished immediately, and, if you will examine the lamp, a
+            small coil will bo found in the base of it. Put the lamp back into the water, and it
+            will immediately relight. Yet there is no substance in the water to cause the
+            phenomenon. It is pure water. But there is a coil concealed under the table, traversed
+            by a powerful alternating current. By means of it a current is induced in the coil,
+            which is secured in the base of the lamp, and the latter is thus lighted. Such an
+            affair, used upon the professional stage, would cause the greatest wonderment. The jar
+            filled with water is merely used for effect, for if the lamp is taken out of the water
+            and laid on the table it will light up just as quickly. Such an exhibition as this ought
+            to cause grave forebodings to be experienced throughout the match trade. </p>
         <heading>BALLS AND PLATES SPINNING UNDER WATER.</heading>
-        <p>The queerest aquarium in existence, probably, is owned by <persName>Prof.
+        <p>The queerest aquarium in existence, probably, is owned by <persName ref="#Thomson">Prof.
                 Thomson</persName>. For it he uses the same jar and water in which the lamp was
             exhibited. His fish are differently shaped and constructed from any that ply the sea. In
             fact, they consist of some small metal balls and a metal plate. Tossed lightly into the
@@ -174,21 +176,21 @@
             They strike each other and careen from side to side at a great rate, and the physical
             action to very instructive and interesting to watch. As in the case of the lamp, the
             water is not necessary. The balls may be laid on the plate on the table and they will
-            whirl as fast as did <persName>Tesla</persName>'s egg. It is the old story of the coil
-            concealed beneath the table. “I now set the coil to work and approach the free terminal
-            with a metallic object held in my band, this simply to avoid burns. As I approach the
-            metallic object to a distance of eight or ten inches, a torrent of furious sparks breaks
-            forth from the end of the secondary wire which passes through the rubber column. The
-            sparks cease when the metal In my hand touches the wire. My arm is now traversed by a
-            powerful electric current, vibrating at the rate of one million times a second. All
-            around me the electrostatic force makes itself felt, and the air molecules and particles
-            of dust flying about are acted upon and are hammering violently against my body. So
-            great is the agitation of the particles that when the lights are turned out you may see
-            streams of feeble light appear on some parts of my body. “I can make these streams of
-            light visible to all by touching with the metallic object one of the terminals as
-            before, and approaching my free band to the brass sphere which is connected to the other
-            terminal of the coil. As the hand is approached, the air between it and the sphere, or
-            in the immediate neighborhood, is more violently agitated, and you see streams of light
-            break forth from my finger tips and from the whole band."</p>
+            whirl as fast as did <persName ref="#Tesla">Tesla</persName>'s egg. It is the old story
+            of the coil concealed beneath the table. “I now set the coil to work and approach the
+            free terminal with a metallic object held in my band, this simply to avoid burns. As I
+            approach the metallic object to a distance of eight or ten inches, a torrent of furious
+            sparks breaks forth from the end of the secondary wire which passes through the rubber
+            column. The sparks cease when the metal In my hand touches the wire. My arm is now
+            traversed by a powerful electric current, vibrating at the rate of one million times a
+            second. All around me the electrostatic force makes itself felt, and the air molecules
+            and particles of dust flying about are acted upon and are hammering violently against my
+            body. So great is the agitation of the particles that when the lights are turned out you
+            may see streams of feeble light appear on some parts of my body. “I can make these
+            streams of light visible to all by touching with the metallic object one of the
+            terminals as before, and approaching my free band to the brass sphere which is connected
+            to the other terminal of the coil. As the hand is approached, the air between it and the
+            sphere, or in the immediate neighborhood, is more violently agitated, and you see
+            streams of light break forth from my finger tips and from the whole band."</p>
     </body>
 </document>
