@@ -43,10 +43,10 @@
                     </div>
                 </div>
                 <h2>Table of Contents</h2>
-                <ul><xsl:apply-templates select="currentColl//body" mode="toc"/></ul>
+                <ul><xsl:apply-templates select="$currentColl//head" mode="toc"/></ul>
                 <hr/>
                 <div id="main">
-                    <xsl:apply-templates select="$currentColl//body"/>
+                    <xsl:apply-templates select="$currentColl//head"/>
                 </div>
                 <div class="license">
                     <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a rel="license"
@@ -60,4 +60,12 @@
             
         </html>
     </xsl:template>
+    
+    
+    <xsl:template match="descendant::title" mode="toc">
+        <li><xsl:apply-templates select="title"/>
+        </li>
+    </xsl:template>
+    
+    
 </xsl:stylesheet>
