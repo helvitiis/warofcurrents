@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output indent="yes" method="xml" doctype-system="about:legacy-compat"/>
     
-    <xsl:variable name="sonnetsColl" select="collection('documents')"/>
+    <xsl:variable name="documents" select="collection('documents')"/>
     
     <xsl:template match="/">
         <html>
@@ -26,7 +26,7 @@
                 </div>
                 <h2>Table of Contents</h2>
                 <ul>
-                    <xsl:apply-templates select="$sonnetsColl//head//titleStmt" mode="toc"/>
+                    <xsl:apply-templates select="$documents//head//titleStmt" mode="toc"/>
                 </ul>
             </body>
         </html>
