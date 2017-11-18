@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
 	<head>
 		<fileDesc>
@@ -9,8 +9,9 @@
 					System</subtitle>
 				<author>Author Not Specified</author>
 				<encodingHistory>
-					<work role="encoder">Aaron Newton</work>
+					<work role="encoder">Aaron Newton and Allyson Hall</work>
 					<work role="transcriber">Aaron Newton</work>
+					<work role="copyEditor">Allyson Hall</work>
 				</encodingHistory>
 			</titleStmt>
 			<publicationStmt>
@@ -22,28 +23,29 @@
 	<body>
 		<p>At the hearing yesterday on the complaint of John F. Hylan, made when he was Mayor, that
 			rates for electric current charged by the Edison companies were too high, Public Service
-			Commissioner <persName>Pooley</persName> announced that <persName>Matthew S.
-				Sloan</persName>, president of the <loc>New York</loc>
+				<persName ref="#Other">Commissioner Pooley</persName> announced that <persName
+				ref="#Other">Matthew S. Sloan</persName>, president of the <loc>New York</loc>
 			<company name="Edison">Edison Company</company>, had been asked to testify when the
 			hearing is resumed next Tuesday. At the hearings by the Public Service Commission on
-			submetering <persName>Mr. Sloan</persName> testified that if the profits made by the
-			submeter concerns had not been diverted from the electric companies it would have been
-			possible to reduce the rates.</p>
-		<p>Commissioner <persName>Pooley</persName>, it was explained, wants to learn the policy of
-			the <company name="Edison">Edison Company</company> concerning the extension or
-			discontinuance of the <current type="DC">direct current</current> system. The commission
-			contends that this system is more costly to operate and maintain than the more modern
-			system of <current type="AC">alternating current</current>. It was suggested that it
-			might be possible to obtain a reduction in the rates for electric current if the company
-			adopted the most economical methods of operation.</p>
+			submetering <persName ref="#Other">Mr. Sloan</persName> testified that if the profits
+			made by the submeter concerns had not been diverted from the electric companies it would
+			have been possible to reduce the rates.</p>
+		<p><persName ref="#Other">Commissioner Pooley</persName>, it was explained, wants to learn
+			the policy of the <company name="Edison">Edison Company</company> concerning the
+			extension or discontinuance of the <current type="DC">direct current</current> system.
+			The commission contends that this system is more costly to operate and maintain than the
+			more modern system of <current type="AC">alternating current</current>. It was suggested
+			that it might be possible to obtain a reduction in the rates for electric current if the
+			company adopted the most economical methods of operation.</p>
 		<p>Reports were submitted to show that the return on the investment of the company will
 			yield only a little more than 4 per cent this year, instead of the 8 per cent allowed by
-			law. This report was submitted by <persName>Henry M. Edwards</persName>, vice president
-			of the company on charge of accounting.</p>
+			law. This report was submitted by <persName ref="#Other">Henry M. Edwards</persName>,
+			vice president of the company on charge of accounting.</p>
 		<p>According to this estimate, the total value of the company's investment will amount to
 			$469,474,730.19 by the end of the year. This indicates that the value has almost doubled
-			since July 1, 1924. At that time <persName>Dr. William McClellan</persName>, on behalf
-			of the commission, submitted an estimate showing that the value was $245,574,784.66,
-			which wa about $100,000,000 lower that the company's estimate.</p>
+			since July 1, 1924. At that time <persName ref="#Other">Dr. William
+			McClellan</persName>, on behalf of the commission, submitted an estimate showing that
+			the value was $245,574,784.66, which was about $100,000,000 lower that the company's
+			estimate.</p>
 	</body>
 </document>

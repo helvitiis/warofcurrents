@@ -38,5 +38,13 @@
             <birth date="1853-03-29"/>
             <death date="1937-03-13"/>
         </person>
+        <person>
+            <persName xml:id = "Rau">Otto Rau</persName>
+            <persName>
+                <surname>Rau</surname>
+                <surname>M.</surname>
+                <forename>Otto</forename>
+            </persName>
+        </person>
 </listPerson>
 </idSheet>

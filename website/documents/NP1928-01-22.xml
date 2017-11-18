@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
     <head>
         <fileDesc>
@@ -29,7 +29,7 @@
         <p>"Second in importance to <current type="DC">direct current</current> market in <loc>New
                 York</loc> are some seven thousand homes in <loc>Detroit, Mich.</loc>; 1,540 homes
             in <loc>Tennessee</loc>, 1,780 homes in a few city blocks of <loc>Philadelphia</loc> as
-            well as 1,40 homes in Maine," said <persName>Gordon Sleeper</persName>, President of the
+            well as 1,40 homes in Maine," said <persName ref="#Other">Gordon Sleeper</persName>, President of the
             company.</p>
         <p>"All of the homes with <current type="DC">direct current</current> in <loc>New York
                 City</loc> as well as those given above have 120-volt <current type="DC">direct

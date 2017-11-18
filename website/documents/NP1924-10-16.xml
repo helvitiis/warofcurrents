@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
     <head>
         <fileDesc>
@@ -9,8 +9,9 @@
                     Current</subtitle>
                 <author>Author Not Specified</author>
                 <encodingHistory>
-                    <work role="encoder">Aaron Newton</work>
+                    <work role="encoder">Aaron Newton and Allyson Hall</work>
                     <work role="transcriber">Aaron Newton</work>
+                    <work role="copyEditor">Allyson Hall</work>
                 </encodingHistory>
             </titleStmt>
             <publicationStmt>
@@ -32,8 +33,8 @@
             demonstrations have proved, according to the electric construction companies, that the
                 <current type="DC">direct current</current> motor has advantages over the <current
                 type="AC">alternating</current> motor.</p>
-        <p>An electric locomotive upon which <persName>Henry Ford</persName> and his corps of
-            engineers are now working in connection with the <company name="Westinghouse"
+        <p>An electric locomotive upon which <persName ref="#Other">Henry Ford</persName> and his
+            corps of engineers are now working in connection with the <company name="Westinghouse"
                 >Westinghouse Electric Company</company> takes into consideration the same
             principles. These locomotives will be ready for use shortly and it has been promised by
             the electrical engineers who have been working on them that they will revolutionize the
