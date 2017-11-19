@@ -83,7 +83,7 @@ div.menu{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
     /*border: 1px solid red;*/
-    font-size: 14pt;
+    font-size: 16spt;
 }
 
 div.sticky{
@@ -111,7 +111,7 @@ div.license{
     text-align: center;
     bottom: 0;
     font-family: 'Josefin Slab', serif;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 a{
@@ -122,7 +122,7 @@ a{
 a:hover{
     color: #123C56;
     text-decoration: none;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 .dropbtn {
@@ -130,7 +130,6 @@ a:hover{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
     padding: 16px;
-    font-size: 18px;
     border: none;
     cursor: pointer;
 }
