@@ -8,6 +8,71 @@
         <link rel="icon" href="favicon.png" />
         <link rel="stylesheet" type="text/css" href="styling.css" />
         <script type="text/javascript" src="style.js">/**/</script>
+
+        <style>
+            h2{
+                text-align: center;
+                font-family: 'Josefin Slab', serif;
+            }
+            p{
+                line-height: 200%;
+                padding-right: 10%;
+                padding-left: 10%;
+                text-align: justify;
+            }
+            
+            persName[ref="#Tesla"]{
+                color: teal;
+            }
+            persName[ref="#Edison"]{
+                color: maroon;
+            }
+            persName[ref="#Thomson"]{
+                color: darkgoldenrod;
+            }
+            persName[ref="#Rau"]{
+                color: indigo;
+            }
+            persName[ref="#Westinghouse"]{
+                color: darkslateblue;
+            }
+            persName[ref="#Other"]{
+                color: #123C56;
+            }
+            
+            current[type="AC"]{
+                color: teal;
+            }
+            current[type="DC"]{
+                color: maroon;
+            }
+            
+            company[name="Other"]{
+                color: #123C56;
+            }
+            company[name="Edison"]{
+                color: maroon;
+            }
+            company[name="Westinghouse"]{
+                color: darkslateblue;
+            }
+            company[name="Thomson-Houston"]{
+                color: darkgoldenrod;
+            }
+            company[name="Siemens"]{
+                color: #039897;
+            }
+            
+            loc{
+            
+            }
+            
+            date{
+            
+            }
+        
+        </style>
+
     </head>
     <body>
         <div class="titleImage">
@@ -37,13 +102,13 @@
         </div>
         <h2>THE DEADLY ALTERNATING CURRENT</h2>
         <p>The <company name="Other">East River Electric Lighting Company</company>, at its dynamo:
-            house, <loc>East 24th St.</loc>, this city, employs the Thomson-Houston system of
-            electric lighting, using in all its outside lamps the <current type="DC">direct
-                current</current>. But in the dynamo room is one machine which generates the
-            <current type="AC">alternating current</current>, and this is used to supply the
-            incandescent lights in the building, and, recently, for experiments by the <company
-                name="Other">Perry Motor Company</company>. This one machine generates 1,000 volts
-            power, and has not been long in the building.</p>
+            house, <loc>East 24th St.</loc>, this city, employs the <company name="Thomson-Houson"
+                >Thomson-Houston</company> system of electric lighting, using in all its outside
+            lamps the <current type="DC">direct current</current>. But in the dynamo room is one
+            machine which generates the <current type="AC">alternating current</current>, and this
+            is used to supply the incandescent lights in the building, and, recently, for
+            experiments by the <company name="Other">Perry Motor Company</company>. This one machine
+            generates 1,000 volts power, and has not been long in the building.</p>
         <p>On <date xsd="1889-09-02">September 2</date>, says the N.Y. Times, something went wrong
             with the switchboard connected with this machine, and <persName ref="#Other">Darwin A.
                 Henry</persName>, the superintendent of construction of the company, undertook to
@@ -87,17 +152,17 @@
             law, a question which involves the disputed power of the <current type="AC">alternating
                 current</current> to kill, will be held at <loc>Buffalo</loc> within a fortnight,
             and this case may have considerable weight in the argument. It is proposed to use an
-            <current type="AC">alternating current</current> of from 1,500 to 2,000 voltage in
+                <current type="AC">alternating current</current> of from 1,500 to 2,000 voltage in
             these executions, and it is contended that that force would not be sufficient to kill.
             In this case a 1,000 volt current, even when only accidentally applied, did its awful
             work effectually.</p>
         <div class="license">
             <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a
-                href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
+                    href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
                     rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
                         alt="Creative Commons License" style="border-width:0"
                         src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                            rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
+                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
                 <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
         </div>
     </body>
