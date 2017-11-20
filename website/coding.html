@@ -9,17 +9,41 @@
             pre{
                 color: #123C56;
                 border: 2px #D8A244 dashed;
-                padding: 10px;
+                padding: 15px;
                 line-height: 1.5em;
-                font-family: 'Josefin Slab', serif;
-                font-size: 12pt;
+                font-size: 10pt;
+                word-break: break-all;
+                word-wrap: break-word;
+                line-height: 95%;
             }
-            #code{
-                width: 80%;
+            div.code{
+                width: 90%;
                 margin: auto;
                 display: block;
+                word-break: break-all;
+                word-wrap: break-word;
             }
-        </style>
+            #grad1{
+                background: #F2DC9A; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3)); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3)); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3)); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3)); /* Standard syntax */
+            }
+            #grad2{
+                background: #F2DC9A;
+                background: -webkit-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: -o-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: -moz-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+            }
+            #grad3{
+                background: #F2DC9A;
+                background: -webkit-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: -o-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: -moz-linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+                background: linear-gradient(#F2DC9A, rgba(240, 180, 76, 0.3));
+            }</style>
     </head>
     <body>
         <div class="titleImage">
@@ -45,7 +69,6 @@
                 </div>
             </div>
         </div>
-        
         <!-- BODY CONTENT -->
         <h2 style="text-align: center;">Coding and Structure</h2>
         <p>For the War of Currents project, we used several coding languages in building the
@@ -54,10 +77,62 @@
         <p>Short for <span style="color: #123C56;">eXtensible Markup Language</span>. It's used for
             storing and accessing information, providing an excellent method for marking up our
             documents. It's also cross-platform and used freely around the world.</p>
+        <div class="code" id="grad1">
+            <pre>
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?xml-model href="../../resources/schema.rnc" type="application/relax-ng-compact-syntax"?&gt;
+&lt;document&gt;
+    &lt;head&gt;
+        &lt;fileDesc&gt;
+            &lt;titleStmt&gt;
+                &lt;title&gt;A MAGIC BEYOND THE MAGICIAN'S.&lt;/title&gt;
+                &lt;subtitle n="1"&gt;WONDER-MOVING FEATS THAT SCIENTISTS PERFORM.&lt;/subtitle&gt;
+                &lt;subtitle n="2"&gt;Plates and Nails that Dance -- A Lamp that Burns Under Water.
+                    Nikola Tesla's Fiery Hand.&lt;/subtitle&gt;
+                &lt;author&gt;THEODORE WATERS&lt;/author&gt;
+                &lt;encodingHistory&gt;
+                    &lt;work role="encoder"&gt;Allyson Hall and Aaron Newton&lt;/work&gt;
+                    &lt;work role="transcriber"&gt;Allyson Hall&lt;/work&gt;
+                    &lt;work role="copyEditor"&gt;Aaron Newton&lt;/work&gt;
+                &lt;/encodingHistory&gt;
+            &lt;/titleStmt&gt;
+            &lt;publicationStmt&gt;
+                &lt;publisher&gt;Unknown&lt;/publisher&gt;
+                &lt;pubDate&gt;1894-12-09&lt;/pubDate&gt;
+            &lt;/publicationStmt&gt;
+        &lt;/fileDesc&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Any one of our modern electrical scientists could, by departing from the dignity of his
+            calling, launch out as a professional magician and make a fortune on the stage.
+            &lt;persName ref="#Tesla"&gt;Nikola Tesla&lt;/persName&gt;, &lt;persName ref="#Edison" 
+            &gt;Edison&lt;/persName&gt;,&lt;persName ref="#Thomson"&gt;Prof. Ellihu Thomson&lt;/persName&gt;, and
+            many other earnest workers surpass in their laboratory experiments anything done behind
+            the footlights. No Hindoo juggler can do more in the gentle art of mystifying than the
+            electrician. His apparatus is simple and his results are amusing enough to sound a
+            recall. &lt;persName ref="#Edison"&gt;Thomas A. Edison&lt;/persName&gt; several years ago had a
+            small motor which ran without any apparent electrical. connection. It stood upon a table
+            and whirled rapidly. It was very mystifying in the then stage of electrical science and
+            savored of perpetual motion. The real secret lay in the fact that projecting from the
+            base of the motor were two sharp metal pins which, when the motor was laid upon the
+            table, penetrated the thin veneer of the table top and made connection with wires
+            underneath. An electrician would disdain such a device now. Recent progress has shown
+            that it is not necessary to have even the connecting wires. Motors now run and depend
+            for their driving power on the electrical excitement of the atmosphere. They may bo far
+            removed from the appliance generating the power and yet work away merrily. &lt;persName 
+            ref="#Tesla"&gt;Tesla&lt;/persName&gt; will hold a lamp in his band, stand in the middle 
+            of a large room away from all wires or metallic connections, and the lamp will glow and 
+            send forth a radiance not to be equalled. What could be more magical than this?&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/document&gt;
+            </pre>
+        </div>
         <h3>RelaxNG</h3>
         <p>An acronym for <span style="color: #123C56;">REgular LAnguage description for XML Next
-                Generation</span>. Here is our schema for this project:</p>
-        <div id="code">
+                Generation</span>. RelaxNG is used for creating template rules to write XML in,
+            allowing us to code multiple documents without human error. Here is our schema for this
+            project:</p>
+        <div class="code" id="grad2">
             <pre>
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = document
@@ -95,13 +170,38 @@ event = element event {loc* | text}</pre>
         <h3>HTML</h3>
         <p>Short for <span style="color: #123C56;">HyperText Markup Language</span>. HTML and XML
             are similar languages, but HTML is used for presentation and display while XML is used
-            for the storage of information.</p>
+            for the storage of information. We used HTML in conjunction with CSS to build and style
+            our website.</p>
         <h3>CSS</h3>
-        <p>Short for <span style="color: #123C56;">Cascading Style Sheet</span>.</p>
+        <p>Short for <span style="color: #123C56;">Cascading Stylesheets</span>. CSS is used to
+            style code and display it on websites.</p>
         <h3>JS</h3>
-        <p>Short for <span style="color: #123C56;">JavaScript</span>.</p>
+        <p>Short for <span style="color: #123C56;">JavaScript</span>. JS was used to create our menu
+            bar, making it dynamic and more functional than a menu might be without using a language
+            other than HTML. Here is the code we used for the JS portion of our menu.</p>
+        <div class="code" id="grad3">
+            <pre>
+window.onload = init;
+
+function init() {
+    scroll();
+}
+
+function scroll() {
+    var y = window.scrollY;
+    if (y >= 130) {
+        document.getElementById("id").className = "show"
+    } else {
+        document.getElementById("id").className = "title"
+    }
+};
+
+window.addEventListener("scroll", scroll);
+            </pre>
+        </div>
+        <br />
+        <br />
         <!-- END BODY CONTENT -->
-        
         <div class="license">
             <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a
                     href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
