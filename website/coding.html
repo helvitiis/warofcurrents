@@ -5,6 +5,21 @@
         <link rel="icon" href="favicon.png" />
         <link rel="stylesheet" type="text/css" href="styling.css" />
         <script type="text/javascript" src="style.js">/**/</script>
+        <style>
+            pre{
+                color: #123C56;
+                border: 2px #D8A244 dashed;
+                padding: 10px;
+                line-height: 1.5em;
+                font-family: 'Josefin Slab', serif;
+                font-size: 12pt;
+            }
+            #code{
+                width: 80%;
+                margin: auto;
+                display: block;
+            }
+        </style>
     </head>
     <body>
         <div class="titleImage">
@@ -32,31 +47,66 @@
         </div>
         <!-- BODY CONTENT -->
         <h2 style="text-align: center;">Coding and Structure</h2>
-        <p>For the War of Currents project, we used several coding languages in building the website, marking up text, and structuring the data.</p>
-        
+        <p>For the War of Currents project, we used several coding languages in building the
+            website, marking up text, and structuring the data.</p>
         <h3>XML</h3>
-        <p>Short for <span style="color: #123C56;">eXtensible Markup Language</span>. It's used for storing and accessing information, providing an excellent method for marking up our documents. It's also cross-platform and used freely around the world.</p>
-        
+        <p>Short for <span style="color: #123C56;">eXtensible Markup Language</span>. It's used for
+            storing and accessing information, providing an excellent method for marking up our
+            documents. It's also cross-platform and used freely around the world.</p>
         <h3>RelaxNG</h3>
-        <p>An acronym for <span style="color: #123C56;">REgular LAnguage description for XML Next Generation</span>. </p>
-        
+        <p>An acronym for <span style="color: #123C56;">REgular LAnguage description for XML Next
+                Generation</span>. Here is our schema for this project:</p>
+        <div id="code">
+            <pre>
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = document
+document = element document {head, body}
+head = element head {fileDesc, publicationStmt*,url?}
+fileDesc = element fileDesc {titleStmt, publicationStmt}
+titleStmt = element titleStmt {author &amp; title &amp; pubSource? &amp; subtitle* &amp; encodingHistory &amp; text?}
+publicationStmt = element publicationStmt {(publisher | pubDate)*}
+publisher = element publisher {text}
+pubDate = element pubDate {xsd:date}
+pubSource = element pubSource {text}
+title = element title {text}
+subtitle = element subtitle {mixed{n}}
+n = attribute n {xsd:integer}
+author = element author {text}
+encodingHistory = element encodingHistory {work*}
+work = element work {(role | text)*}
+role = attribute role {"transcriber" | "encoder" | "copyEditor"}
+url = element url {text}
+
+body = element body {(p | heading)*}
+p = element p {mixed{(event | loc | date | xsd | persName | current | company | name | event)*} | heading*}
+heading = element heading {mixed{persName*}}
+loc = element loc {text}
+date = element date {xsd, text}
+xsd = attribute xsd {xsd:date}
+persName = element persName {ref* &amp; text}
+ref = attribute ref {"#Tesla" | "#Westinghouse" | "#Edison" | "#Thomson" | "#Rau" | "#Other"}
+current = element current {type, text}
+type = attribute type {"AC" | "DC"}
+company = element company {name, text}
+name = attribute name {"Edison" | "Westinghouse" | "Thomson-Houston" | "Siemens" | "Other"}
+event = element event {loc* | text}</pre>
+        </div>
         <h3>HTML</h3>
-        <p>Short for <span style="color: #123C56;">HyperText Markup Language</span>. HTML and XML are similar languages, but HTML is used for presentation and display while XML is used for the storage of information.</p>
-        
+        <p>Short for <span style="color: #123C56;">HyperText Markup Language</span>. HTML and XML
+            are similar languages, but HTML is used for presentation and display while XML is used
+            for the storage of information.</p>
         <h3>CSS</h3>
         <p>Short for <span style="color: #123C56;">Cascading Style Sheet</span>.</p>
-        
         <h3>JS</h3>
         <p>Short for <span style="color: #123C56;">JavaScript</span>.</p>
-        
         <!-- END BODY CONTENT -->
         <div class="license">
             <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a
-                href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
+                    href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
                     rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
                         alt="Creative Commons License" style="border-width:0"
                         src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                            rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
+                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
                 <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
         </div>
     </body>
