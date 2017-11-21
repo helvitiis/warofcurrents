@@ -43,7 +43,7 @@
 .timeline-item {
   padding: 40px 0;
   opacity: .5;
-  filter: blur(2px);
+/*  filter: blur(2px);*/
   transition: .8s;
   box-sizing: border-box;
   width: calc(50% - 40px);
@@ -81,7 +81,7 @@
 .timeline-item--active {
   opacity: 1;
   transform: translateY(0);
-  filter: blur(0px);
+  /*filter: blur(0px);*/
 }
 .timeline-item--active:before {
   top: 50%;
