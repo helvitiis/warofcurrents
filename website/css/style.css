@@ -4,7 +4,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 1100px;
   position: relative;
 }
 .timeline__content-title {
@@ -42,14 +42,14 @@
 }
 .timeline-item {
   padding: 40px 0;
-  opacity: .3;
+  opacity: .5;
   filter: blur(2px);
-  transition: .5s;
+  transition: .8s;
   box-sizing: border-box;
   width: calc(50% - 40px);
   display: flex;
   position: relative;
-  transform: translateY(-80px);
+  transform: translateY(-160px);
 }
 .timeline-item:before {
   content: attr(data-text);
