@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
     <head>
-    <fileDesc>
-        <titleStmt>
-            <author>Author Not Specified</author>
-            <title>May Pull Through</title>
-            If not his company will probably be absorbed
-            <encodingHistory>
-                <work role="encoder">Jamie Downey</work>
-                <work role="transcriber">Jamie Downey</work>
-            </encodingHistory>
-        </titleStmt>
-        <publicationStmt> 
-            <pubDate>1891-01-17</pubDate>
-            <publisher>The Thomson-Houston Company [by Telegraph to the Herald]</publisher>
-        </publicationStmt>
-    </fileDesc>
+        <fileDesc>
+            <titleStmt>
+                <author>Author Not Specified</author>
+                <title>Westinghouse May Pull Through</title>
+                <subtitle n="1">If not his company will probably be absorbed by the Thomson-Houson
+                    Company</subtitle>
+                <subtitle n="2">[by Telegraph to the Herald]</subtitle>
+                <encodingHistory>
+                    <work role="encoder">Jamie Downey and Allyson Hall</work>
+                    <work role="transcriber">Jamie Downey and Allyson Hall</work>
+                    <work role="copyEditor">Allyson Hall</work>
+                </encodingHistory>
+            </titleStmt>
+            <publicationStmt>
+                <pubDate>1891-01-17</pubDate>
+                <publisher>The New York Herald</publisher>
+            </publicationStmt>
+        </fileDesc>
     </head>
     <body>
-       <p><loc>Pittsburg, Pa</loc>., <date xsd="1891-01-16"> Jan. 16, 1891</date>.--The latest guess at the probable outcome of the financial
-        troubles of the <company name="Westinghouse">Westinghouse Electric Manurfacturing Company</company> is that under the terms "of
-        consolidation" the <company name="Westinghouse">Westinghouse company</company> will be absorbed by its great Eastern rival, the
-        <company name="Thomson-Houston">Thomson-Houston company</company>. Officials of the <company name="Westinghouse">Westinghouse company</company> will not talk of this, but it
-        is known that the chief counsel for the <company name="Thomson-Houston">Thomson-Houston company</company> has been consultation for
-        several days with representatives of the <company name="Westinghouse">Westinghouse</company> interests.</p>
-        <p><persName ref="#Other">Henry W. Long</persName>, a leading
-        broker and heavy holder of <company name="Westinghouse">Westinghouse</company> stock, said to-day he considered a receivership of
-        the <company name="Westinghouse">Westinghouse company</company> or consolidation inevitable. He considers consolidation more likely
-        to result in good for the stockholders than a receivership. </p>
-        <p><persName ref="#Westinghouse">Mr. Westinghouse</persName> did not return
-        to <loc>Pittsburg</loc> to-day, but wired that he still has strong hopes of placing enough of the
-        preferred stock of his company to enable it to weather the storm. it is understood no new
-        suits will be entered until <date xsd="1891-01-26">January 26</date>, the first return day. Creditors can gain nothing
-        moving before, and the feeling.</p>
+        <p><loc>Pittsburgh, Pa</loc>., <date xsd="1891-01-16"> Jan. 16, 1891</date>.--The latest
+            guess at the probable outcome of the financial troubles of the <company
+                name="Westinghouse">Westinghouse Electric Manurfacturing Company</company> is that
+            under the terms "of consolidation" the <company name="Westinghouse">Westinghouse
+                company</company> will be absorbed by its great Eastern rival, the <company
+                name="Thomson-Houston">Thomson-Houston company</company>. Officials of the <company
+                name="Westinghouse">Westinghouse company</company> will not talk of this, but it is
+            known that the chief counsel for the <company name="Thomson-Houston">Thomson-Houston
+                company</company> has been consultation for several days with representatives of the
+                <company name="Westinghouse">Westinghouse</company> interests.</p>
+        <p><persName ref="#Other">Henry W. Long</persName>, a leading broker and heavy holder of
+                <company name="Westinghouse">Westinghouse</company> stock, said to-day he considered
+            a receivership of the <company name="Westinghouse">Westinghouse company</company> or
+            consolidation inevitable. He considers consolidation more likely to result in good for
+            the stockholders than a receivership.</p>
+        <p><persName ref="#Westinghouse">Mr. Westinghouse</persName> did not return to
+                <loc>Pittsburg</loc> to-day, but wired that he still has strong hopes of placing
+            enough of the preferred stock of his company to enable it to weather the storm. it is
+            understood no new suits will be entered until <date xsd="1891-01-26">January 26</date>,
+            the first return day. Creditors can gain nothing moving before, and the feeling is
+            general in favor of giving Mr. Westinghouse all the time possible. On this account the
+            action of the advisory board in returning their checks to contributors to the $500,000
+            relief fund during the absence from the city of Mr. Westinghouse and making public
+            announcement of the fact is severely criticised.</p>
+        <p>The Philadelphia company, a Westinghouse concern which controls the natural gas supply
+            and Pittsburgh, and which has been carrying a heavy floating debt and paying eight and
+            twelve per cent dividends, decided to-day to pay no more dividends until the
+            indebtedness is wiped out. The officers of the company say it is sound financially.</p>
     </body>
 </document>
