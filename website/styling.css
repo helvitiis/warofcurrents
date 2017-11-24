@@ -17,6 +17,8 @@ padding:1em;
 
 body{
     background-color: #F2DC9A;
+    background-image: url("backgroundPattern.png");
+    background-repeat: repeat;
 }
 
 h2{
