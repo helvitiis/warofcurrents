@@ -20,45 +20,45 @@
                 text-align: justify;
             }
             
-            persName[ref="#Tesla"]{
+            persName[ref = "#Tesla"]{
                 color: teal;
             }
-            persName[ref="#Edison"]{
+            persName[ref = "#Edison"]{
                 color: maroon;
             }
-            persName[ref="#Thomson"]{
+            persName[ref = "#Thomson"]{
                 color: darkgoldenrod;
             }
-            persName[ref="#Rau"]{
+            persName[ref = "#Rau"]{
                 color: indigo;
             }
-            persName[ref="#Westinghouse"]{
+            persName[ref = "#Westinghouse"]{
                 color: darkslateblue;
             }
-            persName[ref="#Other"]{
+            persName[ref = "#Other"]{
                 color: #123C56;
             }
             
-            current[type="AC"]{
+            current[type = "AC"]{
                 color: teal;
             }
-            current[type="DC"]{
+            current[type = "DC"]{
                 color: maroon;
             }
             
-            company[name="Other"]{
+            company[name = "Other"]{
                 color: #123C56;
             }
-            company[name="Edison"]{
+            company[name = "Edison"]{
                 color: maroon;
             }
-            company[name="Westinghouse"]{
+            company[name = "Westinghouse"]{
                 color: darkslateblue;
             }
-            company[name="Thomson-Houston"]{
+            company[name = "Thomson-Houston"]{
                 color: darkgoldenrod;
             }
-            company[name="Siemens"]{
+            company[name = "Siemens"]{
                 color: #039897;
             }
             
@@ -68,68 +68,37 @@
             
             date{
             
-            }
-        
-        </style>
+            }</style>
     </head>
     <body>
-        <div class="titleImage">
-            <a href="index.html">
-                <img class="title" src="woc.png" alt="War of Currents" />
-            </a>
+        <!--#include virtual="menuSSI.html" -->
+        <div style="background-color: #F2DC9A;">
+            <h2>BUYS SEVEN LOCOMOTIVES.</h2>
+            <h2>New Haven Engines to Use Both Alternating and Direct Current</h2>
+            <p>Seven electric locomotives of a new type have been ordered by the <loc>New
+                York</loc>, <loc>New Haven</loc> &amp; <loc>Hartford</loc> Railroad from the
+                    <company name="Other">General Electric Company</company>. It was announced
+                yesterday. They will use both <current type="AC">alternating</current> and <current
+                    type="DC">direct current</current>. Each will be a "traveling substation"
+                capable of picking up the <current type="AC">alternating current</current> of 11,000
+                volts from the overhead wires and changing it to the <current type="DC">direct
+                    current</current> used to operate the driving motors. It is more economical to
+                transmit the <current type="AC">alternating current</current> in large voltage over
+                long distances. At the same time, demonstrations have proved, according to the
+                electric construction companies, that the <current type="DC">direct
+                    current</current> motor has advantages over the <current type="AC"
+                    >alternating</current> motor.</p>
+            <p>An electric locomotive upon which <persName ref="#Other">Henry Ford</persName> and
+                his corps of engineers are now working in connection with the <company
+                    name="Westinghouse">Westinghouse Electric Company</company> takes into
+                consideration the same principles. These locomotives will be ready for use shortly
+                and it has been promised by the electrical engineers who have been working on them
+                that they will revolutionize the electric development on the railroads.</p>
+            <p>Five of the new locomotives which have been ordered by the <loc>New York</loc>,
+                    <loc>New Haven</loc> &amp; <loc>Hartford</loc> will be used for freight service
+                on the main line from <loc>Oak Point, N.Y.</loc>, to <loc>New Haven</loc>. The other
+                two will be placed in yard service.</p>
+            <!--#include virtual="licenseSSI.html" -->
         </div>
-        <div style="background-color: #F2DC9A;"><div class="sticky">
-            <div id="id" class="title"> War of Currents </div>
-            <div class="menu">
-                <div class="dropdown">
-                    <a class="dropbtn" href="index.html">Home</a>
-                </div> | <div class="dropdown">
-                    <a class="dropbtn">About</a>
-                    <div class="dropdown-content">
-                        <a href="aboutTeam.html">The Team</a>
-                        <a href="about.html">The Project</a>
-                    </div>
-                </div> | <div class="dropdown">
-                    <a class="dropbtn">Analysis</a>
-                    <div class="dropdown-content">
-                        <a href="outline.html">Outline</a>
-                        <a href="timelineIndex.html">Timeline</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2>BUYS SEVEN LOCOMOTIVES.</h2>
-        <h2>New Haven Engines to Use Both Alternating and Direct Current</h2>
-        <p>Seven electric locomotives of a new type have been ordered by the <loc>New York</loc>,
-                <loc>New Haven</loc> &amp; <loc>Hartford</loc> Railroad from the <company
-                name="Other">General Electric Company</company>. It was announced yesterday. They
-            will use both <current type="AC">alternating</current> and <current type="DC">direct
-                current</current>. Each will be a "traveling substation" capable of picking up the
-                <current type="AC">alternating current</current> of 11,000 volts from the overhead
-            wires and changing it to the <current type="DC">direct current</current> used to operate
-            the driving motors. It is more economical to transmit the <current type="AC">alternating
-                current</current> in large voltage over long distances. At the same time,
-            demonstrations have proved, according to the electric construction companies, that the
-                <current type="DC">direct current</current> motor has advantages over the <current
-                type="AC">alternating</current> motor.</p>
-        <p>An electric locomotive upon which <persName ref="#Other">Henry Ford</persName> and his
-            corps of engineers are now working in connection with the <company name="Westinghouse"
-                >Westinghouse Electric Company</company> takes into consideration the same
-            principles. These locomotives will be ready for use shortly and it has been promised by
-            the electrical engineers who have been working on them that they will revolutionize the
-            electric development on the railroads.</p>
-        <p>Five of the new locomotives which have been ordered by the <loc>New York</loc>, <loc>New
-                Haven</loc> &amp; <loc>Hartford</loc> will be used for freight service on the main
-            line from <loc>Oak Point, N.Y.</loc>, to <loc>New Haven</loc>. The other two will be
-            placed in yard service.</p>
-        <div class="license">
-            <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a
-                href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
-                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                        alt="Creative Commons License" style="border-width:0"
-                        src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                            rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
-                <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
-        </div></div>
     </body>
 </html>

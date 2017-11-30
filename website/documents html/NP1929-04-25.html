@@ -20,45 +20,45 @@
                 text-align: justify;
             }
             
-            persName[ref="#Tesla"]{
+            persName[ref = "#Tesla"]{
                 color: teal;
             }
-            persName[ref="#Edison"]{
+            persName[ref = "#Edison"]{
                 color: maroon;
             }
-            persName[ref="#Thomson"]{
+            persName[ref = "#Thomson"]{
                 color: darkgoldenrod;
             }
-            persName[ref="#Rau"]{
+            persName[ref = "#Rau"]{
                 color: indigo;
             }
-            persName[ref="#Westinghouse"]{
+            persName[ref = "#Westinghouse"]{
                 color: darkslateblue;
             }
-            persName[ref="#Other"]{
+            persName[ref = "#Other"]{
                 color: #123C56;
             }
             
-            current[type="AC"]{
+            current[type = "AC"]{
                 color: teal;
             }
-            current[type="DC"]{
+            current[type = "DC"]{
                 color: maroon;
             }
             
-            company[name="Other"]{
+            company[name = "Other"]{
                 color: #123C56;
             }
-            company[name="Edison"]{
+            company[name = "Edison"]{
                 color: maroon;
             }
-            company[name="Westinghouse"]{
+            company[name = "Westinghouse"]{
                 color: darkslateblue;
             }
-            company[name="Thomson-Houston"]{
+            company[name = "Thomson-Houston"]{
                 color: darkgoldenrod;
             }
-            company[name="Siemens"]{
+            company[name = "Siemens"]{
                 color: #039897;
             }
             
@@ -68,72 +68,42 @@
             
             date{
             
-            }
-        
-        </style>
+            }</style>
     </head>
     <body>
-        <div class="titleImage">
-            <a href="index.html">
-                <img class="title" src="woc.png" alt="War of Currents" />
-            </a>
+        <!--#include virtual="menuSSI.html" -->
+        <div style="background-color: #F2DC9A;">
+            <h2>TESTIMONY OF SLOAN ASKED IN RATE CASE</h2>
+            <h2>Pooley Wants Statement of Edison Company's Head on Direct Current System</h2>
+            <p>At the hearing yesterday on the complaint of John F. Hylan, made when he was Mayor,
+                that rates for electric current charged by the Edison companies were too high,
+                Public Service <persName ref="#Other">Commissioner Pooley</persName> announced that
+                    <persName ref="#Other">Matthew S. Sloan</persName>, president of the <loc>New
+                    York</loc>
+                <company name="Edison">Edison Company</company>, had been asked to testify when the
+                hearing is resumed next Tuesday. At the hearings by the Public Service Commission on
+                submetering <persName ref="#Other">Mr. Sloan</persName> testified that if the
+                profits made by the submeter concerns had not been diverted from the electric
+                companies it would have been possible to reduce the rates.</p>
+            <p><persName ref="#Other">Commissioner Pooley</persName>, it was explained, wants to
+                learn the policy of the <company name="Edison">Edison Company</company> concerning
+                the extension or discontinuance of the <current type="DC">direct current</current>
+                system. The commission contends that this system is more costly to operate and
+                maintain than the more modern system of <current type="AC">alternating
+                    current</current>. It was suggested that it might be possible to obtain a
+                reduction in the rates for electric current if the company adopted the most
+                economical methods of operation.</p>
+            <p>Reports were submitted to show that the return on the investment of the company will
+                yield only a little more than 4 per cent this year, instead of the 8 per cent
+                allowed by law. This report was submitted by <persName ref="#Other">Henry M.
+                    Edwards</persName>, vice president of the company on charge of accounting.</p>
+            <p>According to this estimate, the total value of the company's investment will amount
+                to $469,474,730.19 by the end of the year. This indicates that the value has almost
+                doubled since July 1, 1924. At that time <persName ref="#Other">Dr. William
+                    McClellan</persName>, on behalf of the commission, submitted an estimate showing
+                that the value was $245,574,784.66, which was about $100,000,000 lower that the
+                company's estimate.</p>
+            <!--#include virtual="licenseSSI.html" -->
         </div>
-        <div style="background-color: #F2DC9A;"><div class="sticky">
-            <div id="id" class="title"> War of Currents </div>
-            <div class="menu">
-                <div class="dropdown">
-                    <a class="dropbtn" href="index.html">Home</a>
-                </div> | <div class="dropdown">
-                    <a class="dropbtn">About</a>
-                    <div class="dropdown-content">
-                        <a href="aboutTeam.html">The Team</a>
-                        <a href="about.html">The Project</a>
-                    </div>
-                </div> | <div class="dropdown">
-                    <a class="dropbtn">Analysis</a>
-                    <div class="dropdown-content">
-                        <a href="outline.html">Outline</a>
-                        <a href="timelineIndex.html">Timeline</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2>TESTIMONY OF SLOAN ASKED IN RATE CASE</h2>
-        <h2>Pooley Wants Statement of Edison Company's Head on Direct Current System</h2>
-        <p>At the hearing yesterday on the complaint of John F. Hylan, made when he was Mayor, that
-            rates for electric current charged by the Edison companies were too high, Public Service
-                <persName ref="#Other">Commissioner Pooley</persName> announced that <persName
-                ref="#Other">Matthew S. Sloan</persName>, president of the <loc>New York</loc>
-            <company name="Edison">Edison Company</company>, had been asked to testify when the
-            hearing is resumed next Tuesday. At the hearings by the Public Service Commission on
-            submetering <persName ref="#Other">Mr. Sloan</persName> testified that if the profits
-            made by the submeter concerns had not been diverted from the electric companies it would
-            have been possible to reduce the rates.</p>
-        <p><persName ref="#Other">Commissioner Pooley</persName>, it was explained, wants to learn
-            the policy of the <company name="Edison">Edison Company</company> concerning the
-            extension or discontinuance of the <current type="DC">direct current</current> system.
-            The commission contends that this system is more costly to operate and maintain than the
-            more modern system of <current type="AC">alternating current</current>. It was suggested
-            that it might be possible to obtain a reduction in the rates for electric current if the
-            company adopted the most economical methods of operation.</p>
-        <p>Reports were submitted to show that the return on the investment of the company will
-            yield only a little more than 4 per cent this year, instead of the 8 per cent allowed by
-            law. This report was submitted by <persName ref="#Other">Henry M. Edwards</persName>,
-            vice president of the company on charge of accounting.</p>
-        <p>According to this estimate, the total value of the company's investment will amount to
-            $469,474,730.19 by the end of the year. This indicates that the value has almost doubled
-            since July 1, 1924. At that time <persName ref="#Other">Dr. William
-            McClellan</persName>, on behalf of the commission, submitted an estimate showing that
-            the value was $245,574,784.66, which was about $100,000,000 lower that the company's
-            estimate.</p>
-        <div class="license">
-            <span><strong>Created by: </strong> A. Hall, A. Newton, and J. Downey. <a
-                href="https://github.com/quantum-satire/warofcurrents">GitHub</a>. <a
-                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                        alt="Creative Commons License" style="border-width:0"
-                        src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                            rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
-                <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
-        </div></div>
     </body>
 </html>
