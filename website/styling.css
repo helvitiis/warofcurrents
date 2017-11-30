@@ -5,16 +5,6 @@ html{
     padding-left: 10%;
 }
 
-.container{
-width:90%;
-line-height:200%;
-margin:auto;
-text-indent:3em;
-display: block;
-text-align: justify;
-padding:1em;
-}
-
 body{
     background-color: #F2DC9A;
     background-image: url("backgroundPattern.png");
@@ -42,6 +32,7 @@ p{
     font-size: 14pt;
 }
 
+/* 2017-11-30 ajn: For the lists on the outline page */
 li{
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
@@ -52,17 +43,20 @@ li{
 span{
     text-align: center;
 }
+
+/* 2017-11-30 ajn: For the title image */
 div.titleImage{
     text-align: center;
     color: #D8A244;
-    /*border: 1px solid red;*/
 }
 
+/* 2017-11-30 ajn: For the title image */
 img.title{
     width: 70%;
     height: 70%;
 }
 
+/* 2017-11-30 ajn: For the title text */
 div.title{
     text-align: center;
     color: #D8A244;
@@ -70,6 +64,7 @@ div.title{
     opacity: 0;
 }
 
+/* 2017-11-30 ajn: For the title text */
 .show{
     text-align: center;
     color: #D8A244;
@@ -80,14 +75,15 @@ div.title{
     padding-bottom: .5em;
 }
 
+/* 2017-11-30 ajn: For the menu */
 div.menu{
     text-align: center;
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
-    /*border: 1px solid red;*/
     font-size: 16pt;
 }
 
+/* 2017-11-30 ajn: This makes the menu 'stick' to the top of the page */
 div.sticky{
     position: -webkit-sticky;
     position: sticky;
@@ -96,6 +92,7 @@ div.sticky{
     background-color: #F2DC9A;
 }
 
+/* 2017-11-30 ajn: For the body of the html page */
 div.body{
     text-align: center;
     padding-top: 10%;
@@ -108,6 +105,18 @@ div.body{
 
 }
 
+/* 2017-11-30 ajn: For the text on the screen but excludes the menu and the license */
+.container{
+    width: 90%;
+    line-height: 200%;
+    margin: auto;
+    text-indent: 3em;
+    display: block;
+    text-align: justify;
+    padding: 1em;
+}
+
+/* 2017-11-30 ajn: For the line of text at the bottom of the page */
 div.license{
     color: #D8A244;
     text-align: center;
@@ -116,6 +125,7 @@ div.license{
     font-size: 14pt;
 }
 
+/* 2017-11-30 ajn: For the links */
 a{
     color: #D8A244;
     text-decoration: none;
@@ -127,7 +137,9 @@ a:hover{
     font-size: 16pt;
 }
 
-.dropbtn {
+
+/* 2017-11-30 ajn: From here down is all for the dropdown menu */
+.dropbtn{
     background-color: #F2DC9A;
     color: #D8A244;
     font-family: 'Josefin Slab', serif;
@@ -138,22 +150,22 @@ a:hover{
     font-size: 16pt;
 }
 
-.dropdown {
+.dropdown{
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content{
     display: none;
     position: absolute;
     background-color: #F2DC9A;
     min-width: 80px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     font-size: 16pt;
 }
 
-.dropdown-content a {
+.dropdown-content a{
     padding: 7px 11px;
     text-decoration: none;
     color: #D8A244;
@@ -162,12 +174,14 @@ a:hover{
     font-size: 16pt;
 }
 
-.dropdown-content a:hover {background-color: #123C56}
+.dropdown-content a:hover{
+    background-color: #123C56
+}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn{
     background-color: #F2DC9A;
 }
