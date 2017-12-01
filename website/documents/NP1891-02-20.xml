@@ -1,4 +1,4 @@
-<?xml-model href="projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../resources/schema.rnc" type="application/relax-ng-compact-syntax"?>
 <document>
     <head>
         <fileDesc>
@@ -8,26 +8,49 @@
                 <encodingHistory>
                     <work role="encoder">Jamie Downey</work>
                     <work role="transcriber">Jamie Downey</work>
+                    <work role="copyEditor">Allyson Hall</work>
                 </encodingHistory>
             </titleStmt>
             <publicationStmt>
                 <pubDate>1891-02-20</pubDate>
-                <publisher>The New York Herald </publisher>
+                <publisher>The New York Herald</publisher>
             </publicationStmt>
         </fileDesc>
     </head>
-    
-<body>
-<p><persName ref="#Other">Martin A. Frank</persName>, who owns thirty-one shares of the stock of the <company name="Edison">Edison Electric Light Company</company>, has taken proceedings in the <loc>Supreme Court</loc> against that company and the <company name="Edison">Edison General Electric Company</company>, and threatens to apply for an injunction and appointment of a receiver of an <company name="Edison">electric light company</company>. Its capital stock is $1,500,000.</p>
 
-<p><persName ref="#Other">Frank</persName> asserts that a majority of the stockholders and directors of the<company name="Edison"> light company</company> have diverted the assets and property and have turned them to a purpase which was neither contemplated by the character of the company nor is permitted under the laws of this <loc>State</loc>. He says a majority of the officers, directors and stockholders of the <company name="Edison">light company</company> organized the <company name="Edison">Edison General Electric Company</company>, which has secured possession of a large part of the stock of the <company name="Edison">light company</company>, and has secured control of its property and of its operations, and also the election of its officers.</p>
+    <body>
+        <p><persName ref="#Other">Martin A. Frank</persName>, who owns thirty-one shares of the
+            stock of the <company name="Edison">Edison Electric Light Company</company>, has taken
+            proceedings in the <loc>Supreme Court</loc> against that company and the <company
+                name="Edison">Edison General Electric Company</company>, and threatens to apply for
+            an injunction and appointment of a receiver of an <company name="Edison">electric light
+                company</company>. Its capital stock is $1,500,000.</p>
 
-<p><persName ref="#Other">Mr. Frank</persName> further complains that no dividend has ever been declared or paid by the <company name="Edison">light company</company>, but that its earnings have been accumulating without the consent of the stockholders.</p>
+        <p><persName ref="#Other">Frank</persName> asserts that a majority of the stockholders and
+            directors of the<company name="Edison"> light company</company> have diverted the assets
+            and property and have turned them to a purpase which was neither contemplated by the
+            character of the company nor is permitted under the laws of this <loc>State</loc>. He
+            says a majority of the officers, directors and stockholders of the <company
+                name="Edison">light company</company> organized the <company name="Edison">Edison
+                General Electric Company</company>, which has secured possession of a large part of
+            the stock of the <company name="Edison">light company</company>, and has secured control
+            of its property and of its operations, and also the election of its officers.</p>
 
-<p><persName ref="#Other">Frank</persName> secured an order from the <loc>Court</loc> for the examinataion of <persName ref="#Other">Edward H. Johnson</persName>, who is a dierector in both companies.</p>
+        <p><persName ref="#Other">Mr. Frank</persName> further complains that no dividend has ever
+            been declared or paid by the <company name="Edison">light company</company>, but that
+            its earnings have been accumulating without the consent of the stockholders.</p>
 
-<p>The <company name="Edison">Edison companies</company> yesterday applied to <persName ref="#Other">Judge Ingraham</persName>, in <loc>Supreme Court</loc>, <loc>Chambers</loc>, to have the order vacated, because it would give a small stockholder the opportunity of getting at secrets which should not be revealed at this time.</p>
+        <p><persName ref="#Other">Frank</persName> secured an order from the <loc>Court</loc> for
+            the examinataion of <persName ref="#Other">Edward H. Johnson</persName>, who is a
+            dierector in both companies.</p>
 
-<p><persName ref="#Other">Judge Ingraham</persName> thought <persName ref="#Other">Johnson's</persName> examination was perfectly proper, but said he would consider the question.</p>
-</body>
+        <p>The <company name="Edison">Edison companies</company> yesterday applied to <persName
+                ref="#Other">Judge Ingraham</persName>, in <loc>Supreme Court Chambers</loc>, to
+            have the order vacated, because it would give a small stockholder the opportunity of
+            getting at secrets which should not be revealed at this time.</p>
+
+        <p><persName ref="#Other">Judge Ingraham</persName> thought <persName ref="#Other"
+                >Johnson's</persName> examination was perfectly proper, but said he would consider
+            the question.</p>
+    </body>
 </document>
