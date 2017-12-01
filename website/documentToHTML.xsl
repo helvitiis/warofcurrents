@@ -14,13 +14,16 @@
         </html>
     </xsl:template>
     <xsl:template match="document">
-        <div id="NP{descendant::pubDate}"><xsl:apply-templates/>
+        <div id="NP{descendant::pubDate}">
+            <xsl:apply-templates select="descendant::titleStmt"/>
+            <xsl:apply-templates select="descendant::body"/>
         </div>
         
     </xsl:template>
-    <xsl:template match="titleStmt" mode="toc">
-                   
-        <xsl:apply-templates/>      
+    <xsl:template match="titleStmt">     
+        <xsl:apply-templates select="descendant::title"/>    
+        <xsl:apply-templates select="descendant::subtitle"/>
+        <xsl:apply-templates select="descendant::author"/>
     </xsl:template>
     <xsl:template match="title">
         <h1><xsl:apply-templates/></h1>
