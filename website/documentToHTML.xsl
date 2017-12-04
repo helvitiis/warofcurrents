@@ -7,11 +7,11 @@
     
     <xsl:template match="/">
         <html>
+            <xsl:comment>#include virtual="menuSSI.html" </xsl:comment>
             <h2>Table of Contents</h2>
             <ul>
                 <xsl:apply-templates select="$documents/*" mode="toc"/>
             </ul>
-            <xsl:comment>#include virtual="menuSSI.html" </xsl:comment>
             <xsl:apply-templates select="$documents/*"/>
             <xsl:comment>#include virtual="licenseSSI.html" </xsl:comment>
         </html>
