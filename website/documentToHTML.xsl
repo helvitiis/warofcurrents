@@ -7,11 +7,21 @@
     
     <xsl:template match="/">
         <html>
+            <h2>Table of Contents</h2>
+            <ul>
+                <xsl:apply-templates select="$documents/*" mode="toc"/>
+            </ul>
             <xsl:comment>#include virtual="menuSSI.html" </xsl:comment>
-            
             <xsl:apply-templates select="$documents/*"/>
             <xsl:comment>#include virtual="licenseSSI.html" </xsl:comment>
         </html>
+    </xsl:template>
+    <xsl:template match="document" mode="toc">
+        <li>
+            <div id="NP{descendant::pubDate}">
+                <xsl:apply-templates select="descendant::titleStmt/title[1]" mode="toc"/>
+                </div>
+        </li>
     </xsl:template>
     <xsl:template match="document">
         <div id="NP{descendant::pubDate}">
