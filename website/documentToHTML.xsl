@@ -24,6 +24,12 @@
         <xsl:apply-templates select="descendant::title"/>    
         <xsl:apply-templates select="descendant::subtitle"/>
         <xsl:apply-templates select="descendant::author"/>
+        <br/>
+        <xsl:apply-templates select="descendant::encodingHistory/work[@role='encoder']"/>
+        <br/>
+        <xsl:apply-templates select="descendant::encodingHistory/work[@role='transcriber']"/>
+        <br/>
+        <xsl:apply-templates select="descendant::encodingHistory/work[@role='copyEditor']"/>
     </xsl:template>
     <xsl:template match="title">
         <h1><xsl:apply-templates/></h1>
@@ -32,8 +38,17 @@
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match="author">
-        <span class="byLine"><xsl:apply-templates/></span>
+        Author: <span class="byLine"><xsl:apply-templates/></span>
         <!--2017-12-01 ebb: I'm adding a <span class="byLine"> here so you can control the size you want with CSS. I wasn't sure you wanted one of the HTML head elements here (h1, h2, etc)  -->
+    </xsl:template>
+    <xsl:template match="work[@role='encoder']">
+        Encoder(s): <span class="encoder"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="work[@role='transcriber']">
+        Transcriber(s): <span class="transcriber"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="work[@role='copyEditor']">
+        Copy Editor: <span class="copyEditor"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
@@ -41,6 +56,20 @@
     <xsl:template match="persName">
         <span class="persName"><xsl:apply-templates/></span>
     </xsl:template>
-    
+    <xsl:template match="loc">
+        <span class="loc"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="current">
+        <span class="current"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="date">
+        <span class="date"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="company">
+        <span class="company"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="event">
+        <span class="event"><xsl:apply-templates/></span>
+    </xsl:template>
     <!--ebb: I'm leaving this here with just one kind of span in place. Think about how you want to set up the other forms of markup! Remember that your output MUST be valid and well-formed HTML. -->
 </xsl:stylesheet>
