@@ -115,32 +115,45 @@ div.body{
     padding: 1em;
 }
 
-fieldset{
-    font-size: 18px;
-    line-height: 1;
-    width: 8%;
-    float: right;
+/* 2017-12-05 ajn: TStyle the buttons on the outline page */
+.button{
+    border: solid;
+    border-radius: 12px;
+    border-color: #123C56;
+    border-width: 2px;
+    cursor: pointer;
+    font-size: 16px;
     padding: 10px;
-    margin-top: 100px;
-    margin-right: 5px;
-    position: fixed;
-    right: 20%;
-    background: goldenrod;
-    color: white;
-    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: #F2DC9A;
+    color: #123C56;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1.5px;
 }
 
-span.persName.on{
-    color: #bb0000;
-    font-weight: bold;
+/* 2017-12-05 ajn: To be able to diplay the articles with JS */
+div.main{
+    display: none;
 }
-span.date.on{
-    color: #e6e6e6;
-    font-weight: bold;
-}
-span.loc.on{
-    color: #0033cc;
-    font-weight: bold;
+
+/* 2017-12-05 ajn: To be able to diplay the articles with JS */
+div.main on{
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
+    width: 90%;
+    line-height: 200%;
+    margin: auto;
+    text-indent: 3em;
+    display: block;
+    text-align: justify;
+    padding: 1em;
 }
 
 /* 2017-11-30 ajn: For the line of text at the bottom of the page */
