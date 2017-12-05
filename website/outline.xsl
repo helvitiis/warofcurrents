@@ -19,6 +19,7 @@
     <xsl:template match="document" mode="toc">
         <li>
             <div id="NP{descendant::pubDate}">
+                <!-- 2017-12-05 ajn: we need to manually edit the id so that it says 'aboutopt0, aboutopt1, aboutopt2, etc.' -->
                 <button class="button" id="opt0">
                     <xsl:apply-templates select="descendant::titleStmt/title[1]" mode="toc"/>
                 </button>
@@ -26,6 +27,7 @@
         </li>
     </xsl:template>
     <xsl:template match="document">
+        <!-- 2017-12-05 ajn: we need to manually edit the id so that it says 'aboutopt0, aboutopt1, aboutopt2, etc.' -->
         <div class="main" id="aboutopt0" style="background-color: #F2DC9A;">
             <xsl:apply-templates select="descendant::titleStmt"/>
             <xsl:apply-templates select="descendant::body"/>
