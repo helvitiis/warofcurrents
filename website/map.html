@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>War of Currents</title>
+        <link rel="icon" href="favicon.png" />
+        <link rel="stylesheet" type="text/css" href="styling.css" />
+        <script type="text/javascript" src="style.js">/**/</script>
+        <style>
+            div#flexContainer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                flex: 2
+            }
+            div#text{
+            flex:1
+            }
+            div#map{
+            flex:2
+            }
+            p{
+                line-height: 200%;
+            }
+        </style>
+    </head>
+    <body>
+        <!--#include virtual="menuSSI.html" -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <div id="flexContainer" style="background-color: #F2DC9A;">
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/d/embed?mid=1NtjaZK8GR8O_wvexqATLDIET9UgucuD2"
+                    width="640" height="480"></iframe>
+            </div>
+            <div id="text">
+                <p>Throughout the documents coded were listed several locations that were important
+                    to the development and initial retention of electricity. The War of Currents
+                    took place mostly in the Eastern United States with major cities such as New
+                    York City and Pittsburgh playing vital roles.</p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <!--#include virtual="licenseSSI.html" -->
+    </body>
+</html>
