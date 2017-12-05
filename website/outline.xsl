@@ -28,7 +28,6 @@
             <xsl:apply-templates select="descendant::titleStmt"/>
             <xsl:apply-templates select="descendant::body"/>
         </div>
-
     </xsl:template>
     <xsl:template match="titleStmt">
         <xsl:apply-templates select="descendant::title"/>
