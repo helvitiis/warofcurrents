@@ -9,22 +9,18 @@
         <html>
             <xsl:comment>#include virtual="menuSSI.html" </xsl:comment>
             <h2>Table of Contents</h2>
-            <ul>
-                <xsl:apply-templates select="$documents/*" mode="toc"/>
-            </ul>
+            <xsl:apply-templates select="$documents/*" mode="toc"/>
             <xsl:apply-templates select="$documents/*"/>
             <xsl:comment>#include virtual="licenseSSI.html" </xsl:comment>
         </html>
     </xsl:template>
     <xsl:template match="document" mode="toc">
-        <li>
-            <div id="NP{descendant::pubDate}">
-                <!-- 2017-12-05 ajn: we need to manually edit the id so that it says 'aboutopt0, aboutopt1, aboutopt2, etc.' -->
-                <button class="button" id="opt0">
-                    <xsl:apply-templates select="descendant::titleStmt/title[1]" mode="toc"/>
-                </button>
-            </div>
-        </li>
+        <div id="NP{descendant::pubDate}">
+            <!-- 2017-12-05 ajn: we need to manually edit the id so that it says 'aboutopt0, aboutopt1, aboutopt2, etc.' -->
+            <button class="button" id="opt0">
+                <xsl:apply-templates select="descendant::titleStmt/title[1]" mode="toc"/>
+            </button>
+        </div>
     </xsl:template>
     <xsl:template match="document">
         <!-- 2017-12-05 ajn: we need to manually edit the id so that it says 'aboutopt0, aboutopt1, aboutopt2, etc.' -->
@@ -32,7 +28,6 @@
             <xsl:apply-templates select="descendant::titleStmt"/>
             <xsl:apply-templates select="descendant::body"/>
         </div>
-
     </xsl:template>
     <xsl:template match="titleStmt">
         <xsl:apply-templates select="descendant::title"/>
