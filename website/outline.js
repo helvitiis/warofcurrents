@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded',init,false);
 function init() {
-var buttons = document.getElementsByTagName('button');
+var buttons = document.getElementsByClassName('button');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', toggle, false);     
 }
