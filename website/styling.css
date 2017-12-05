@@ -27,13 +27,14 @@ h3{
 }
 
 p{
-    color: #D8A244;
+    color: #ac782d;
     font-family: 'Josefin Slab', serif;
     font-size: 14pt;
+    line-height: 180%;
 }
 /* 2017-11-30 ajn: For the lists on the outline page */
 li{
-    color: #D8A244;
+    color: #ac782d;
     font-family: 'Josefin Slab', serif;
     line-height: 200%;
     font-size: 16pt;
@@ -77,7 +78,7 @@ div.title{
 /* 2017-11-30 ajn: For the menu */
 div.menu{
     text-align: center;
-    color: #D8A244;
+    color: #ac782d;
     font-family: 'Josefin Slab', serif;
     font-size: 16pt;
 }
@@ -158,7 +159,7 @@ div.main on{
 
 /* 2017-11-30 ajn: For the line of text at the bottom of the page */
 div.license{
-    color: #D8A244;
+    color: #ac782d;
     text-align: center;
     bottom: 0;
     font-family: 'Josefin Slab', serif;
@@ -167,7 +168,7 @@ div.license{
 
 /* 2017-11-30 ajn: For the links */
 a{
-    color: #D8A244;
+    color: #ac782d;
     text-decoration: none;
     font-size: 16pt;
 }
@@ -180,7 +181,7 @@ a:hover{
 /* 2017-11-30 ajn: From here down is all for the dropdown menu */
 .dropbtn{
     background-color: #F2DC9A;
-    color: #D8A244;
+    color: #ac782d;
     font-family: 'Josefin Slab', serif;
     padding-right: 10px;
     padding-left: 10px;
@@ -207,7 +208,7 @@ a:hover{
 .dropdown-content a{
     padding: 7px 11px;
     text-decoration: none;
-    color: #D8A244;
+    color: #ac782d;
     font-family: 'Josefin Slab', serif;
     display: block;
     font-size: 16pt;
@@ -223,4 +224,20 @@ a:hover{
 
 .dropdown:hover .dropbtn{
     background-color: #F2DC9A;
+}
+div#flexContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex: 2
+}
+div#ptext{
+    flex: 1
+}
+div#map{
+    flex: 2
+}
+p#pmap{
+    line-height: 210%;
 }

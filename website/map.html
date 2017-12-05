@@ -5,24 +5,6 @@
         <link rel="icon" href="favicon.png" />
         <link rel="stylesheet" type="text/css" href="styling.css" />
         <script type="text/javascript" src="style.js">/**/</script>
-        <style>
-            div#flexContainer{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: row;
-                flex: 2
-            }
-            div#text{
-            flex:1
-            }
-            div#map{
-            flex:2
-            }
-            p{
-                line-height: 210%;
-            }
-        </style>
     </head>
     <body>
         <!--#include virtual="menuSSI.html" -->
@@ -37,11 +19,12 @@
                     src="https://www.google.com/maps/d/embed?mid=1NtjaZK8GR8O_wvexqATLDIET9UgucuD2"
                     width="740" height="580"></iframe>
             </div>
-            <div id="text">
-                <p>Throughout the documents coded were listed several locations that were important
+            <div id="ptext">
+                <p id="pmap">Throughout the documents coded were listed several locations important
                     to the development and initial retention of electricity. The War of Currents
-                    took place mostly in the Eastern United States with major cities such as <span style="color:#123C56;">New
-                        York City</span> and <span style="color:#123C56;">Pittsburgh</span> playing vital roles.</p>
+                    took place mostly in the Eastern United States with major cities such as <span
+                        style="color:#123C56;">New York City</span> and <span style="color:#123C56;"
+                        >Pittsburgh</span> playing vital roles.</p>
             </div>
         </div>
         <br />
