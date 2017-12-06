@@ -1,0 +1,123 @@
+div.titleImage{
+    text-align: center;
+    /*color: #D8A244;*/
+    /*border: 1px solid red;*/
+}
+
+img.title{
+    width: 70%;
+    height: 70%;
+}
+
+div.title{
+    text-align: center;
+    color: #D8A244;
+    font-size: 30px;
+    opacity: 0;
+}
+
+.show{
+    text-align: center;
+    color: #D8A244;
+    font-size: 30px;
+    opacity: 1;
+    color: #123C56;
+    font-family: 'Rye', cursive;
+    padding-bottom: .5em;
+}
+
+div.menu{
+    text-align: center;
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    /*border: 1px solid red;*/
+    font-size: 16pt;
+}
+
+div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #F2DC9A;
+}
+
+div.body{
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+
+}
+
+div.license{
+    color: #D8A244;
+    text-align: center;
+    bottom: 0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
+}
+a{
+    color: #D8A244;
+    text-decoration: none;
+    font-size: 16pt;
+}
+a:hover{
+    color: #123C56;
+    text-decoration: none;
+    font-size: 16pt;
+}
+.dropbtn {
+    background-color: #F2DC9A;
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F2DC9A;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16pt;
+}
+
+.dropdown-content a {
+    padding: 7px 11px;
+    text-decoration: none;
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    display: block;
+    font-size: 16pt;
+}
+
+.dropdown-content a:hover {background-color: #123C56}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F2DC9A;
+}
+
+h1{
+    color: #123C56;
+    font-family: 'Josefin Slab', serif;
+    
+}
