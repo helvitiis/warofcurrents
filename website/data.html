@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        
+        <style>
+            #title{
+            text-align: center;
+            }
+            div#flexContainer{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            div#piesvg{
+                order: 1;
+            }
+            div#barsvg{
+                order: 2;
+            }
+            div#linesvg{
+                order: 3;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        </style>
     </head>
     <body>
         <!--#include virtual="menuSSI.html" -->
-        <div class="container" style="background-color: #F2DC9A;">
-            
+        <div id="title">
+            <h2>Graphs with Results</h2>
+        </div>
+        <div id="flexcontainer" style="background-color: #F2DC9A;">
+            <div id="piesvg">
+                <img src="circle.png" alt="A pie chart." />
+                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                    diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
+                    sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
+                    recteque definiebas eos, ad wisi delenit assueverit eam. </p>
+            </div>
+            <div id="barsvg">
+                <img src="square.png" alt="A bar chart." />
+                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                    diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
+                    sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
+                    recteque definiebas eos, ad wisi delenit assueverit eam. </p>
+            </div>
+            <div id="linesvg">
+                <img src="triangle.png" alt="A line chart." />
+                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                    diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
+                    sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
+                    recteque definiebas eos, ad wisi delenit assueverit eam. </p>
+            </div>
         </div>
         <!--#include virtual="licenseSSI.html" -->
     </body>
