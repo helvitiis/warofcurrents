@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
-    <xsl:output indent="yes" method="xml" doctype-system="about:legacy-compat"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+    exclude-result-prefixes="xs math"
+    xmlns="http://www.w3.org/1999/xhtml" version="3.0">
+    
+    <xsl:output method="xml" indent="yes"/>
 
     <xsl:variable name="documents" select="collection('documents')"/>
 
@@ -18,11 +23,6 @@
         <!--The total number of ac is: 50.-->
         <!--The total number of dc is: 33.-->
         
-        <xsl:variable name="radius" select="250"/>
-        
-        <xsl:variable name="sliceType1" select="50 div $currentTotal"/>
-        <xsl:variable name="sliceType2" select="33 div $currentTotal"/>
-
     </xsl:template>
 
 </xsl:stylesheet>
