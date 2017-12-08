@@ -1,18 +1,27 @@
-class.persName{
-    color: green;
+.persName{
+    color: #123C56;
+    font-weight: bold;
 }
-class.current{
+.current{
     color: maroon;
+    font-weight: bold;
 }
-class.company{
-    color: black;
+.company{
+    color: teal;
+    font-weight: bold;
 }
-class.loc{
-    color: blue;
+.loc{
+    color: brown;
+    font-weight: bold;
 }
-class.date{
-    color: yellow;
+.date{
+    color: darkslateblue;
+    font-weight: bold;
 }
-class.event{
-    color: white;
+.event{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.h2outline{
+    text-align:center;
 }
