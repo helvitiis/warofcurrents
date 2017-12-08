@@ -4,27 +4,10 @@ window.onload = init;
 
 
 function init() {
-    var buttons = document.getElementsByClassName('button');
-    for (var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', toggleTOC, false);
-    }
     var fieldset = document.getElementsByTagName('input');
     for (var i = 0; i < fieldset.length; i++) {
         fieldset[i].addEventListener('click', toggleInput, false);
     }
-}
-
-function toggleTOC() {
-    hideOthers()
-    var divID = 'about' + this.id
-    var selDiv = document.getElementById(divID)
-    selDiv.style.display = 'block';
-}
-
-function hideOthers() {
-    var divs = document.getElementsByClassName('main')
-    for (var d = 0; d < divs.length; d++)
-    divs[d].style.display = 'none';
 }
 
 function toggleInput() {

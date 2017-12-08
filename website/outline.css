@@ -1,27 +1,34 @@
-.persName{
+
+span.persName.on{
     color: #123C56;
     font-weight: bold;
 }
-.current{
-    color: maroon;
-    font-weight: bold;
-}
-.company{
-    color: teal;
-    font-weight: bold;
-}
-.loc{
+
+span.loc.on{
     color: brown;
     font-weight: bold;
 }
-.date{
+
+span.current.on{
+    color: maroon;
+    font-weight: bold;
+}
+
+span.company.on{
+    color: teal;
+    font-weight: bold;
+}
+
+span.company.on{
     color: darkslateblue;
     font-weight: bold;
 }
-.event{
+
+span.company.on{
     color: darkgoldenrod;
     font-weight: bold;
 }
+
 .h2outline{
-    text-align:center;
+    text-align: center;
 }
