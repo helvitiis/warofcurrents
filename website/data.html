@@ -5,25 +5,32 @@
             #title{
             text-align: center;
             }
-            div#flexContainer{
+            div#flexcontainer{
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
                 flex-direction: row;
                 flex-wrap: nowrap;
+                padding:5px;
             }
             div#piesvg{
                 order: 1;
+                margin:10px;
             }
             div#barsvg{
                 order: 2;
+                margin:10px;
             }
             div#linesvg{
                 order: 3;
+                margin:10px;
             }
             img.data{
                 width: 300px;
                 height: 300px;
+            }
+            p.datadesc{
+            text-align:justify;
             }
         </style>
     </head>
@@ -35,21 +42,21 @@
         <div id="flexcontainer" style="background-color: #F2DC9A;">
             <div id="piesvg">
                 <img class="data" src="circle.png" alt="A pie chart." />
-                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                <p class="datadesc">Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
                     diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
                     sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
                     recteque definiebas eos, ad wisi delenit assueverit eam. </p>
             </div>
             <div id="barsvg">
                 <img class="data" src="square.png" alt="A bar chart." />
-                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                <p class="datadesc">Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
                     diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
                     sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
                     recteque definiebas eos, ad wisi delenit assueverit eam. </p>
             </div>
             <div id="linesvg">
                 <img class="data" src="triangle.png" alt="A line chart." />
-                <p>Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
+                <p class="datadesc">Lorem ipsum dolor sit amet, audire delenit ad usu, ei eam autem antiopam, mei ut
                     diceret volumus. Epicuri scaevola mea ea. Vel te dico melius albucius, has ea
                     sale signiferumque. Sed te tollit mollis, est essent dolorem ut. Ad nonumy
                     recteque definiebas eos, ad wisi delenit assueverit eam. </p>
