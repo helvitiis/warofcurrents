@@ -115,7 +115,7 @@ div.body{
     text-align: justify;
     padding: 1em;
 }
-
+ /* 2017-12-07 ajn: flex container for outline page */
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -149,6 +149,24 @@ div.main on{
     flex: 3;
 }
 
+/* 2017-12-07 ajn: toggle box on outline page */
+div.toggle{
+    color: #D8A244;
+    font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
+    width: 90%;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    flex: 3;
+    background-color: #F2DC9A;
+}
+
+/* 2017-12-07 ajn: to make space for a flex container on outline page */
+div.space{
+    flex: 1;
+}
+
 /* 2017-11-30 ajn: For the line of text at the bottom of the page */
 div.license{
     color: #ac782d;
@@ -164,13 +182,15 @@ a{
     text-decoration: none;
     font-size: 16pt;
 }
+
+/* 2017-11-30 ajn: For the links */
 a:hover{
     color: #123C56;
     text-decoration: none;
     font-size: 16pt;
 }
 
-/* 2017-11-30 ajn: From here down is all for the dropdown menu */
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropbtn{
     background-color: #F2DC9A;
     color: #ac782d;
@@ -182,11 +202,13 @@ a:hover{
     font-size: 16pt;
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown{
     position: relative;
     display: inline-block;
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown-content{
     display: none;
     position: absolute;
@@ -197,6 +219,7 @@ a:hover{
     font-size: 16pt;
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown-content a{
     padding: 7px 11px;
     text-decoration: none;
@@ -206,17 +229,21 @@ a:hover{
     font-size: 16pt;
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown-content a:hover{
     background-color: #123C56
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
+/* 2017-11-30 ajn: For the dropdown menu */
 .dropdown:hover .dropbtn{
     background-color: #F2DC9A;
 }
+
 div#flexContainer{
     display: flex;
     justify-content: space-between;
