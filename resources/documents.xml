@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<body>
+        <p>The interest taken in <persName ref="#Tesla">Mr. Tesla's</persName> contributions to
+            electrical apparatus and to electrical literature is so great, and the subject is so
+            important, that we do not hesitate to give further space to the subject. On <date
+                xsd="1888-05-26">May 26</date> a communication on the subject from <persName
+                    ref="#Other">Dr. Louis Duncan</persName>, of Johns Hopkins University, appeared in
+            our American contemporary, the Electrical Review, to the effect:</p>
+        <p>"We may, for our present purposes, divide motors into two classes; Continuous, in which
+            the armature coils are unsymmetrical with respect to the poles, and which, therefore,
+            give a practically constant torque, and alternating motors, in which the armature coils
+            are symmetrical with respect to the poles, and which, therefore, give a torque varying
+            both in magnitude and sign during a period of the counter E.M.F. The <persName
+                ref="#Tesla">Tesla</persName> motor belongs to this latter class.</p>
+        <p>"In every motor the torque is equal to the rate of change of lines of induction through
+            the armature circuit for a small angular displacement, multiplied by the armature
+            current, or dm/dt.</p>
+        <p>In the <persName ref="#Tesla">Tesla</persName> motor the first of these terms is greatest
+            when the coil is opposite a pole and the field currents have their greatest amplitude.
+            It is zero at a point about 45 deg. from this, supposing we neglect armature reactions.
+            It depends on several things. The E.M.F. which determines it is due to changes in the
+            number of lines of force passing through the armature circuit caused by (1) changes in
+            the field currents; (2) the motion of the armature. The current depends on these
+            E.M.F.'s, and on the reduced self-induction and resistance of its circuit. The motor can
+            only do work when the first cause of E.M.F. is the greater, for a current in the
+            direction of the ordinary counter E.M.F. would stop the motion. In some parts of a
+            revolution the two E.M.F.'s work together, retarding the motion; in others, the induced
+            E.M.F. produces a current causing the motor to revolve. It is impossible for me, with
+            only a meagre description of the principles of the machine, to give an idea of the
+            relative magnitude of these effects. Some of the results, however, are the following:
+            Having given a definite number of reversals of the dynamo, there are a number of speeds,
+            multiples of these reversals, at which the motor will govern itself when it is doing a
+            certain amount of work. At one of these speeds, depending on the construction of the
+            motor, the output will be a maximum. Now I see the statement that 'there is no
+            difficulty whatever attendant upon starting the motor under load.' I cannot reconcile
+            this with the above facts. That the torque for a smaller number of revolutions than
+            ordinarily used, might be greater, one can readily see, since the counter E.M.F. is less
+            in proportion to the induced E.M.F., but it must be remembered that for certain speeds
+            even the induced current would tend to stop the motion; how the motor is to pass these
+            critical speeds I do not see. Again, if the maximum load is suddenly thrown on while the
+            motor is running at its proper speed, then, if the inertia be great, the motor will fall
+            behind its point of maximum work, and either stop or take up some slower speed.</p>
+        <p>"What the possible efficiency and output of the motor may be, only experiment will tell.
+            I have shown (Inst. Elec. Engineers, Feb., 1888.) that the output of an ordinary
+            <current type="AC">alternating current</current> motor is equal to that of a
+            continuous current motor, supplied with a corresponding ing E.M.F. The efficiency might
+            be great, but is has the disadvantage that about the same current flows for no work and
+            maximum work, so for light loads the efficiency can hardly be very high.</p>
+        <p>"With our present knowledge of <current type="AC">alternating currents</current> it is
+            useless to attempt to calculate from the simple though misleading assumptions ordinarily
+            made, the output, conditions of maximum work &amp; of this machine. Experiment alone can
+            determine its value, and one properly conducted and interpreted set of experiments
+            should enable us to judge both the merit of the invention and its best possible form. I
+            cannot see, however, how, in the form described in the last issue of this journal the
+            motor can work under conditions of a suddenly varying load as satisfactorily as
+            continuous current motors."</p>
+        <p>To the above <persName ref="#Tesla">Mr. Tesla</persName> replied on <date
+            xsd="1888-06-02">June 2</date> as follows:</p>
+        <p>"I find in your issue of last week a note of <persName ref="#Other">Mr. Duncan</persName>
+            referring to my system of <current type="AC">alternate current</current> motors. "</p>
+        <p>As I see that <persName ref="#Other">Dr. Duncan</persName> has not as yet been made
+            acquainted with the real character of my invention, I cannot consider his article in the
+            light of a serious criticism, and would think it unnecessary to respond; but desiring to
+            express my consideration for him and the importance which I attach to his opinion, I
+            will point out here briefly the characteristic features of my invention, inasmuch as
+            they have a direct bearing on the article above referred to.</p>
+        <p>"The principle of action of my motor will be well understood from the following: By
+            passing <current type="AC">alternate currents</current> in proper manner through
+            independent evergising circuits in the motor, a progressive shifting or rotation of the
+            poles of the same is effected. This shifting is more or less continuous according to the
+            construction of the motor and the character and relative phase of the currents which
+            should exist in order to secure the most perfect action.</p>
+        <p>"If a laminated ring be wound with four coils, and the same be connected in proper order
+            to two independent circuits of an <current type="AC">alternate current</current>
+            generator adapted for this purpose, the passage of the currents through the coils
+            produces theoretically a rotation of the poles of the ring, and in actual practice, in a
+            series of experiments, I have demonstrated the complete analogy between such a ring and
+            a revolving magnet. From the application of this principle to the operation of motors,
+            two forms of motor of a character widely differing have resulted — one designed for
+            constant and the other for variable load. The misunderstanding of <persName ref="#Other"
+                >Dr. Duncan</persName> is due to the fact that the prominent features of each of
+            these two forms have not been specifically stated. In illustration of a representative
+            of the second class, I refer to Fig. 1, given herewith. In this instance, the armature
+            of the motor is provided with two coils at right angles. As it may be believed that a
+            symmetrical arrangement of the coils with respect to the poles is required, I will
+            assume that the armature is provided with a great number of diametrically wound coils or
+            conductors closed upon themselves, and forming as many independent circuits. Let it now
+            be supposed that the ring is permanently magnetized so as to show two poles (N and S) at
+            two points diametrically opposite, and that it is rotated by mechanical power. The
+            armature being stationary, the rotation of the ring magnet will set up currents in the
+            closed armature coils. These currents will be most intense at or near the points of the
+            greatest density of the force, and they will produce poles upon the armature core at
+            right angles to those of the ring. Of course there will be other elements entering into
+            action which will tend to modify this, but for the present they may be left
+            unconsidered. As far as the location of the poles upon the armature core is concerned,
+            the currents generated in the armature coils will always act in the same manner, and
+            will maintain continuously the poles of the core in the same position, with respect to
+            those of the ring in any position of the latter, and independently of the speed. From
+            the attraction between the core and the ring, a continuous rotary effort, constant in
+            all positions, will result, the same as in a continuous current motor with a great
+            number of armature coils. If the armature be allowed to turn, it will revolve in the
+            direction of rotation of the ring magnet, the induced current diminishing as the speed
+            increases, until upon the armature reaching very nearly the speed of the magnet, just
+            enough current will flow through the coils to keep up the rotation. If, instead of
+            rotating the ring by mechanical power, the poles of the same are shifted by the action
+            of the <current type="AC">alternate currents</current> in the two circuits, the same
+            results are obtained.</p>
+        <p>"Now compare this system with a continuous current system. In the latter we have <current
+            type="AC">alternate currents</current> in the generator and motor coils, and
+            intervening devices for commutating the currents, which on the motor besides effect
+            automatically a progressive shifting or rotation of the poles of the armature; here we
+            have the same elements and identically the same operation, but without the commutating
+            devices. In view of the fact that these devices are entirely unessential to the
+            operation, such <current type="AC">alternate current</current> system will — at least in
+            many respects — show a complete similarity with a continuous current system, and the
+            motor will act precisely like a continuous current motor. If the load is augmented, the
+            speed is diminished and the rotary effort correspondingly increased, as more current is
+            made to pass through the energising circuits; load being taken off, the speed increases,
+            and the current, and consequently the effort, is lessened. The effort, of course, is
+            greatest when the armature is in the state of rest.</p>
+        <p>"But, since the analogy is complete, how about the maximum efficiency and current passing
+            through the circuits when the motor is running without any load? one will naturally
+            inquire. It must be remembered that we have to deal with <current type="AC">alternate
+                currents</current>. In this form the motor simply represents a transformer, in which
+            currents are induced by a dynamic action instead of by reversals, and, as it might be
+            expected, the efficiency will be maximum at full load. As regards the current, there
+            will be — at least, under proper conditions — as wide a variation in its strength as in
+            a transformer, and, by observing proper rules, it may be reduced to any desired
+            quantity. Moreover, the current passing through the motor when running free, is no
+            measure for the energy absorbed, since the instruments indicate only the numerical sum
+            of the <current type="DC">direct</current> and induced electromotive forces and currents
+            instead of showing their difference.</p>
+        <p>"Regarding the other class of these motors, designed for constant speed, the objections
+            of <persName ref="#Other">Dr. Duncan</persName> are, in a measure applicable to certain
+            constructions, but it should be considered that such motors are not expected to run
+            without any, or with a very light load; and, if so, they do not, when properly
+            constructed, present in this respect any more disadvantage than transformers under
+            similar conditions. Besides, both features, rotary effort and tendency to constant
+            speed, may be combined in a motor, and any desired preponderance may be given to either
+            one, and in this manner a motor may be obtained possessing any desired character and
+            capable of satisfying any possible demand in practice.</p>
+        <p>"In conclusion, I will remark, with all respect to <persName ref="#Other">Dr.
+            Duncan</persName>, that the advantages claimed for my system are not mere
+            assumptions, but results actually obtained, and that for this purpose experiments have
+            been conducted through a long period, and with an assiduity such as only a deep interest
+            in the invention could inspire; nevertheless, although my motor is the fruit of long
+            labour and careful investigation, I do not wish to claim any other merit beyond that of
+            having invented it, and I leave it to men more competent than with <current type="AC"
+                >alternate currents</current>. In this form the motor simply represents a
+            transformer, in which currents are induced by a dynamic action instead of by reversals,
+            and, as it might be expected, the efficiency will be maximum at full load. As regards
+            the current, there will be — at least, under proper conditions — as wide a variation in
+            its strength as in a transformer, and, by observing proper rules, it may be reduced to
+            any desired quantity. Moreover, the current passing through the motor when running free,
+            is no measure for the energy absorbed, since the instruments indicate only the numerical
+            sum of the <current type="DC">direct</current> and induced electromotive forces and
+            currents instead of showing their difference. "Regarding the other class of these
+            motors, designed for constant speed, the objections of <persName ref="#Other">Dr.
+                Duncan</persName> are, in a measure applicable to certain constructions, but it
+            should be considered that such motors are not expected to run without any, or with a
+            very light load; and, if so, they do not, when properly constructed, present in this
+            respect any more disadvantage than transformers under similar conditions. Besides, both
+            features, rotary effort and tendency to constant speed, may be combined in a motor, and
+            any desired preponderance may be given to either one, and in this manner a motor may be
+            obtained possessing any desired character and capable of satisfying any possible demand
+            in practice. "In conclusion, I will remark, with all respect to <persName ref="#Other"
+                >Dr. Duncan</persName>, that the advantages claimed for my system are not mere
+            assumptions, but results actually obtained, and that for this purpose experiments have
+            been conducted through a long period, and with an assiduity such as only a deep interest
+            in the invention could inspire; nevertheless, although my motor is the fruit of long
+            labour and careful investigation, I do not wish to claim any other merit beyond that of
+            having invented it, and I leave it to men more competent than myself to determine the
+            true laws of the principle and the best mode of its application. What the result of
+            these investigations will be the future will tell; but whatever they may be, and to
+            whatever this principle may lead, I shall be sufficiently recompensed if later it will
+            be admitted that I have contributed a share, however small, to the advancement of
+            science."</p>
+    
+    
+        <p>The <company name="Other">East River Electric Lighting Company</company>, at its dynamo:
+            house, <loc>East 24th St.</loc>, this city, employs the Thomson-Houston system of
+            electric lighting, using in all its outside lamps the <current type="DC">direct
+                current</current>. But in the dynamo room is one machine which generates the
+            <current type="AC">alternating current</current>, and this is used to supply the
+            incandescent lights in the building, and, recently, for experiments by the <company
+                name="Other">Perry Motor Company</company>. This one machine generates 1,000 volts
+            power, and has not been long in the building.</p>
+        <p>On <date xsd="1889-09-02">September 2</date>, says the N.Y. Times, something went wrong
+            with the switchboard connected with this machine, and <persName ref="#Other">Darwin A.
+                Henry</persName>, the superintendent of construction of the company, undertook to
+            set it right. He climbed up the short ladder used to reach the switchboard, and started
+            in on his work. He had been thus engaged for about five minutes when he attempted to
+            turn part way around on the ladder. In some way one of his feet slipped, and for an
+            instant he was in danger of losing his balance. Instinctively his arms were thrown up to
+            recover himself. One hand came in contact with the negative terminal on the board, and
+            hardly had he touched it when the other had struck the positive pole. The effect was
+            instantaneous. The unfortunate man’s hands remained as if glued to the death-dealing
+            wire, his head dropped over on one shoulder, and in that position he remained for some
+            moments. He did not utter sound. There were two other men, named <persName ref="#Other"
+                >Thomason</persName> and <persName ref="#Other">Smith</persName>, working in the
+            room, and one of them after a few seconds caught sight of his chief resting apparently
+            with his weight against the switchboard. Both men rushed to his assistance, but the man
+            was dead. They tore his hands from the wires and lifted his body down and laid it on a
+            bench. One of his hands—the right one---was terribly burned, the flesh having been
+            consumed to the bone. The other hand was burned, but not so very badly.</p>
+        <p>Medical help was at once summoned. <persName ref="#Other">Dr. L.D. Henderson</persName>
+            and <persName ref="#Other">Dr. W.C. Feeley</persName> were at the superintendent’s side
+            within ten minutes, and worked hard in trying to restore animation, but they might as
+            well have tried to put life in a stone. They injected, hypodermically, quantities of
+            brandy. <persName ref="#Other">Sylvester’s</persName> system of artificial respiration
+            was called into use, and they tried with a galvanic battery to bring the man back from
+            death. But all efforts were absolutely useless, and after two hours of hard work the
+            weary physicians were obliged to abandon their task and declare their patient dead.</p>
+        <p>There had not been a single evidence of life in <persName ref="#Other">Henry</persName>
+            from the time he touched the wires. When the doctors reached him, the heart had ceased
+            to beat and there was no sign of respiration.</p>
+        <p>In the opinion of both physicians, <persName ref="#Other">Henry</persName>’s death was
+            instantaneous, and, if the absence of any contortion either in body or face proved
+            anything, it was a painless one. The burns in the hand, both the physicians and the
+            employees in the building believe, were caused when the hands were torn away from the
+            wires and after the man was dead. The separation created an arc, and without an arc
+            there can be no burns.</p>
+        <p><persName ref="#Other">Mr. Henry</persName> was about thirty years old, unmarried, and
+            had been a practical electrical engineer from his boyhood. He was a capable electrician,
+            and had much experience in handling electric apparatus, and was highly regarded by his
+            employers.</p>
+        <p>The final argument on the question of the constitutionality of the new electric execution
+            law, a question which involves the disputed power of the <current type="AC">alternating
+                current</current> to kill, will be held at <loc>Buffalo</loc> within a fortnight,
+            and this case may have considerable weight in the argument. It is proposed to use an
+            <current type="AC">alternating current</current> of from 1,500 to 2,000 voltage in
+            these executions, and it is contended that that force would not be sufficient to kill.
+            In this case a 1,000 volt current, even when only accidentally applied, did its awful
+            work effectually.</p>
+    
+    
+        <p>The problem of obtaining continuous currents from <current type="AC"
+            >alternating</current> is one that has received not a little attention, and various
+            solutions have been offered on both sides of <loc>the Atlantic</loc>. The <loc>New
+                York</loc> correspondent of the Electrician says that <persName ref="#Tesla">Mr.
+                    Nikola Tesla</persName> has applied himself to the matter, and now offers a simple
+            and ingenious solution. His idea and method consist broadly in directing the waves of an
+            <current type="AC">alternating current</current> so as to produce continuous
+            currents by developing in the branches of an <current type="AC"
+                >alternating-current</current> circuit certain manifestations of energy or active
+            opposite resistances by which the <current type="AC">alternating-current</current> waves
+            of opposite sign are diverted through different circuits. Thus the currents of different
+            sign are, so to speak, sifted out: those of one sign passing over one branch, and those
+            of an opposite sign over the other. There may thus be obtained from an <current
+                type="AC">alternating current</current> two or more <current type="DC">direct
+                    currents</current> without the employment of a commutator. <persName ref="#Tesla"
+                        >Mr. Tesla</persName> proposes both electrical and electro-magnetic methods for
+            achieving this result. In the electrical method the device to create an electromotive
+            force counter to the waves of current on one side may, for example, be batteries or
+            continuous-current machines. In the electro-magnetic method, instead of producing the
+            electromotive force in each branch of the circuit, a field of force may be established,
+            and the branches be led through it in such a manner that an active opposition will be
+            developed therein by the passage, or tendency to pass, of the <current type="AC"
+                >alternations of current</current>. Another purely magnetic method is that wherein
+            <persName ref="#Tesla">Mr. Tesla</persName> employs two strong permanent magnets,
+            the armatures of which are built up of thin laminae of soft iron or steel, the amount of
+            magnetic metal which they contain being so calculated that they will be nearly or fully
+            saturated by the magnets.</p>
+        <p><loc>Pittsburgh, Pa</loc>., <date xsd="1891-01-16"> Jan. 16, 1891</date>.--The latest
+            guess at the probable outcome of the financial troubles of the <company
+                name="Westinghouse">Westinghouse Electric Manurfacturing Company</company> is that
+            under the terms "of consolidation" the <company name="Westinghouse">Westinghouse
+                company</company> will be absorbed by its great Eastern rival, the <company
+                    name="Thomson-Houston">Thomson-Houston company</company>. Officials of the <company
+                        name="Westinghouse">Westinghouse company</company> will not talk of this, but it is
+            known that the chief counsel for the <company name="Thomson-Houston">Thomson-Houston
+                company</company> has been consultation for several days with representatives of the
+            <company name="Westinghouse">Westinghouse</company> interests.</p>
+        <p><persName ref="#Other">Henry W. Long</persName>, a leading broker and heavy holder of
+            <company name="Westinghouse">Westinghouse</company> stock, said to-day he considered
+            a receivership of the <company name="Westinghouse">Westinghouse company</company> or
+            consolidation inevitable. He considers consolidation more likely to result in good for
+            the stockholders than a receivership.</p>
+        <p><persName ref="#Westinghouse">Mr. Westinghouse</persName> did not return to
+            <loc>Pittsburg</loc> to-day, but wired that he still has strong hopes of placing
+            enough of the preferred stock of his company to enable it to weather the storm. it is
+            understood no new suits will be entered until <date xsd="1891-01-26">January 26</date>,
+            the first return day. Creditors can gain nothing moving before, and the feeling is
+            general in favor of giving <persName ref="#Westinghouse">Mr. Westinghouse</persName> all the time possible. On this account the
+            action of the advisory board in returning their checks to contributors to the $500,000
+            relief fund during the absence from the city of  <persName ref="#Westinghouse">Mr. Westinghouse</persName>and making public
+            announcement of the fact is severely criticised.</p>
+        <p><company name="Other">The Philadelphia company</company>, a <persName ref="#Westinghouse">Westinghouse</persName> concern which controls the natural gas supply
+            and <loc>Pittsburgh</loc>, and which has been carrying a heavy floating debt and paying eight and
+            twelve per cent dividends, decided to-day to pay no more dividends until the
+            indebtedness is wiped out. The officers of the company say it is sound financially.</p>
+    
+    
+        <p><persName ref="#Other">Martin A. Frank</persName>, who owns thirty-one shares of the
+            stock of the <company name="Edison">Edison Electric Light Company</company>, has taken
+            proceedings in the <loc>Supreme Court</loc> against that company and the <company
+                name="Edison">Edison General Electric Company</company>, and threatens to apply for
+            an injunction and appointment of a receiver of an <company name="Edison">electric light
+                company</company>. Its capital stock is $1,500,000.</p>
+        
+        <p><persName ref="#Other">Frank</persName> asserts that a majority of the stockholders and
+            directors of the<company name="Edison"> light company</company> have diverted the assets
+            and property and have turned them to a purpase which was neither contemplated by the
+            character of the company nor is permitted under the laws of this <loc>State</loc>. He
+            says a majority of the officers, directors and stockholders of the <company
+                name="Edison">light company</company> organized the <company name="Edison">Edison
+                    General Electric Company</company>, which has secured possession of a large part of
+            the stock of the <company name="Edison">light company</company>, and has secured control
+            of its property and of its operations, and also the election of its officers.</p>
+        
+        <p><persName ref="#Other">Mr. Frank</persName> further complains that no dividend has ever
+            been declared or paid by the <company name="Edison">light company</company>, but that
+            its earnings have been accumulating without the consent of the stockholders.</p>
+        
+        <p><persName ref="#Other">Frank</persName> secured an order from the <loc>Court</loc> for
+            the examinataion of <persName ref="#Other">Edward H. Johnson</persName>, who is a
+            dierector in both companies.</p>
+        
+        <p>The <company name="Edison">Edison companies</company> yesterday applied to <persName
+            ref="#Other">Judge Ingraham</persName>, in <loc>Supreme Court Chambers</loc>, to
+            have the order vacated, because it would give a small stockholder the opportunity of
+            getting at secrets which should not be revealed at this time.</p>
+        
+        <p><persName ref="#Other">Judge Ingraham</persName> thought <persName ref="#Other"
+            >Johnson's</persName> examination was perfectly proper, but said he would consider
+            the question.</p>
+    
+    
+        <p>About a year and a half ago while engaged in the study of <current type="AC">alternate
+            currents</current> of short period, it occurred to me that such currents could be
+            obtained by rotating charged surfaces in close proximity to conductors. Accordingly I
+            devised various forms of experimental apparatus of which two are illustrated in the
+            accompanying engravings. </p>
+        <p>Fig. 1. <persName id="#Tesla">Tesla</persName> Alternating Electrostatic Induction
+            Apparatus In the apparatus shown in Fig. 1, A is a ring of dry shellacked hard wood
+            provided on its inside with two sets of tin-foil coatings, a and b, all the a coatings
+            and all the b coatings being connected together, respectively, but independent from each
+            other. These two sets of coatings are connected to two terminals, T. For the sake of
+            clearness only a few coatings are shown. Inside of the ring A, and in close proximity to
+            it there is arranged to rotate a cylinder B, likewise of dry, shellacked hard wood, and
+            provided with two similar sets of coatings, a1 and b1, all the coatings a1 being
+            connected to one ring and all the others, b1, to another marked + and . These two sets,
+            a1 and b1 are charged to a high potential by a Holtz or a Wimshurst machine, and may be
+            connected to a jar of some capacity. The inside of ring A is coated with mica in order
+            to increase the induction and also to allow higher potentials to be used.</p>
+        <p>Fig. 2. <persName id="#Tesla">Tesla</persName> Alternating Electrostatic Induction
+            Apparatus When the cylinder B with the charged coatings is rotated, a circuit connected
+            to the terminals T is traversed by <current type="AC">alternating currents</current>.
+            Another form of apparatus is illustrated in Fig. 2. In this apparatus the two sets of
+            tin-foil coatings are glued on a plate of ebonite, and a similar plate which is rotated,
+            and the coatings of which are charged as in Fig. 1, is provided.</p>
+        <p>The output of such an apparatus is very small, but some of the effects peculiar to
+            <current type="AC">alternating currents</current> of short periods may be observed.
+            The effects, however, cannot be compared with those obtainable with an induction coil
+            which is operated by an <current type="AC">alternate current</current> machine of high
+            frequency, some of which were described by me a short while ago.</p>
+    
+    
+        <p><persName ref="#Tesla">Mr. Nikola Tesla</persName>, to whom the English and French
+            scientific public has just accorded a very warm reception, is a pioneer in electric
+            science, and one of those who will have influenced future progress through an almost
+            radical transformation of the old processes and old methods.</p>
+        <p>Some day we shall have occasion to describe the two <current type="AC">alternating
+            current</current> motors devised by <persName ref="#Tesla">Mr. Tesla</persName> as
+            long ago as 1888. At present, we shall content ourselves with recurring to his
+            magnificent experiments on high potentials and <current type="AC">alternating
+                currents</current> of great frequency, of which we have already given a complete
+            idea in summarizing the communication made by the author on the <date xsd="1891-05-30"
+                >30th of May, 1891</date>, before the American Institute of Electrical
+            Engineers.</p>
+        <p>In the train of this communication, which made a very great sensation in the scientific
+            world, <persName ref="#Tesla">Mr. Tesla</persName>, acceding to the pressing
+            solicitations of his friends and admirers, came to <loc>Europe</loc> and performed at
+            <loc>London</loc> on February 3rd, and at Paris on the 19th of the same month,
+            before the French Society of Physics and the International Society of Electricians,
+            assembled in the hall of the Society of Encouragement, the remarkable experiments of
+            which we were witness and of which we propose to give an idea, despite the dryness of
+            the subject, its very special character, and our inability to make a clear exposition of
+            it.</p>
+        <p><persName ref="#Tesla">Mr. Tesla</persName> did not content himself with a simple
+            repetition of the experiments made in <loc>America</loc>, but he extended them and
+            rendered them complete, and the communications made in <loc>Europe</loc> may be
+            considered as the second part of a long and remarkable study of which the first part was
+            presented in the New World last year.</p>
+        <p>In the first place, let us briefly recall the processes employed by <persName
+            ref="#Tesla">Mr. Tesla</persName> for the production of <current type="AC"
+                >alternating currents</current> of great frequency. The simplest consists in the use
+            of an alternator of special form, which is represented herewith in Fig. 2. This consists
+            of a steel disk 30 inches in diameter, upon which are mounted 384 small bobbins, or,
+            more accurately, 384 small zigzag windings. This disk revolves in the interior of a
+            fixed ring carrying 384 inductor poles. The result is that the frequency of the <current
+                type="AC">alternating currents</current> engendered by the revolution of the
+            armature before the inductors produces 193 periods per revolution, and that at the
+            normal maximum velocity of 3,000 revolutions per minute, or 30 per second, a frequency
+            of 9,600 periods per second is obtained, instead of the hundred solely that ordinary
+            alternators give. The <current type="AC">alternating current</current> thus engendered
+            is collected through the aid of two rings against which two brushes rub, as in all
+            alternators with movable armature.</p>
+        <p>A separate excitation permits of varying at will the alternator’s electro-motive force,
+            which, under full excitation, may reach 300 volts. In the second process employed by
+            <persName ref="#Tesla">Mr. Tesla</persName> for obtaining much greater frequencies,
+            which may reach and even exceed a million per second, he utilizes an ordinary
+            alternator. In the experiments of February 19, he employed a <company name="Siemens"
+                >Siemens</company> alternator, whose frequency did not exceed fifty periods per
+            second.</p>
+        <p>The <current type="AC">alternating current</current> thus produced is sent to an
+            induction coil by establishing in derivation, upon the primary circuit, a disruptive
+            discharge apparatus formed of a condenser and two polished bans whose distance apart may
+            be varied This spacing regulates the frequency of the discharges, and, consequently, the
+            frequency of the currents traversing the inductor of the bobbin. The sparks of the
+            disruptive discharges burst forth in a powerful magnetic, field which facilitates their
+            rapid production, as well as the cooling of the space wherein they are produced with so
+            great a rapidity. Whatever be the process employed for obtaining great frequencies, the
+            potential is always inadequate, and it is increased by transforming the <current
+                type="AC">alternating current</current> by the aid of a suitable bobbin. This latter
+            consists of an internal inductor winding and an external armature winding, formed of
+            relatively coarse wire, and of a number of quite small spirals; for it must not be lost
+            sight of that, seeing the great frequency of the currents, the electromotive force
+            developed for a given length of wire is incomparably higher than with ordinary bobbins.
+            These bobbins have no iron core, and are completely submerged in boiled linseed oil; the
+            object of which is to secure perfect insulation and to prevent the presence of air,
+            which, in this particular case, would be very prejudicial through the considerable
+            heating that it would produce under the action of the enormous and frequently reversed
+            electrostatic tensions to which it would be submitted.</p>
+        <p>In order to obtain powerful effects, <persName ref="#Tesla">Mr. Tesla</persName>
+            overcomes the prejudicial effects of self-induction by utilizing the properties of
+            condensers properly interposed in the circuit of the alternator or in derivation upon
+            the terminals of the disruptive discharge apparatus. A certain number of the experiments
+            made by <persName ref="#Tesla">Mr. Tesla</persName> on Feb. 19 were merely a
+            reproduction of those that we have spoken of before. We shall therefore not reproduce
+            them, but shall dwell more especially upon those that present a character of
+            novelty.</p>
+        
+        <heading>Fig. 2, TESLA’S RAPID ALTERNATOR.</heading>
+        
+        <p>The first experiments were made with the disruptive discharge apparatus, that which gives
+            the greatest frequencies at present obtainable by tho means at our disposal. In these
+            conditions, the electrostatic discharges traverse the air under the form of luminous
+            discharges, as if the air were rarefied. On interposing an ebonite plate, the
+            electrostatic capacity of the system formed by the two balls between which the discharge
+            takes place and the ebonite plate is increased by the interposition of a dielectric
+            whose specific inductive capacity is greater than that of the air, and the brightness of
+            the discharges is thereby intensified. These discharges easily traverse long tubes
+            containing rarefied gases, which they illuminate with a bright light, each rarefied gas
+            giving to the light its own distinctive color. The discharges occur likewise between two
+            cotton-covered wires insulated from each other and put in connection with the two
+            terminals of tho bobbin. These wires emit a violet light throughout their entire length,
+            and even render luminous the space comprised between them.</p>
+        
+        <heading>Kg. 1,—PARIS-MR. TESLA LECTURING BEFORE THE FRENCH PHYSICAL SOCIETY AND THE
+            INTERNATIONAL SOCIETY OF ELECTRICIANS.</heading>
+        
+        <p>All the other experiments were made with the alternator shown in Fig. 3, which gives from
+            9,000 to 10,000 periods per second. <persName ref="#Tesla">Mr. Tesla</persName> first
+            showed the discharges in the form of a flame.</p>
+        <p>In order to prove that these discharges of high potential and great frequency are not
+            dangerous, he was able, on taking in his hands two metallic balls designed to prevent
+            his being burned by the spark, to receive the entire discharge from the bobbin, the
+            discharge passing through his body interposed between the two balls. <persName
+                ref="#Tesla">Mr. Tesla</persName> afterward showed that the return wire is
+            absolutely useless for making the discharge current pass. The latter may be established
+            by the air, and pass more easily if care be taken to connect one of the extremities of
+            the wire of the bobbin with a conducting plate insulated in space. The molecular
+            bombardment heats the part which presents but little surface put in communication with
+            the second pole of the bobbin, and it was thus that <persName ref="#Tesla">Mr.
+                Tesla</persName> showed us the incandescence of a thin platinum wire or of a carbon
+            filament inclosed in a globe of rarefied air.</p>
+        <p>Every increase in the capacity of the system increases the discharge current, and,
+            consequently, the incandescence. It suffices, for example, to bring the hand near the
+            globe containing the incandescent body, and to place a metallic shade above the latter,
+            or even (an effect paradoxical in appearance) to place the shade alongside of the globe,
+            to produce an increase of brightness resulting from the increase of the electrostatic
+            capacity.</p>
+        <p>The wire to which the filament is attached is connected, sis we have said, with the
+            secondary wire of the bobbin, whose other wire communicates with an insulated metallic
+            plate. Such metallic communication is not indispensable. In fact, if the wire is covered
+            with lead, a layer of gutta peroha entirely insulating the copper wire and the leaden
+            tube that envelops it, the lamp with a single filament becomes lighted as brilliantly
+            when it is put in communication with the copper wire or the leaden tube.</p>
+        <p><persName ref="#Tesla">Mr. Tesla</persName> thus actuated a Crookes electric radiator,
+            and even a special single wire motor, to describe which would lead us too far. He
+            afterward illuminated certain bodies that are but mediocre conductors, such as alumina,
+            carbon, lime, “carborundum,” and a few phosphorescent bodies, such as sulphide of
+            calcium, yttria, sulphide of zinc, and the ruby, the marvelous effects of which several
+            times gained the unanimous applause of the spectators. <persName ref="#Tesla">Mr.
+                Tesla</persName> finally terminated with a few experiments in the illumination of
+            tubes of rarefied gases without wires or electrodes, the tubes being simply placed in
+            the periodical electrostatic field produced between one of the insulated poles of the
+            bobbin on the one hand and an insulated metallic plate placed above the experimenter and
+            communicating with the other pole of the bobbin on the other hand.</p>
+        <p>Fig. 1 shows one of these experiments, in which <persName ref="#Tesla">Mr.
+            Tesla</persName> is producing the illumination of two tubes at once. In order to
+            effect the extinction of one of these tubes, it suffices to interpose a middlingly
+            conductive screeh in the electrostatic field, or to place the tube in a direction
+            sensibly perpendicular to the flux of induction of the field. The same tube remains dark
+            in all positions if it is held by its two extremities at once, the body forming a
+            screen. On sliding the hand along the tube, it is possible to render one of its'
+            extremities luminous. Nothing is more curious than to see the light produced by this
+            process thus extinguished and relighted at will.</p>
+        <p>Such are, very briefly described, the principal experiments which, for more than two
+            hours, deeply interested the members of the two societies mentioned above, who had the
+            good fortune to be present at <persName ref="#Tesla">Mr. Tesla’s</persName> lecture.</p>
+        <p>It would be difficult as yet to say what future is in store for them from the standpoint
+            of an industrial, utilitarian and practical new mode of production of light. The more so
+            as the dream of the inventor is broader and his views more exalted than the expert-ments
+            that he presented to us allow to be seen. His final ambition appears to be to transform
+            the energy of the medium that environs us, and which is very evident by its numerous
+            manifestations, into light, or at least to obtain therefrom radiations of the same wave
+            length and same frequency as those that produce luminous sensations. Crookes’ radiometer
+            has already proved that it is possible to convert the radiant energy of a medium
+            directly into mechanical energy, and although, from the standpoint of rendering, this
+            radiometer is the most detestable of all transformation apparatus, it is none the less
+            the most admirable, by the fact that it affords us a tangible demonstration of the
+            possibility of such transformation.</p>
+        <p>On the other hand, <persName ref="#Tesla">Mr. Tesla</persName>, in his memorable
+            experiments, has shown us that, on periodically varying, with very great frequency, an
+            electrostatic field, it is possible to place apparatus of great simplicity therein, such
+            as tubes of rarefied gases, which collect a portion of such energy and render it
+            luminous. To the philosopher and savant nothing more is necessary to establish the
+            possibility, if not the probability, of the realization of <persName ref="#Tesla">Mr.
+                Tesla’s</persName> final views. To him the light of the future resides in the
+            incandescence of solids, gases, and phosphorescent bodies excited (if we may use a
+            somewhat vague expression) by high potentials varying with very great frequency.</p>
+        <p>The young scientist is convinced of this as a precursor, and almost as a prophet. He
+            introduces so much warmth and sincerity into his explanations and experiments that faith
+            wins us, and, despite ourselves, we believe that we are witnesses of the dawn of a
+            nearby revolution in the present processes of illumination. —B. Hospitaller, in Ba
+            Nature.</p>
+    
+    
+        <p>Any one of our modern electrical scientists could, by departing from the dignity of his
+            calling, launch out as a professional magician and make a fortune on the stage.
+            <persName ref="#Tesla">Nikola Tesla</persName>, <persName ref="#Edison"
+                >Edison</persName>, <persName ref="#Thomson">Prof. Ellihu Thomson</persName>, and
+            many other earnest workers surpass in their laboratory experiments anything done behind
+            the footlights. No Hindoo juggler can do more in the gentle art of mystifying than the
+            electrician. His apparatus is simple and his results are amusing enough to sound a
+            recall. <persName ref="#Edison">Thomas A. Edison</persName> several years ago had a
+            small motor which ran without any apparent electrical. connection. It stood upon a table
+            and whirled rapidly. It was very mystifying in the then stage of electrical science and
+            savored of perpetual motion. The real secret lay in the fact that projecting from the
+            base of the motor were two sharp metal pins which, when the motor was laid upon the
+            table, penetrated the thin veneer of the table top and made connection with wires
+            underneath. An electrician would disdain such a device now. Recent progress has shown
+            that it is not necessary to have even the connecting wires. Motors now run and depend
+            for their driving power on the electrical excitement of the atmosphere. They may bo far
+            removed from the appliance generating the power and yet work away merrily. <persName
+                ref="#Tesla">Tesla</persName> will hold a lamp in his band, stand in the middle of a
+            largo room away from all wires or metallic connections, and the lamp will glow and send
+            forth a radiance not to be equalled. What could be more magical than this?</p>
+        <heading>THE SPINNING EGG.</heading>
+        <p>Could <persName>Christopher Columbus</persName> have visited the <event>Chicago
+            Exposition</event> he would have found his trick of making an egg stand on end very
+            much improved by aid of electricity. In one of the exhibits was a large egg on end upon
+            a table. Visitors wondered what made that egg stand on end. Then it was discovered that
+            the egg was not standing, but whirling—whirling with such rapidity that it seemed to
+            stand still. Suddenly the egg stopped moving and fell down upon its side. Now, wonderful
+            as this seemed, it is a very simple phenomenon, easily produced, and an everyday
+            occurrence in the laboratory. The egg belonged to <persName ref="#Tesla">Nikola
+                Tesla</persName>, and is at present in his laboratory in <loc>New York city</loc>.
+            Inside the egg were arranged several coils of wire, and these were acted upon by several
+            other coils near by, but unconnected by any mechanical process with the egg itself. </p>
+        <heading>FREAKS OF THE ALTERNATING ELECTRIC CURRENT.</heading>
+        <p>When the <current type="AC">alternating current</current> of electricity, as it is
+            called, began to be understood several years ago, it was noticed that very peculiar
+            phenomena were attendant on its action. When, for instance, a peculiarly wound coil of
+            wire was placed near another coil that was traversed by an <current type="AC"
+                >alternating current</current>, a repulsive action took place, and the coils were
+            driven away from each other. Under other conditions, attraction resulted. By
+            manipulating the coils a series of attractions and repulsions were produced, and thus it
+            became possible to get any number of strange effects, one of them being the apparent
+            causeless whirling of the egg. Another is the action of a bunch of keys which, when
+            thrown upon the table in place of the egg, whirls so rapidly that its form is
+            indistinguishable. A copper plate or a copper ring ls affected precisely the same as the
+            coll when place near an <current type="AC">alternating current</current> coil. It will
+            be driven away or attracted. How easy, then, for the electrician to turn magician and
+            mystify an audience. A simple cell underneath a table top will create more mystery for
+            the uninitiated than a spiritualistic seance. The intervening wood of the table cuts no
+            figure in the general calculation. The <current type="AC">alternating current</current>
+            is a great leveler. it cares for nothing. A coil traversed by the current Will create
+            all around it an electrical atmosphere that will penetrate wood, glass, or anything else
+            of the same nature. <persName ref="#Thomson"> Prof. Elihu Thomson</persName> of
+            <loc>Lynn, Mass.</loc>, has performed a number of experiments which show the great
+            possibilities for amusing which may be got out of the <current type="AC">alternating
+                current</current>. </p>
+        <heading>A MAGICAL HOOP.</heading>
+        <p>In the same laboratory they take a metal plate and spin it on a pivot, not by any
+            mechanical moans, but by surrounding the plate and pivot with what appears to bo a
+            large, hoop attached to a handle. The hoop, however, is really the core of a large,
+            electric coil, wire being wrapped round and round it, The repulsion and attraction set
+            up in the hoop cause the metal plate to revolve. If the bunch of before mentioned were
+            thrown on the table and within this hoop, it would whirl as rapidly as in the first
+            instance. So would the egg. <persName ref="#Thomson">Prof. Thomson</persName> has
+            described how he has laid a common steel file on a table underneath which a coil was
+            fixed, and caused metal discs to revolve in his hands by merely holding the discs near
+            to the filo But even this is not as curious as a feat performed in another laboratory
+            not long since. A number of metal plates were laid out on a table as though in
+            preparation for a dinner party. Then some people were asked to seat themselves at the
+            table, and no sooner had they done so than the plates suddenly began to Jump into the
+            air. Nothing could have been more startling, and there was a general and instanta neous
+            stampede. Then it was disclosed that each plate had been laid directly above where a
+            coil was placed under the Following is an idea obtained from the above, one of the
+            persons present suggested that church contribution boxes could be made on this plan with
+            curious results. Such a box has been made, and is simply impossible to get money to stay
+            in it. Pennies especially have no liking for it and fly out in a surprising manner. </p>
+        <heading>THE DANCING NAILS.</heading>
+        <p>The same principle which governed the above was applied in another direction during an
+            exhibition which was given by the <loc>Franklin Institute of Philadelphia</loc> some
+            time ago. In the middle of the hall stood a plain pine table and on it was a handful of
+            ordinary tenpenny nails. The nails lay in a heap and it looked as though some workman
+            had thrown them there. Spectators were busy watching other things and the nails were
+            passed with a glance. However, the eyes of one old lady and gentleman nearly popped out
+            of their heads when happening to look at the nails, the latter all got up on end, heads
+            up, and actually bowed and scraped to the astonished couple. The table was surrounded in
+            an instant by astonished people, before whom the nails paired off and danced and
+            waltzed. Some fell on their sides but immediately got up and bowed an apology. Coils
+            beneath the table did it all. The head of the nails, containing more bulk than the
+            points, sustained more repusive action and consefarthest away from the coil, which in
+            its turn was regulated from another part of the room. </p>
+        <heading><persName ref="#Tesla">NIKOLA TESLA</persName>’S STARTLING EXPERIMENTS.</heading>
+        <p>Mr. <persName ref="#Tesla">Tesla</persName>, in the course of a recent evening lecture,
+            requested that the lights be turned, off it was done, and then the audience saw truly
+            magic sight. There stood the electrician with a small lamp in his hand and his hand
+            above his head. Rays of unequaled beauty came from the lamp and spread down over the
+            body of the man. The lamp was a simple affair and no wires connecting it with a hidden
+            source supply. It was as if the lamp of Aladdin had been rubbed and beautiful jewels
+            were gleaming forth, this was followed by another and even more startling experiment.
+            Again the room was, darkened. The lecturer became invisible to the expectant spectators
+            and then a human hand, plaln and distinct, a hand of fire, reached out from the darkness
+            and; all transparent, was seen waving aloft, while shooting out from it were sparks and
+            streams of light. In exposition of these seeming wonders let me give Mr. <persName
+                ref="#Tesla">Tesla</persName>’s own words: </p>
+        <heading>
+            <persName ref="#Tesla">TESLA</persName> EXPLAINS THE WONDERS.</heading>
+        <p>"When two conducting bodies are insulated and electrified, we say that an electrostatic
+            force is acting between them. This force manifests itself in attractions, repulsions and
+            stresses in the bodies and space or medium without. So great may be the strain exerted
+            in the air that it may break down, and we obeerve sparks of bundles of light or
+            streamers, as they are called. These streamers form abundantly when the force through
+            the air io rapidly varying. I will illustrate this action in a novel experiment in which
+            I will employ an Induction coll. The coll is contained in a trough of oil and is placed
+            under the table. The two ends of the. secondary wire of the coil pass, through two
+            columns of hard rubber which protrude to some height above the table. Attached to one
+            wire running through the hard rubber Is a large sphere of sheet brass. </p>
+        <heading>THE FLYING RING.</heading>
+        <p>Perhaps the most wonderful trick of all is the one in which the current overcomes the
+            force of gravity. A short, stout column of wood stands upon .the laboratory table. Near
+            by is a copperring, a trifle larger than the column. Concealed In that column of* wood
+            is a coil traversed by an <current type="AC">alternating current</current>. Now, strange
+            as it may seem, it is impossible to keep that ring on that column. Place it there and It
+            will fly off the moment you take your hands away. Throw it on, it will balance itself in
+            midair around the column until the electricity overcomes the force of gravity, and then
+            it will fly away as before. The repulsive action lias taken place and forced the ring
+            away from, the immediate neighborhood of the concealed coil. The effect is really
+            magical. The ring can be made to stay near the coil in one way by taking advantage of
+            the attractive faction. You may stand the ring on edge, as it were, on the projecting
+            core of such a coll, and the attraction at this point will hold it firmly. </p>
+        <heading>A LAMP THAT BURNS ONLY UNDER WATER.</heading>
+        <p>It is one of the principles of the <current type="AC">alternating current</current> that
+            when a coil is traversed by it, it has the power to induce a current to flow in another
+            coil, if the latter is brought within the electric atmosphere of the first coil.
+            <persName ref="#Thomson">Prof. Thomson</persName> has taken advantage of this fact
+            to produce a very mystifying and very beautiful experiment. You may walk into his
+            laboratory some day and behold an incandescent, lamp floating around in a jar of water,
+            and connected to a dynamo. You may safely, lift the lamp out of the water and examine
+            it. The light will be extinguished immediately, and, if you will examine the lamp, a
+            small coil will bo found in the base of it. Put the lamp back into the water, and it
+            will immediately relight. Yet there is no substance in the water to cause the
+            phenomenon. It is pure water. But there is a coil concealed under the table, traversed
+            by a powerful alternating current. By means of it a current is induced in the coil,
+            which is secured in the base of the lamp, and the latter is thus lighted. Such an
+            affair, used upon the professional stage, would cause the greatest wonderment. The jar
+            filled with water is merely used for effect, for if the lamp is taken out of the water
+            and laid on the table it will light up just as quickly. Such an exhibition as this ought
+            to cause grave forebodings to be experienced throughout the match trade. </p>
+        <heading>BALLS AND PLATES SPINNING UNDER WATER.</heading>
+        <p>The queerest aquarium in existence, probably, is owned by <persName ref="#Thomson">Prof.
+            Thomson</persName>. For it he uses the same jar and water in which the lamp was
+            exhibited. His fish are differently shaped and constructed from any that ply the sea. In
+            fact, they consist of some small metal balls and a metal plate. Tossed lightly into the
+            water they immediately revolve at a speed sufficient to churn up the liquid to a degree.
+            They strike each other and careen from side to side at a great rate, and the physical
+            action to very instructive and interesting to watch. As in the case of the lamp, the
+            water is not necessary. The balls may be laid on the plate on the table and they will
+            whirl as fast as did <persName ref="#Tesla">Tesla</persName>'s egg. It is the old story
+            of the coil concealed beneath the table. “I now set the coil to work and approach the
+            free terminal with a metallic object held in my band, this simply to avoid burns. As I
+            approach the metallic object to a distance of eight or ten inches, a torrent of furious
+            sparks breaks forth from the end of the secondary wire which passes through the rubber
+            column. The sparks cease when the metal In my hand touches the wire. My arm is now
+            traversed by a powerful electric current, vibrating at the rate of one million times a
+            second. All around me the electrostatic force makes itself felt, and the air molecules
+            and particles of dust flying about are acted upon and are hammering violently against my
+            body. So great is the agitation of the particles that when the lights are turned out you
+            may see streams of feeble light appear on some parts of my body. “I can make these
+            streams of light visible to all by touching with the metallic object one of the
+            terminals as before, and approaching my free band to the brass sphere which is connected
+            to the other terminal of the coil. As the hand is approached, the air between it and the
+            sphere, or in the immediate neighborhood, is more violently agitated, and you see
+            streams of light break forth from my finger tips and from the whole band."</p>
+    
+    
+        <p><loc>New York</loc>, <date xsd="1899-03-29">March 29</date>.--The current issue of the
+            Electrical Review, of <loc>New York</loc>, contains the first elaborate description published
+            of experiments carried on in <persName ref="#Tesla">Nikola Tesla's</persName> laboratory,
+            demonstrating his recently announced discoveries in the application of electricity to
+            commercial purposes without the use of conducting wires.</p>
+        <p>The experiments involve handling currents up to 8,000,000 volts, produced by his perfect
+            oscillators, with entire safety. Photographs of the experiments actually performed make it
+            appear that not only can the energy be transmitted in this manner, but also directed to any
+            point desired, regardless of distance and environment.</p>
+        <p>In one illustration the inventor recieves the electrical waves from a distance and develops a
+            pressure of half a million volts in a coil, which he holds in his hand, preserving himself
+            against injury by maintaining a fixed position on the electrical wave, where the pressure
+            developed is small. Another photograph shows an assistant recieving in his body the curents
+            from an electrical oscillator, which pass through his body and make a metar bar glow in his
+            hands, also lighting a vaccuum tube on the ceiling.</p>
+    
+    
+        <p><persName ref="#Westinghouse">George Westinghouse</persName>, President of the <company
+            name="Westinghouse">Westinghouse Electric Company</company>, in a letter to the
+            Railroad Gazette of last week warns the public of the destructive effect of loose
+            electric currents on all underground metallic work such as is employed in the Subway and
+            in the <loc>New York Central</loc> and <loc>Pennsylvania</loc> tunnel improvements and
+            on the city gas and water pipes.</p>
+        <p>"It has been shown fully and completely," he says, "that the <current type="DC">direct
+            current</current> is working all of the time in the destruction of some of the
+            metallic structures, especially water and gas pipes, adjacent to electric conductors,
+            which metallic structures invariably act as conductors for some of the currentescaping
+            from the uninsulated rails forming part of the electric circuit in railroad
+            operations."</p>
+        <p>He shows photographs of water pipes destroyed by electrolytic action from <current
+            type="DC">direct current</current> circuits such as is carried by the third rail in
+            use in the subway and on the upper railroad about to be installed in the <loc>Park
+                Avenue tunnel</loc>, and contends that the steel structural part of the <loc>New
+                    York City Subway</loc> will be so destroyed unless the <current type="AC"
+                        >alternating current</current> is used, which he says has practically no destructive
+            effect on metal pipes and structural steel.</p>
+        <p>In the same number of The Railroad Gazette he makes public certain correspondence with
+            <persName ref="#Other">President Newman</persName> of the <loc>New York
+                Central</loc> in which he asserts that high speed with heavy trains is economically
+            possible only where the <current type="AC">alternating current</current> is used, and he
+            believes that in the few substitutions so far made of <current type="DC">direct
+                current</current>, third-rail electric motors for steam locomotives, the work will
+            need to be done over again.</p>
+    
+    
+        <p>Great interest has been aroused in <loc>England</loc> by experiments now in progress with
+            a method of transmission by high-pressure <current type="DC">direct current</current>
+            instead of by high-pressure <current type="AC">alternating current</current>, details of
+            which are described in the Engineering Supplement of The <loc>London</loc> Times. The
+            machine employed, which is the invention of Highfield and Calverley, is known as a
+            "transverter," and consists of a transformer for stepping up the pressure of the
+            three-phase current generated by the turbo-alternators and of several rotating
+            commutators for converting the <current type="AC">alternating current</current> into
+            <current type="DC">direct current</current>.</p>
+        <p>By connecting these commutators in series, the <current type="DC"
+            >direct-current</current> pressure of each is added to that of the one behind it. In
+            the experimental transverters which have been working for the last sixteen months the
+            pressure is 100,000 volts, but it is thought that this might possibly be doubled.</p>
+        <p>Assuming, however, that <current type="DC">direct-current</current> transmission is
+            limited to 100,000 volts, this would more than double the economic railway distribution
+            radius, and it is possible that if higher pressures can be used the distribution radius
+            to 100 miles. As the machine is reversible, transverters are employed at the recieving
+            end to convert the <current type="DC">direct current</current> into three-phase or
+            single-phase, or to reduce the <current type="DC">direct-current</current> pressure to
+            that require for traction purposes.</p>
+        <p>The new machine has not yet been tried commercially, but it is understood that
+            transverters are being built by the <company name="Other">English Electric
+                Company</company> which, it is hoped, will be in commercial service in
+            <loc>London</loc> this year.</p>
+    
+    
+        <p>Seven electric locomotives of a new type have been ordered by the <loc>New York</loc>,
+            <loc>New Haven</loc> &amp; <loc>Hartford</loc> Railroad from the <company
+                name="Other">General Electric Company</company>. It was announced yesterday. They
+            will use both <current type="AC">alternating</current> and <current type="DC">direct
+                current</current>. Each will be a "traveling substation" capable of picking up the
+            <current type="AC">alternating current</current> of 11,000 volts from the overhead
+            wires and changing it to the <current type="DC">direct current</current> used to operate
+            the driving motors. It is more economical to transmit the <current type="AC">alternating
+                current</current> in large voltage over long distances. At the same time,
+            demonstrations have proved, according to the electric construction companies, that the
+            <current type="DC">direct current</current> motor has advantages over the <current
+                type="AC">alternating</current> motor.</p>
+        <p>An electric locomotive upon which <persName ref="#Other">Henry Ford</persName> and his
+            corps of engineers are now working in connection with the <company name="Westinghouse"
+                >Westinghouse Electric Company</company> takes into consideration the same
+            principles. These locomotives will be ready for use shortly and it has been promised by
+            the electrical engineers who have been working on them that they will revolutionize the
+            electric development on the railroads.</p>
+        <p>Five of the new locomotives which have been ordered by the <loc>New York</loc>, <loc>New
+            Haven</loc> &amp; <loc>Hartford</loc> will be used for freight service on the main
+            line from <loc>Oak Point, N.Y.</loc>, to <loc>New Haven</loc>. The other two will be
+            placed in yard service.</p>
+    
+    
+        <p>There are 335,000 domestic lighting cusomters served by <current type="DC">direct
+            current</current> in metropolitan <loc>New York</loc>, the <current type="DC">direct
+                current</current> areas being roughly defined as all of <loc>Manhattan</loc> south
+            of <loc>135th Street</loc>, served by the <loc>New York</loc>
+            <company name="Edison">Edison Company</company> and certain sections of
+            <loc>Brooklyn</loc> served by the <loc>Brooklyn</loc>
+            <company name="Edison">Edison Company</company>, according to a survey made by the
+            <company name="Other">Sleeper Radio Corporation</company>.</p>
+        <p>"Second in importance to <current type="DC">direct current</current> market in <loc>New
+            York</loc> are some seven thousand homes in <loc>Detroit, Mich.</loc>; 1,540 homes
+            in <loc>Tennessee</loc>, 1,780 homes in a few city blocks of <loc>Philadelphia</loc> as
+            well as 1,40 homes in Maine," said <persName ref="#Other">Gordon Sleeper</persName>, President of the
+            company.</p>
+        <p>"All of the homes with <current type="DC">direct current</current> in <loc>New York
+            City</loc> as well as those given above have 120-volt <current type="DC">direct
+                current</current> supplied to them. There are also throughout the country a total of
+            26,980 homes using 110-volt <current type="DC">direct current</current>, 8,690 homes
+            using 220-volt <current type="DC">direct current</current>."</p>
+    
+    
+        <p>Declaring that <current type="AC">alternating current</current> was less expensive to
+            produce than <current type="DC">direct current</current>, <persName ref="#Rau">Otto M.
+                Rau</persName>, consulting engineer of <loc>Philadelphia</loc>, who testified
+            yesterday for the city before the Public Service Commission in the case started five
+            years ago by the city to bring about a reduction in the <loc>New York</loc>
+            <company name="Edison">Edison Company's</company> rates, proposed that the company
+            replace its <current type="DC">direct current</current> equipment with <current
+                type="AC">alternating current</current> plants throughout the city. Replying to
+            <persName ref="#Rau">Mr. Rau's</persName> proposal, <persName ref="#Other">Jacob H,
+                Goetz</persName>, counsel for the <company name="Edison">Edison Company</company>,
+            characterized the <persName ref="#Rau">Rau</persName> plan as "the most far-reaching
+            effort to scrap a system of properties ever heard in a rate case." The whole theory of
+            the substitute plant, he said, had been ruled against by the United States Supreme Court
+            in the <loc>Indianapolis</loc> water case before <persName ref="#Other">Justice
+                Butler</persName>. "To recognize any such testimony on such a flimsy basis would
+            make any decision of the commission vulnerable," <persName ref="#Other">Mr.
+                Goetz</persName> said. <persName ref="#Other">Commissioner William R.
+                    Pooley</persName>, hearing the case, agreed with <persName ref="#Other">Mr.
+                        Goetz</persName> with the reminder that "we are dealing with a plant as it now
+            exists and not with a hypothetical plant." The admissibility of testimony of <persName
+                ref="#Other">Malcolm F. Orton</persName>, accountant, on the valuation of the
+            <loc>New York</loc>
+            <company name="Edison">Edison Company</company> from documentary analyses of accounts
+            dating back to 1901 was questioned by <persName ref="#Other">Mr. Goetz</persName> on the
+            ground that the figures were too remote and therefore not proper elements in determining
+            the present cost of service. He agreed to the admission of the records but reserved the
+            right to contest certain portions later when he has checked the sources of testimony.
+            Challenges 1901 Valuation.</p>
+        <p>The city, according to <persName ref="#Other">Assistant Corporation Counsel Joseph P.
+            Morrissey</persName>, challenges the company's figure of $79,000,000 as of <date
+                xsd="1901-05-01">May 1, 1901</date>, as representing the actual cost of the property
+            that went into the merger of a group of smaller utility companies at that time. The
+            actual cost of property that went into the figure, <persName ref="#Other">Mr.
+                Morrissey</persName> said, was $23,000,000 about $60,000,000 being "water." The
+            retirement of property in existence prior to 1901, he said, he was $4,000,000, or 5 per
+            cent, while the property retired since that time runs to 40 or 50 per cent. "The
+            financial history of the company," <persName ref="#Other">Mr. Morrissey</persName> told
+            <persName ref="#Other">Commissioner Pooley</persName>, "is peculiarly materials in
+            the case because the company is claiming a 'going value.' The courts have said in many
+            cases that the financial history of the company should be taken into consideration in
+            any determination of 'going value.' We contend that the actual cost of the property at
+            present owned by the utility and used in utility service is an element that must be
+            considered in fixing fair value." <persName ref="#Other">Mr. Morrissey</persName>
+            declared that the United States Supreme Court had ruled in a large number of cases that
+            testimony concerning was relavant and proper material for consideration in fixing rates.
+            Puts "$12,000,000 Plant" at $1,250,000.</p>
+        <p><persName ref="#Other">Mr. Rau</persName> presented figures to show that the capital
+            investment to produce the amount of current now generated at the company's <loc>Duane
+                Street</loc> plant would not excede $1,250,000. According to the company's figures,
+            he said, the plant was valued at $12,000,000. <persName ref="#Rau">Mr. Rau's</persName>
+            testimony brought out that about 90 per cent of the generating plant had been
+            dismantled. <persName ref="#Other">Jacob H. Goetz</persName>, counsel for the company,
+            explained that plants of the <loc>Brooklyn</loc>
+            <company name="Edison">Edison Company</company> now furnished the power once supplied by
+            the <loc>Duane Street</loc> plant. <persName ref="#Other">Mr. Morrissey</persName>
+            recalled that an antiquated generator used in the <loc>Duane Street</loc> plant had been
+            sent to the <loc>Ford Museum</loc>, and asked if the company had included the "museum
+            valuation" of such property in arriving at the valuation of the <loc>Duane Street</loc>
+            plant. <persName ref="#Rau">Mr. Rau's</persName> report of the valuation of the
+            <loc>Duane Street</loc> plant had been ruled out at a previous hearing by <persName
+                ref="#Other">Chairman Prendergast</persName> because the witness said it was a
+            brief. <persName ref="#Other">Mr. Morrissey</persName> declared that the witness did not
+            think it was a brief in the legal sense but an engineer's report which should have been
+            allowed to remain as the opinion of an expert. <persName ref="#Other">Commissioner
+                Pooley</persName> reserved decision but allowed its admission as <persName
+                    ref="#Rau">Mr. Rau's</persName> direct testimony. The hearing was adjourned until
+            Feb. 5 at 10:30 A. M.</p>
+    
+    
+        <p>At the hearing yesterday on the complaint of John F. Hylan, made when he was Mayor, that
+            rates for electric current charged by the Edison companies were too high, Public Service
+            <persName ref="#Other">Commissioner Pooley</persName> announced that <persName
+                ref="#Other">Matthew S. Sloan</persName>, president of the <loc>New York</loc>
+            <company name="Edison">Edison Company</company>, had been asked to testify when the
+            hearing is resumed next Tuesday. At the hearings by the Public Service Commission on
+            submetering <persName ref="#Other">Mr. Sloan</persName> testified that if the profits
+            made by the submeter concerns had not been diverted from the electric companies it would
+            have been possible to reduce the rates.</p>
+        <p><persName ref="#Other">Commissioner Pooley</persName>, it was explained, wants to learn
+            the policy of the <company name="Edison">Edison Company</company> concerning the
+            extension or discontinuance of the <current type="DC">direct current</current> system.
+            The commission contends that this system is more costly to operate and maintain than the
+            more modern system of <current type="AC">alternating current</current>. It was suggested
+            that it might be possible to obtain a reduction in the rates for electric current if the
+            company adopted the most economical methods of operation.</p>
+        <p>Reports were submitted to show that the return on the investment of the company will
+            yield only a little more than 4 per cent this year, instead of the 8 per cent allowed by
+            law. This report was submitted by <persName ref="#Other">Henry M. Edwards</persName>,
+            vice president of the company on charge of accounting.</p>
+        <p>According to this estimate, the total value of the company's investment will amount to
+            $469,474,730.19 by the end of the year. This indicates that the value has almost doubled
+            since July 1, 1924. At that time <persName ref="#Other">Dr. William
+                McClellan</persName>, on behalf of the commission, submitted an estimate showing that
+            the value was $245,574,784.66, which was about $100,000,000 lower that the company's
+            estimate.</p>
+    
+    
+        <p><persName ref="#Other">Robert B. Thomas</persName>, counsel for the <company name="Other"
+            >Structural Steel Board of Trade, Inc.</company>, appeared before <persName
+                ref="#Other">Chairman Prendergast</persName> of the Public Service Commission
+            yesterday in support of the complaint of the board that the <loc>New York</loc>
+            <company name="Edison">Edison Company</company> had refused to furnish <current
+                type="DC">direct current</current> to contractors for the temporary use during the
+            construction of buildings.</p>
+        <p>The <company name="Edison">Edison Company</company>, after a study of the situation in
+            its territory, determined to supply <current type="AC">alternating current</current> to
+            all consumers except those who had installed <current type="DC">direct current</current>
+            equipment in buildings. This situation remains. <persName ref="#Other">Mr.
+                Thomas</persName> said that the cost of the <current type="DC">direct
+                    current</current> equipment used by contractors was in some cases in excess of
+            $50,000. He protested against any situation that would mean the scrapping of it.</p>
+        <p>He asserted that the company had encouraged builders to provide themselves with this
+            costly equipment and thought the company should pay for it if a change in the method of
+            furnishing current had destroyed its value. It was explained that <current type="AC"
+                >alternating current</current> was rapidly taking the place of <current type="DC"
+                    >direct current</current> throughout the country, because it was cheaper to install
+            and to operate. This <current type="DC">direct current</current> equipment, <persName
+                ref="#Other">Mr. Thomas</persName> said, had cost steel contractors at least
+            $2,000,000. It was suggested that it would only be fair if the company continued to
+            supply <current type="DC">direct current</current> to those contractors who wanted it
+            until their equipment was worn out, which might occur in ten years.</p>
+        <p><persName ref="#Other">William L. Ransom</persName>, counsel for the company, said that
+            its president, <persName ref="#Other">Matthew S. Sloan</persName>, would not consent to
+            the company's plant that would only serve a temporary purpose. At a hearing before the
+            commission on <date xsd="1929-05-27">May 27</date>, last, representatives of building
+            firms which are members of the <company name="Other">Steel Board of Trade</company>,
+            said that <persName ref="#Other">Mr. Sloan</persName> was dictatorial and responsible
+            for innovations that were troublesome.</p>
+        <p><persName ref="#Other">Chairman Prendergast</persName> won a promise from <persName
+            ref="#Other">Mr. Ransom</persName> that the company would supply <current type="DC"
+                >direct current</current> to building contractors whenever it was possible without
+            further investment on the company's part. If the company and the contractors cannot
+            reach an amicable agreement he later were told that they could file a formal complaint
+            with the commission and that hearings would be held so that the case might be fully
+            inquired into.</p>
+</body>
+</document>
