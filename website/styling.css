@@ -267,16 +267,27 @@ span.persName.on{
     font-weight: bold;
 }
 
+span.persNameToggle{
+    color: #123C56;
+}
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.loc.on{
     color: brown;
     font-weight: bold;
 }
 
+span.locToggle{
+    color: brown;
+}
+
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.current.on{
-    color: maroon;
+    color: black;
     font-weight: bold;
+}
+
+span.currentToggle{
+    color: black;
 }
 
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
@@ -285,18 +296,29 @@ span.company.on{
     font-weight: bold;
 }
 
-/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
-span.company.on{
-    color: darkslateblue;
-    font-weight: bold;
+span.companyToggle{
+    color: teal;
 }
 
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
-span.company.on{
-    color: darkgoldenrod;
+span.date.on{
+    color: green;
     font-weight: bold;
 }
 
+span.dateToggle{
+    color: green;
+}
+
+/* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
+span.event.on{
+    color: red;
+    font-weight: bold;
+}
+
+span.eventToggle{
+    color: red;
+}
 /* 2017-12-07 ajn: this is for the articles on the outline page */
 .h2outline{
     text-align: center;
