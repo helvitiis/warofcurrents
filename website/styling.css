@@ -264,7 +264,7 @@ p#pmap{
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.persName.on{
     color: #123C56;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 span.persNameToggle{
@@ -273,7 +273,7 @@ span.persNameToggle{
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.loc.on{
     color: brown;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 span.locToggle{
@@ -282,18 +282,18 @@ span.locToggle{
 
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.current.on{
-    color: black;
-    font-weight: bold;
+    color: blue;
+    font-weight: 800;
 }
 
 span.currentToggle{
-    color: black;
+    color: blue;
 }
 
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.company.on{
     color: teal;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 span.companyToggle{
@@ -303,7 +303,7 @@ span.companyToggle{
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.date.on{
     color: green;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 span.dateToggle{
@@ -313,7 +313,7 @@ span.dateToggle{
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.event.on{
     color: red;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 span.eventToggle{
@@ -321,7 +321,7 @@ span.eventToggle{
 }
 /* 2017-12-07 ajn: this is for the articles on the outline page */
 .h2outline{
-    text-align: center;
+    text-align: center;z
 }
 
 /* 2017-12-07 ajn: From here on down is for the coding page */
