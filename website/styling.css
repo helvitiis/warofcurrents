@@ -263,12 +263,12 @@ p#pmap{
 
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.persName.on{
-    color: #123C56;
+    color: #d8a244;
     font-weight: 800;
 }
 
 span.persNameToggle{
-    color: #123C56;
+    color: #d8a244;
 }
 /* 2017-12-07 ajn: span isfor the toggle JS file on outline page */
 span.loc.on{
